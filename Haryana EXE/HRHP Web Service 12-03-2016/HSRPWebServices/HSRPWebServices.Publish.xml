@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Deploy\HR_HP_WebService23Feb2015-2" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="HSRPWebService" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="HSRPWebServices" publishMethod="FileSystem" replaceMatchingFiles="False" userName="administrator" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/HSRPWebServices.pdb" publishTime="02/23/2015 15:42:20" />
+    <file relUrl="bin/HSRPWebServices.dll" publishTime="02/23/2015 15:42:20" />
+    <file relUrl="test.aspx" publishTime="10/05/2013 18:23:27" />
+    <file relUrl="HSRPService.asmx" publishTime="10/05/2013 17:26:22" />
+    <file relUrl="Web.config" publishTime="02/23/2015 15:42:30" />
+  </publishProfile>
+</publishData>

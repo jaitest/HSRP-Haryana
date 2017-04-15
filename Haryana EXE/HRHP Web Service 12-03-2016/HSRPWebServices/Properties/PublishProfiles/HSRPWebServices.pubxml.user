@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2015-02-23T15:42:32.0000000+05:30</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\Deploy\HRyana_WebService_31-08-2016</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/HSRPWebServices.dll">
+      <publishTime>08/31/2016 17:36:06</publishTime>
+    </File>
+    <File Include="HSRPService.asmx">
+      <publishTime>10/05/2013 17:26:24</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/30/2016 18:11:38</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>10/05/2013 18:23:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/31/2016 17:36:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

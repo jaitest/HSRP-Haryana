@@ -1,0 +1,21 @@
+E:\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.exe.config
+E:\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.exe
+E:\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.pdb
+E:\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.Demo.resources
+E:\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.Properties.Resources.resources
+E:\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.csproj.GenerateResource.Cache
+E:\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.exe
+E:\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.pdb
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.exe.config
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.exe.manifest
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.application
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.exe
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\bin\Debug\Hsrp_HP.pdb
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.Demo.resources
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.Properties.Resources.resources
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.csproj.GenerateResource.Cache
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.exe.manifest
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.application
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.exe
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.pdb
+E:\Me Code\HpData Sync\Hsrp_HP\Hsrp_HP\obj\Debug\Hsrp_HP.csprojResolveAssemblyReference.cache

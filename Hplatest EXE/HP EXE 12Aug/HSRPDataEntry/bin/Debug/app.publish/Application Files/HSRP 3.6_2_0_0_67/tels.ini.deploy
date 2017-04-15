@@ -1,0 +1,12 @@
+[DATABASE]
+DataSource=Localhost
+UID=hsrp
+PWD=hsrp@123
+InitialCatalog=hsrp_App_HP
+IntegratedSecurity=True
+[VAHANDATABASE]
+DataSource=Localhost
+UID=hsrp
+PWD=hsrp@123
+InitialCatalog=hsrp_HP
+IntegratedSecurity=True

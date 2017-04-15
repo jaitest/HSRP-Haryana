@@ -1,0 +1,27 @@
+﻿
+.btnClose {
+  background: #2ed942;
+  background-image: -webkit-linear-gradient(top, #2ed942, #1ba325);
+  background-image: -moz-linear-gradient(top, #2ed942, #1ba325);
+  background-image: -ms-linear-gradient(top, #2ed942, #1ba325);
+  background-image: -o-linear-gradient(top, #2ed942, #1ba325);
+  background-image: linear-gradient(to bottom, #2ed942, #1ba325);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnClose:hover {
+  background: #3cfc53;
+  background-image: -webkit-linear-gradient(top, #3cfc53, #2fcc47);
+  background-image: -moz-linear-gradient(top, #3cfc53, #2fcc47);
+  background-image: -ms-linear-gradient(top, #3cfc53, #2fcc47);
+  background-image: -o-linear-gradient(top, #3cfc53, #2fcc47);
+  background-image: linear-gradient(to bottom, #3cfc53, #2fcc47);
+  text-decoration: none;
+}

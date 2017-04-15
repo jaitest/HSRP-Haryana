@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://122.168.193.74/TServicesForHSRP/HSRP.aspx" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://122.168.193.74/TServicesForHSRP/HSRP.aspx" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://122.168.193.74/TServicesForHSRP/HSRP.aspx">
+      <s:element name="GetVehicleDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SecretKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVehicleDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVehicleDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AcknowledgeToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SecretKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lngToken" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AcknowledgeTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AcknowledgeTokenResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOnDemandReference">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SecretKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strReference" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOnDemandReferenceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOnDemandReferenceResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVehicleDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SecretKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="strHasId" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="strRtocode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strReferenceNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strRegnNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEngineNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strChassisNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strplate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="straffix" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="stracknowledge" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strfees" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAckDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFLaserNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strRLaserNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strThreeDSticker" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVehicleDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateVehicleDetailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetVehicleDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVehicleDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetVehicleDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVehicleDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AcknowledgeTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:AcknowledgeToken" />
+  </wsdl:message>
+  <wsdl:message name="AcknowledgeTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:AcknowledgeTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOnDemandReferenceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOnDemandReference" />
+  </wsdl:message>
+  <wsdl:message name="GetOnDemandReferenceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOnDemandReferenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVehicleDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateVehicleDetail" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVehicleDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateVehicleDetailResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HSRPSoap">
+    <wsdl:operation name="GetVehicleDetails">
+      <wsdl:input message="tns:GetVehicleDetailsSoapIn" />
+      <wsdl:output message="tns:GetVehicleDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AcknowledgeToken">
+      <wsdl:input message="tns:AcknowledgeTokenSoapIn" />
+      <wsdl:output message="tns:AcknowledgeTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOnDemandReference">
+      <wsdl:input message="tns:GetOnDemandReferenceSoapIn" />
+      <wsdl:output message="tns:GetOnDemandReferenceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVehicleDetail">
+      <wsdl:input message="tns:UpdateVehicleDetailSoapIn" />
+      <wsdl:output message="tns:UpdateVehicleDetailSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HSRPSoap" type="tns:HSRPSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetVehicleDetails">
+      <soap:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/GetVehicleDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AcknowledgeToken">
+      <soap:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/AcknowledgeToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnDemandReference">
+      <soap:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/GetOnDemandReference" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVehicleDetail">
+      <soap:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/UpdateVehicleDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HSRPSoap12" type="tns:HSRPSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetVehicleDetails">
+      <soap12:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/GetVehicleDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AcknowledgeToken">
+      <soap12:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/AcknowledgeToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnDemandReference">
+      <soap12:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/GetOnDemandReference" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVehicleDetail">
+      <soap12:operation soapAction="http://122.168.193.74/TServicesForHSRP/HSRP.aspx/UpdateVehicleDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HSRP">
+    <wsdl:port name="HSRPSoap" binding="tns:HSRPSoap">
+      <soap:address location="https://oltp.mptransport.org/TServiceHSRP/HSRP.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HSRPSoap12" binding="tns:HSRPSoap12">
+      <soap12:address location="https://oltp.mptransport.org/TServiceHSRP/HSRP.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

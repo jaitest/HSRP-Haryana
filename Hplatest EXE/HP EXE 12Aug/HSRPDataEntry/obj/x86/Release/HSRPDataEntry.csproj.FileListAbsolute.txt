@@ -1,0 +1,440 @@
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.CashReciept.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Inventory.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.DailyReport.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderClosed.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderEmbossing.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Login.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.MDIForm.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderBooking.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Properties.Resources.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.RejectionPlate.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Search.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.TransferRecord.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.exe.config
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.exe.manifest
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.application
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.exe
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.pdb
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.exe.manifest
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.application
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.exe
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.pdb
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\ResolveAssemblyReference.cache
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.exe
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.pdb
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.exe.config
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.CashReciept.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Inventory.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.DailyReport.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderClosed.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderEmbossing.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Login.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.MDIForm.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OfflineDataEntry.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderBooking.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Properties.Resources.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.RejectionPlate.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Search.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.TransferRecord.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\GenerateResource.read.1.tlog
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\GenerateResource.write.1.tlog
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\tels.ini
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.exe.manifest
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.application
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.exe
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Release\HSRP 3.6.pdb
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.exe.manifest
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Release\HSRP 3.6.application
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.6.exe.config
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.6.exe
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.6.pdb
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.6.exe.manifest
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.6.application
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.6.exe
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.6.pdb
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.CashReciept.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Inventory.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.DailyReport.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderClosed.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderEmbossing.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Login.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.MDIForm.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderBooking.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Properties.Resources.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.RejectionPlate.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Search.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.TransferRecord.resources
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.6.exe.manifest
+C:\Users\acer\Desktop\HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.6.application
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.CashReciept.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Inventory.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.DailyReport.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderClosed.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderEmbossing.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Login.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.MDIForm.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderBooking.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Properties.Resources.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.RejectionPlate.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Search.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.TransferRecord.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\bin\Release\itextsharp.dll
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.7.exe.config
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.7.exe.manifest
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.7.application
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.7.exe
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\bin\Release\HSRP 3.7.pdb
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.7.exe.manifest
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.7.application
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.7.exe
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code\HSRPDataEntry\obj\x86\Release\HSRP 3.7.pdb
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.exe.config
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.exe
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.pdb
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.exe.manifest
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.application
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.exe
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.pdb
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.CashReciept.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Inventory.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.DailyReport.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderClosed.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderEmbossing.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Login.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.MDIForm.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderBooking.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Properties.Resources.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.RejectionPlate.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Search.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.SendDataToServer.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.TransferRecord.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.exe.manifest
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\Dharamshala HSRPSoftware Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.application
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.exe.config
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.exe
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.pdb
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.exe.manifest
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.application
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.exe
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.7.pdb
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.CashReciept.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Inventory.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.DailyReport.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderClosed.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderEmbossing.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Login.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.MDIForm.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderBooking.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Properties.Resources.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.RejectionPlate.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Search.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.SendDataToServer.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.TransferRecord.resources
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.exe.manifest
+C:\Users\user\Desktop\Dharamshala HSRPSoftware Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.7.application
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.CashReciept.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Inventory.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.DailyReport.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderClosed.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderEmbossing.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Login.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.MDIForm.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.OrderBooking.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Properties.Resources.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.RejectionPlate.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.Search.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.SendDataToServer.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.TransferRecord.resources
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.9.exe.config
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.9.exe.manifest
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.9.application
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.9.exe
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.9.pdb
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.9.exe.manifest
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.9.application
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.9.exe
+C:\Users\user\Desktop\Nikhil Himachal\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.9.pdb
+C:\Users\user\Desktop\Latest HP SOP Software\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 3.9.exe.config
+C:\Users\user\Desktop\Latest HP SOP Software\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\Latest HP SOP Software\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.9.exe
+C:\Users\user\Desktop\Latest HP SOP Software\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 3.9.pdb
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\tels.ini
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\CarlosAg.ExcelXmlWriter.dll
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 6.1.exe.config
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 6.1.exe.manifest
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 6.1.application
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 6.1.exe
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 6.1.XmlSerializers.dll
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\bin\Release\HSRP 6.1.pdb
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 6.1.exe.manifest
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 6.1.application
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 6.1.exe
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 6.1.pdb
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code 11-12-2013\HSRPDataEntry\obj\x86\Release\HSRP 6.1.XmlSerializers.dll
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\bin\Release\HSRP 6.1.exe.config
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRP 6.1.exe
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRP 6.1.pdb
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRP 6.1.XmlSerializers.dll
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\bin\Release\tels.ini
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\bin\Release\HSRP 6.1.exe.manifest
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\bin\Release\HSRP 6.1.application
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\bin\Release\HSRP 6.1.exe
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\bin\Release\HSRP 6.1.XmlSerializers.dll
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\bin\Release\HSRP 6.1.pdb
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRP 6.1.exe.manifest
+D:\All Lastest Codes\HP HSRPSoftware Offline Running Code 11-12-2013\HP HSRPSoftware Offline Running Code-2July-2014\HSRPDataEntry\obj\x86\Release\HSRP 6.1.application
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.manifest
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.application
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.XmlSerializers.dll
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.pdb
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe.manifest
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.application
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+C:\Users\Himanshu\Desktop\HSRP HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-5July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\bin\Release\tels.ini
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.manifest
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.application
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.pdb
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe.manifest
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware Offline Running Code-8July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.application
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+D:\All HP EXE\HP HSRPSoftware Offline Running Code-7July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\tels.ini
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.manifest
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.application
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.XmlSerializers.dll
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.pdb
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe.manifest
+C:\Users\Himanshu\Desktop\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-9July-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.application
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\bin\Release\tels.ini
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.manifest
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.application
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\bin\Release\HSRP 3.0.9.pdb
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe.manifest
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-19Aug-2014\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.application
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\tels.ini
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.manifest
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.application
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.pdb
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe.manifest
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.application
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\tels.ini
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.config
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe.manifest
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.application
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.exe
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.XmlSerializers.dll
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\bin\Release\HSRP 3.0.9.pdb
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csprojResolveAssemblyReference.cache
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.ResolveComReference.cache
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Backupdata.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.CashReciept.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Inventory.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.DailyReport.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderClosed.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderEmbossing.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Login.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.MDIForm.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OfflineDataEntry.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.OrderBooking.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Properties.Resources.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.RejectionPlate.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.Search.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.SendDataToServer.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntryNew.TransferRecord.resources
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRPDataEntry.csproj.GenerateResource.Cache
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe.manifest
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.application
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.exe
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.pdb
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HP EXE 12Aug\HP HSRPSoftware-9July-2014\HP HSRPSoftware-15June-2016\HSRPDataEntry\obj\x86\Release\HSRP 3.0.9.XmlSerializers.dll
