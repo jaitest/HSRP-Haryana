@@ -182,3 +182,8 @@ D:\Haryna\Haryana_11-03-167\DataProvider\bin\Release\DataProvider.pdb
 D:\Haryna\Haryana_11-03-167\DataProvider\obj\Release\DataProvider.csprojResolveAssemblyReference.cache
 D:\Haryna\Haryana_11-03-167\DataProvider\obj\Release\DataProvider.dll
 D:\Haryna\Haryana_11-03-167\DataProvider\obj\Release\DataProvider.pdb
+C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana_12-04-17\DataProvider\bin\Release\DataProvider.dll
+C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana_12-04-17\DataProvider\bin\Release\DataProvider.pdb
+C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana_12-04-17\DataProvider\obj\Release\DataProvider.csprojResolveAssemblyReference.cache
+C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana_12-04-17\DataProvider\obj\Release\DataProvider.dll
+C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana_12-04-17\DataProvider\obj\Release\DataProvider.pdb

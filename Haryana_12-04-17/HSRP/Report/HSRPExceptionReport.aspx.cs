@@ -66,34 +66,7 @@ namespace HSRP.Report
             }
         }
 
-        //private void FilldropDownListStateName()
-        //{
-        //    if (UserType1.Equals(0))
-        //    {
-        //        SQLString1 = "select HSRPStateName,HSRP_StateID from HSRPState where ActiveStatus='Y' Order by HSRPStateName";
-        //        Utils.PopulateDropDownList(DropDownListStateName, SQLString1.ToString(), CnnString1, "--Select State--");
-        //    }
-        //    else
-        //    {
-        //        SQLString1 = "select HSRPStateName,HSRP_StateID from HSRPState where HSRP_StateID=" + HSRP_StateID1 + " and ActiveStatus='Y' Order by HSRPStateName";
-        //        DataSet dts = Utils.getDataSet(SQLString1, CnnString1);
-        //        DropDownListStateName.DataSource = dts;
-        //        DropDownListStateName.DataBind();
-        //    }
-        //}
-
-        private void FillDropDownListPaymentgetWay()
-        {
-            txtSearch.Visible = true;
-            //string sqlstring = "select distinct isnull(PaymentGateway ,'') as PaymentGateway from hsrprecords where hsrp_stateid = '" + HSRP_StateID1 + "' and isnull(PaymentGateway ,'')!='' and convert(date,hsrprecord_creationdate) between  convert(date,'" + Datefrom.SelectedDate + "') and convert(date ,'" + Dateto.SelectedDate + "') union select  distinct 'All' as PaymentGateway from hsrprecords  where   hsrp_stateid = '" + HSRP_StateID1 + "' and convert(date,hsrprecord_creationdate) between  convert(date,'" + Datefrom.SelectedDate + "') and convert(date ,'" + Dateto.SelectedDate + "')";
-            //DataTable dt = Utils.GetDataTable(sqlstring, CnnString1);
-            //DropDownListPaymentgetWay.DataSource = dt;
-            //DropDownListPaymentgetWay.DataTextField = "PaymentGateway";
-            //DropDownListPaymentgetWay.DataValueField = "PaymentGateway";
-            //DropDownListPaymentgetWay.DataBind();
-            //DropDownListPaymentgetWay.Items.Insert(0, new System.Web.UI.WebControls.ListItem("--Select--", "--Select--"));
-
-        }
+        
 
         private void FillDropDown_Dealer()
         {
@@ -110,8 +83,7 @@ namespace HSRP.Report
 
         private void BindReportTypeddl()
         {
-
-            string sqlstring = "Business_ReportTypewise_HSRPExceReport '" + Dateto.SelectedDate + "','" + Dateto.SelectedDate + "','DB','" + Convert.ToInt32(HSRP_StateID1.ToString()) + "','0','0','0' ";
+            string sqlstring = "Business_ReportTypewise_HSRPExceReport '" + Dateto.SelectedDate + "','" + Dateto.SelectedDate + "','DB','" + Convert.ToInt32(HSRP_StateID1.ToString()) + "'";
             dt11 = new DataTable();
             dt11 = Utils.GetDataTable(sqlstring, CnnString1);
             DdlReportType.DataSource = dt11;
@@ -182,10 +154,10 @@ namespace HSRP.Report
                 cmd.Parameters.Add(new SqlParameter("@reportto", Convert.ToDateTime(Dateto.SelectedDate)));
                 cmd.Parameters.Add(new SqlParameter("@reporttype", DdlReportType.SelectedValue));
                 cmd.Parameters.Add(new SqlParameter("@stateid", Convert.ToInt32(Session["UserHSRPStateID"])));
-                cmd.Parameters.Add(new SqlParameter("@RTOLocationId", Convert.ToInt32(Session["UserRTOLocationID"])));
+              //  cmd.Parameters.Add(new SqlParameter("@RTOLocationId", Convert.ToInt32(Session["UserRTOLocationID"])));
 
-                cmd.Parameters.Add(new SqlParameter("@paymentgateway", txtSearch.Text.ToString()));
-                cmd.Parameters.Add(new SqlParameter("@dealername", DropDown_Dealer.SelectedValue));
+              //  cmd.Parameters.Add(new SqlParameter("@paymentgateway", txtSearch.Text.ToString()));
+               // cmd.Parameters.Add(new SqlParameter("@dealername", DropDown_Dealer.SelectedValue));
 
                 cmd.CommandTimeout = 0;
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -368,10 +340,10 @@ namespace HSRP.Report
                     cmd.Parameters.Add(new SqlParameter("@reportto", Convert.ToDateTime(Dateto.SelectedDate)));
                     cmd.Parameters.Add(new SqlParameter("@reporttype", DdlReportType.SelectedValue));
                     cmd.Parameters.Add(new SqlParameter("@stateid", Convert.ToInt32(Session["UserHSRPStateID"])));
-                    cmd.Parameters.Add(new SqlParameter("@RTOLocationId", Convert.ToInt32(Session["UserRTOLocationID"])));
+                  //  cmd.Parameters.Add(new SqlParameter("@RTOLocationId", Convert.ToInt32(Session["UserRTOLocationID"])));
 
-                    cmd.Parameters.Add(new SqlParameter("@paymentgateway", txtSearch.Text.ToString()));
-                    cmd.Parameters.Add(new SqlParameter("@dealername", DropDown_Dealer.SelectedValue));
+                   // cmd.Parameters.Add(new SqlParameter("@paymentgateway", txtSearch.Text.ToString()));
+                   // cmd.Parameters.Add(new SqlParameter("@dealername", DropDown_Dealer.SelectedValue));
                 }
                 else
                 {
@@ -380,10 +352,10 @@ namespace HSRP.Report
                     cmd.Parameters.Add(new SqlParameter("@reportto", Convert.ToDateTime(Dateto.SelectedDate)));
                     cmd.Parameters.Add(new SqlParameter("@reporttype", DdlReportType.SelectedValue));
                     cmd.Parameters.Add(new SqlParameter("@stateid", Convert.ToInt32(Session["UserHSRPStateID"])));
-                    cmd.Parameters.Add(new SqlParameter("@RTOLocationId", Convert.ToInt32(Session["UserRTOLocationID"])));
+                 //   cmd.Parameters.Add(new SqlParameter("@RTOLocationId", Convert.ToInt32(Session["UserRTOLocationID"])));
 
-                    cmd.Parameters.Add(new SqlParameter("@paymentgateway", txtSearch.Text.ToString()));
-                    cmd.Parameters.Add(new SqlParameter("@dealername", DropDown_Dealer.SelectedValue));
+                  //  cmd.Parameters.Add(new SqlParameter("@paymentgateway", txtSearch.Text.ToString()));
+                  //  cmd.Parameters.Add(new SqlParameter("@dealername", DropDown_Dealer.SelectedValue));
                     //if (ddlLocation.SelectedValue.ToString() != "All")
                     //{
                     //    //if (ddlUser.SelectedValue.ToString() != "All")
@@ -546,33 +518,33 @@ namespace HSRP.Report
 
         protected void btn_Go_Click1(object sender, EventArgs e)
         {
-            for (int i = 0; i < dt11.Rows.Count; i++)
-            {
-                if (DdlReportType.SelectedValue.ToString() == dt11.Rows[i]["Code"].ToString())
-                {
-                    if (dt11.Rows[i]["Paymentgatewaystatus"].ToString() == "N")
-                    {
-                        txtSearch.Visible = false;
-                        label2.Visible = false;
-                        //btn_Go.Visible = false;
-                    }
-                    else
-                    {
-                        FillDropDownListPaymentgetWay();
-                    }
-                    if (dt11.Rows[i]["Dealerstatus"].ToString() == "N")
-                    {
-                        DropDown_Dealer.Visible = false;
-                        label4.Visible = false;
-                        //btn_Go.Visible = false;
-                    }
-                    else
-                    {
-                        FillDropDown_Dealer();
-                    }
+            //for (int i = 0; i < dt11.Rows.Count; i++)
+            //{
+            //    if (DdlReportType.SelectedValue.ToString() == dt11.Rows[i]["Code"].ToString())
+            //    {
+            //        if (dt11.Rows[i]["Paymentgatewaystatus"].ToString() == "N")
+            //        {
+            //            txtSearch.Visible = false;
+            //            label2.Visible = false;
+            //            //btn_Go.Visible = false;
+            //        }
+            //        else
+            //        {
+            //           // FillDropDownListPaymentgetWay();
+            //        }
+            //        if (dt11.Rows[i]["Dealerstatus"].ToString() == "N")
+            //        {
+            //            DropDown_Dealer.Visible = false;
+            //            label4.Visible = false;
+            //            //btn_Go.Visible = false;
+            //        }
+            //        else
+            //        {
+            //            FillDropDown_Dealer();
+            //        }
 
-                }
-            }
+            //    }
+            //}
         }
     }
 }

@@ -238,6 +238,15 @@ namespace HSRP.Transaction {
         protected global::System.Web.UI.WebControls.Label lblAmount;
         
         /// <summary>
+        /// OrderDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ComponentArt.Web.UI.Calendar OrderDate;
+        
+        /// <summary>
         /// bln3rdSticker control.
         /// </summary>
         /// <remarks>
@@ -308,6 +317,15 @@ namespace HSRP.Transaction {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDownload;
+        
+        /// <summary>
+        /// CalendarOrderDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ComponentArt.Web.UI.Calendar CalendarOrderDate;
         
         /// <summary>
         /// lblCount control.

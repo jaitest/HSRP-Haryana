@@ -178,6 +178,94 @@ namespace HSRP.Transaction
 
                 }
 
+                if (Convert.ToInt32(RTOLocationID) == 520 || Convert.ToInt32(RTOLocationID) == 522)
+                {
+
+                    string CreationDate = string.Empty;
+                    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
+                    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
+                    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
+                    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
+                    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
+                    string Currentstart = Date.ToString();
+                    string getdate = Convert.ToString("2017/02/23");
+                    //DateTime today = DateTime.Today;
+
+                    DateTime dt1 = Convert.ToDateTime(Currentstart);
+                    DateTime dt2 = Convert.ToDateTime(getdate);
+
+                    if (dt2 >= dt1)
+                    {
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "";
+                        lblErrMess.Text = "You are not authorized to collect your cash.";
+                        return;
+                    }
+                    else
+                    {
+
+                    }
+                }
+
+
+                if (Convert.ToInt32(RTOLocationID) == 529 || Convert.ToInt32(RTOLocationID) == 531)
+                {
+
+                    string CreationDate = string.Empty;
+                    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
+                    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
+                    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
+                    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
+                    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
+                    string Currentstart = Date.ToString();
+                    string getdate = Convert.ToString("2017/04/10");
+                    //DateTime today = DateTime.Today;
+
+                    DateTime dt1 = Convert.ToDateTime(Currentstart);
+                    DateTime dt2 = Convert.ToDateTime(getdate);
+
+                    if (dt2 >= dt1)
+                    {
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "";
+                        lblErrMess.Text = "You are not authorized to collect your cash.";
+                        return;
+                    }
+                    else
+                    {
+
+                    }
+                }
+
+                if (Convert.ToInt32(RTOLocationID) == 483 || Convert.ToInt32(RTOLocationID) == 484 || Convert.ToInt32(RTOLocationID) == 485)
+                {
+
+                    string CreationDate = string.Empty;
+                    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
+                    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
+                    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
+                    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
+                    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
+                    string Currentstart = Date.ToString();
+                    string getdate = Convert.ToString("2017/04/10");
+                    //DateTime today = DateTime.Today;
+
+                    DateTime dt1 = Convert.ToDateTime(Currentstart);
+                    DateTime dt2 = Convert.ToDateTime(getdate);
+
+                    if (dt2 >= dt1)
+                    {
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "";
+                        lblErrMess.Text = "You are not authorized to collect your cash.";
+                        return;
+                    }
+                    else
+                    {
+
+                    }
+                }
+
 
 
                 String SqlQry = "select distinct VehicleregNo  from  hsrpexcelupload WHERE  ISNULL(VehicleregNo,'')!=''";

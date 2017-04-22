@@ -496,6 +496,8 @@
     <Content Include="Transaction\BlockVehicleRegNo.aspx" />
     <Content Include="Transaction\BRCashReceipt.aspx" />
     <Content Include="Transaction\BrEmpExpData.aspx" />
+    <Content Include="Transaction\CashReceiptDataEntry.aspx" />
+    <Content Include="Transaction\HRCashCollectionDataEntry.aspx" />
     <Content Include="Transaction\CashReceptPaymentOrderWise.aspx" />
     <Content Include="Transaction\CashReceptVehicleWise.aspx" />
     <Content Include="Transaction\ConfirmHoldSalarySheet.aspx" />
@@ -503,6 +505,7 @@
     <Content Include="Transaction\DealerDeliveryAcknowledgement.aspx" />
     <Content Include="Transaction\DLViewDealerOrder.aspx" />
     <Content Include="Transaction\DownloadProductionWithDate.aspx" />
+    <Content Include="Transaction\EmbossingCenterWiseQuantity.aspx" />
     <Content Include="Transaction\Holiday.aspx" />
     <Content Include="Transaction\HRACVehicle.aspx" />
     <Content Include="Transaction\HRCashCollection.aspx" />
@@ -542,7 +545,6 @@
     <Content Include="Transaction\PendingAssignment.aspx" />
     <Content Include="Transaction\BankTransactionApproval.aspx" />
     <Content Include="Transaction\CaptureStock.aspx" />
-    <Content Include="Transaction\CashReceiptDataEntry.aspx" />
     <Content Include="Transaction\CashReceiptDataEntryBihar.aspx" />
     <Content Include="Transaction\CashReceiptDataEntryDealer.aspx" />
     <Content Include="Transaction\APCashCollection_Check.aspx" />
@@ -551,7 +553,6 @@
     <Content Include="Transaction\APReAssignAuthNo.aspx" />
     <Content Include="Transaction\APTSDownloadProductionWithDate.aspx" />
     <Content Include="Transaction\BankTransactionWithUser_OLD.aspx" />
-    <Content Include="Transaction\EmbossingCenterWiseQuantity.aspx" />
     <Content Include="Transaction\DailyAttendenceSheet.aspx" />
     <Content Include="Transaction\LaserRequestionSheetAP_TS_NEW.aspx" />
     <Content Include="Transaction\LaserRequestionSheetAP_TS.aspx" />
@@ -566,11 +567,11 @@
     <Content Include="Transaction\ViewBankTransactionNew.aspx" />
     <Content Include="Transaction\ViewBankTransactionApproval.aspx" />
     <Content Include="Transaction\OnLinePaymentStatus.aspx" />
-    <Content Include="Transaction\ViewHSRPRecords.aspx" />
     <Content Include="Transaction\ViewLedgerBankTransactions.aspx" />
     <Content Include="Transaction\ViewSearch.aspx" />
     <Content Include="Transaction\ViewSearchHR_BackCashReceipt.aspx" />
     <Content Include="Transaction\ViewSearchHR.aspx" />
+    <Content Include="Transaction\ViewSearchHR_Engingno.aspx" />
     <Content Include="Transaction\VoidEntry.aspx" />
     <Content Include="Transaction\ProductionSheetFromTo.aspx" />
     <Content Include="Transaction\DownloadDelhiProductionWithDate.aspx" />
@@ -588,7 +589,6 @@
     <Content Include="Transaction\dateTest.aspx" />
     <Content Include="Transaction\DispatchFromWareHouse.aspx" />
     <Content Include="Transaction\DownloadProductionWithDate_Pending.aspx" />
-    <Content Include="Transaction\EditCashCollectionBihar.aspx" />
     <Content Include="Transaction\InventoryChallanCreate.aspx" />
     <Content Include="Transaction\InventoryStatus1.aspx" />
     <Content Include="Transaction\Inventory_Stock.aspx" />
@@ -3469,6 +3469,20 @@
     <Compile Include="Transaction\BrEmpExpData.aspx.designer.cs">
       <DependentUpon>BrEmpExpData.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Transaction\CashReceiptDataEntry.aspx.cs">
+      <DependentUpon>CashReceiptDataEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\CashReceiptDataEntry.aspx.designer.cs">
+      <DependentUpon>CashReceiptDataEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\HRCashCollectionDataEntry.aspx.cs">
+      <DependentUpon>HRCashCollectionDataEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\HRCashCollectionDataEntry.aspx.designer.cs">
+      <DependentUpon>HRCashCollectionDataEntry.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Transaction\CashReceptPaymentOrderWise.aspx.cs">
       <DependentUpon>CashReceptPaymentOrderWise.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3517,6 +3531,13 @@
     </Compile>
     <Compile Include="Transaction\DownloadProductionWithDate.aspx.designer.cs">
       <DependentUpon>DownloadProductionWithDate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\EmbossingCenterWiseQuantity.aspx.cs">
+      <DependentUpon>EmbossingCenterWiseQuantity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\EmbossingCenterWiseQuantity.aspx.designer.cs">
+      <DependentUpon>EmbossingCenterWiseQuantity.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transaction\Holiday.aspx.cs">
       <DependentUpon>Holiday.aspx</DependentUpon>
@@ -3791,13 +3812,6 @@
     <Compile Include="Transaction\CaptureStock.aspx.designer.cs">
       <DependentUpon>CaptureStock.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Transaction\CashReceiptDataEntry.aspx.cs">
-      <DependentUpon>CashReceiptDataEntry.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Transaction\CashReceiptDataEntry.aspx.designer.cs">
-      <DependentUpon>CashReceiptDataEntry.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Transaction\CashReceiptDataEntryBihar.aspx.cs">
       <DependentUpon>CashReceiptDataEntryBihar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3811,13 +3825,6 @@
     </Compile>
     <Compile Include="Transaction\CashReceiptDataEntryDealer.aspx.designer.cs">
       <DependentUpon>CashReceiptDataEntryDealer.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Transaction\EmbossingCenterWiseQuantity.aspx.cs">
-      <DependentUpon>EmbossingCenterWiseQuantity.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Transaction\EmbossingCenterWiseQuantity.aspx.designer.cs">
-      <DependentUpon>EmbossingCenterWiseQuantity.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transaction\DailyAttendenceSheet.aspx.cs">
       <DependentUpon>DailyAttendenceSheet.aspx</DependentUpon>
@@ -3959,13 +3966,6 @@
     <Compile Include="Transaction\OnLinePaymentStatus.aspx.designer.cs">
       <DependentUpon>OnLinePaymentStatus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Transaction\ViewHSRPRecords.aspx.cs">
-      <DependentUpon>ViewHSRPRecords.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Transaction\ViewHSRPRecords.aspx.designer.cs">
-      <DependentUpon>ViewHSRPRecords.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Transaction\ViewLedgerBankTransactions.aspx.cs">
       <DependentUpon>ViewLedgerBankTransactions.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3993,6 +3993,13 @@
     </Compile>
     <Compile Include="Transaction\ViewSearchHR.aspx.designer.cs">
       <DependentUpon>ViewSearchHR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\ViewSearchHR_Engingno.aspx.cs">
+      <DependentUpon>ViewSearchHR_Engingno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\ViewSearchHR_Engingno.aspx.designer.cs">
+      <DependentUpon>ViewSearchHR_Engingno.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transaction\VoidEntry.aspx.cs">
       <DependentUpon>VoidEntry.aspx</DependentUpon>
@@ -4113,13 +4120,6 @@
     </Compile>
     <Compile Include="Transaction\DownloadProductionWithDate_Pending.aspx.designer.cs">
       <DependentUpon>DownloadProductionWithDate_Pending.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Transaction\EditCashCollectionBihar.aspx.cs">
-      <DependentUpon>EditCashCollectionBihar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Transaction\EditCashCollectionBihar.aspx.designer.cs">
-      <DependentUpon>EditCashCollectionBihar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transaction\InventoryChallanCreate.aspx.cs">
       <DependentUpon>InventoryChallanCreate.aspx</DependentUpon>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
-    CodeBehind="CashReceiptDataEntry.aspx.cs" Inherits="HSRP.Transaction.CashReceiptDataEntry" %>
+    CodeBehind="CashReceiptDataEntry_old.aspx.cs" Inherits="HSRP.Transaction.CashReceiptDataEntry" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="ComponentArt.Web.UI" Namespace="ComponentArt.Web.UI" TagPrefix="ComponentArt" %>

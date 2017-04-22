@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
@@ -23,6 +24,7 @@ namespace HSRP.Transaction
         string USERID = string.Empty;
         string strtimeinto = string.Empty;
         string strtimeoutto = string.Empty;
+        string UserType = string.Empty;
         int UserType1;
          
 
@@ -40,12 +42,15 @@ namespace HSRP.Transaction
                 HSRP_StateID = Session["UserHSRPStateID"].ToString();
                 RTOLocationID = Session["UserRTOLocationID"].ToString();
                 USERID = Session["UID"].ToString();
+                UserType = Session["UserType"].ToString();
+               
 
             }
             if (!Page.IsPostBack)
             {
                 //textBoxUserName.Text = Session["UserName"].ToString();
                 FilldropDownListClient();
+                FillErpProductCode();
             
             }
 
@@ -54,11 +59,131 @@ namespace HSRP.Transaction
 
         private void FilldropDownListClient()
         {
+            try
+            {
+                if (UserType == "0")
+                {
+                    SQLString = "select distinct EmbCenterName,NAVEMBID from RTOLocation Where navembid is not null and  hsrp_stateid='" + HSRP_StateID + "'  Order by EmbCenterName ";
+                    DataTable dts = Utils.GetDataTable(SQLString, CnnString);
+                    dropDownListClient.DataSource = dts;
+                    dropDownListClient.DataTextField = "EmbCenterName";
+                    dropDownListClient.DataValueField = "NAVEMBID";
+                    dropDownListClient.DataBind();
+                    dropDownListClient.Items.Insert(0, new System.Web.UI.WebControls.ListItem("--Select Emb Center--", "0"));
 
-            SQLString = "select distinct EmbCenterName,NAVEMBID from RTOLocation Where HSRP_StateID=" + HSRP_StateID + " and navembid is not null  Order by EmbCenterName";
-            Utils.PopulateDropDownList(dropDownListClient, SQLString.ToString(), CnnString, "--Select Embossing Center--");
+                }
+                else
+                {
+                    SQLString = "select distinct EmbCenterName,NAVEMBID from RTOLocation Where HSRP_StateID=" + HSRP_StateID + " and navembid is not null  Order by EmbCenterName ";
+                    DataTable dts = Utils.GetDataTable(SQLString, CnnString);
+                    dropDownListClient.DataSource = dts;
+                    dropDownListClient.DataTextField = "EmbCenterName";
+                    dropDownListClient.DataValueField = "NAVEMBID";
+                    dropDownListClient.DataBind();
+                    dropDownListClient.Items.Insert(0, new System.Web.UI.WebControls.ListItem("--Select Emb Center--", "0"));
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        //private void FilldropDownListClient()
+        //{
+
+        //    SQLString = "select distinct EmbCenterName,NAVEMBID from RTOLocation Where HSRP_StateID=" + HSRP_StateID + " and navembid is not null  Order by EmbCenterName";
+        //    Utils.PopulateDropDownList(dropDownListClient, SQLString.ToString(), CnnString, "--Select Embossing Center--");
+
+        //}
+
+        private void FillErpProductCode()
+        {
+
+            try
+            {
+                SQLString = "select ProductERPID,ProductCode from ProductSizeERP order by ProductERPID";
+                DataTable dts = Utils.GetDataTable(SQLString, CnnString);
+                ddlErpProductCode.DataSource = dts;
+                ddlErpProductCode.DataTextField = "ProductCode";
+                ddlErpProductCode.DataValueField = "ProductERPID";
+                ddlErpProductCode.DataBind();
+                ddlErpProductCode.Items.Insert(0, new System.Web.UI.WebControls.ListItem("--Select Product Code--", "0"));
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
 
         }
+
+        protected void ddlErpProductCode_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dropDownListClient.SelectedValue.ToString() == "0")
+                {
+                    lblErrMess.Text = "Select Embossing Center";
+                    lblErrMess.ForeColor = Color.Red;
+                }
+                else
+                {
+                    //string strrtolocationid = "select top 1 RtolocationID from rtolocation where Navembid='" + dropDownListClient.SelectedValue.ToString() + "' and ";
+
+                    //DataTable dtlocationid = Utils.GetDataTable(strrtolocationid, CnnString);
+                    lblSucMess.Text = "";
+                    lblErrMess.Text = "";
+                   // lblErrMess.Text = GetInventoryDataCount(dropDownListClient.SelectedValue, ddlErpProductCode.SelectedValue);
+                   // hiddenUserType.Value = GetInventoryDataCount(dropDownListClient.SelectedValue, ddlErpProductCode.SelectedValue);
+                   // ClientScript.RegisterStartupScript(this.GetType(), "alert", "HideLabel();", true);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            //string s1 = GetInventoryDataCount("EC825","RM0007");
+
+        }
+
+        //public string GetInventoryDataCount(string RtoLocation, string ProductionCode)
+        //{
+        //    try
+        //    {
+        //        if (HSRP_StateID == "9")
+        //        {
+        //            WebReference.HSRPWebService service = new WebReference.HSRPWebService();
+        //            service.UseDefaultCredentials = false;
+        //            service.Credentials = new System.Net.NetworkCredential("erpwebservice@erp.com", "E@rpweb");
+        //            // int a = Convert.ToInt32(service.UpdateWebInventory(RtoLocation, ProductionCode));
+        //            int a = Convert.ToInt32(service.UpdateItemBYSerialInventory(RtoLocation, ProductionCode));
+        //            //WebReference.HSRPWebService WebInventoryData Cust = new WebReference.WebInventoryData();
+        //            return a.ToString();
+        //        }
+        //        else
+        //        {
+        //            WebReference_TG.HSRPWebService service = new WebReference_TG.HSRPWebService();
+        //            service.UseDefaultCredentials = false;
+        //            service.Credentials = new System.Net.NetworkCredential("erpwebservice@erp.com", "E@rpweb");
+        //            //int a = Convert.ToInt32(service.UpdateWebInventory(RtoLocation, ProductionCode));
+        //            int a = Convert.ToInt32(service.UpdateItemBYSerialInventory(RtoLocation, ProductionCode));
+        //            //WebReference.HSRPWebService WebInventoryData Cust = new WebReference.WebInventoryData();
+        //            return a.ToString();
+        //        }
+
+        //    }
+        //    catch (Exception)
+        //    {
+
+        //        throw;
+        //    }
+        //}
+
+
+        string locationname = string.Empty;
 
         protected void buttonSave_Click(object sender, EventArgs e)
         {
@@ -74,12 +199,18 @@ namespace HSRP.Transaction
             //    txtEmbcode.Focus();
             //    return;
             //}
-
             if (dropDownListClient.SelectedItem.Text == "--Select Embossing Center--")
             {
                 lblErrMess.Text = "Please Select Embossing Center";
                 return;
             }
+            if (ddlErpProductCode.SelectedItem.Text == "--Select Product Code--")
+            {
+                lblErrMess.Text = "Please Select Prodect Code";
+                return;
+            }
+
+            
             if (string.IsNullOrEmpty(Stringboxno))
             {
                 lblErrMess.Text = "Please Provide Box No.";
@@ -107,74 +238,34 @@ namespace HSRP.Transaction
                 return;
             }
 
-
-           // CnnString = System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
-            //SQLString = "Select [Password] From Users where UserID='" + Convert.ToInt32(Session["UID"].ToString()) + "'";
-            
-            //if (!Utils.getDataSingleValue(SQLString, CnnString, "Password").Equals(StringOldPassword))
-            //{
-            //    lblErrMess.Text = "Old Password didn’t match.";
-            //    textOldPassword.Text = string.Empty;
-            //    textNewPassword.Text = string.Empty;
-            //    textConfirmPassword.Text = string.Empty;
-            //    textOldPassword.Focus();
-            //    return;
-            //}
-            //if (!string.IsNullOrEmpty(StringNewPassword) && !string.IsNullOrEmpty(StringConfirmPassword))
-            //{
-            //    CnnString = System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
-            //    SQLString = "Update Users Set Password='" + StringNewPassword + "',PasswordChangedDate='" + DateTime.Now.ToString() + "' where UserID='" + Convert.ToInt32(Session["UID"].ToString()) + "'";
-            //    if (Utils.ExecNonQuery(SQLString, CnnString) <= 0)
-            //    {
-            //        lblErrMess.Text = "Password Not Changed.";
-            //    }
-            //    else
-            //    {
-            //        lblSucMess.Text = "Password Changed sucessfully.";
-            //    }
-
-            //}
-           //string todaydate = DateTime.Now.ToString("dd/MM/yyyy");
-           //string sqlQuerydep = "select TimeIN from DailyAttandenceEmp where entrydate='" + todaydate + "' ";
-           // DataTable dt = new DataTable();
-           // dt = Utils.GetDataTable(sqlQuerydep, CnnString);
-           // string timeingin = dt.Rows[0]["TimeIN"].ToString();
-           // if (timeingin == DateTime.Now.ToString("dd/MM/yyyy"))
-           // {
-           //     lblSucMess.Text = "You have Already Entered Time.";
-           //     return;
-           // }
-
-
-           // string strtime =txtTimein.Text.Trim();
-           // string hour = strtime.Substring(0, 1);
-           // string time = strtime.Substring(1, 2);
-           // if (hour.Substring(0, 1) == "0")
-           // hour = hour.Substring(1, 1);
-           // StringTimeIN = (hour + ":" + time);
-
-           // strtimeinto = StringTimeIN + " AM";
-           // strtimeoutto = StringTimeout + " PM";
-
-            //string sql12 = "select right(laserfrom,8) from EmbossingCenterLaserQuantity where laserfrom='" + Stringlaserfrom + "'";
-            //DataTable dt1 = new DataTable();
-            //dt1 = Utils.GetDataTable(sql12, CnnString);
-            //string laserfrom = dt1.Rows[0]["laserfrom"].ToString();
-
-
-            //string sql123 = "select right(LaserTo,8) from EmbossingCenterLaserQuantity where laserfrom='" + Stringlaserto + "'";
-            //DataTable dtto = new DataTable();
-            //dt1 = Utils.GetDataTable(sql123, CnnString);
-            //string laserto = dt1.Rows[0]["LaserTo"].ToString();
-
-            string SQLStringbox = "select count(BoxNO) from EmbossingCenterLaserQuantity where  BoxNO='" + Stringboxno + "'";
-            int boxcount;
-            boxcount = Utils.getScalarCount(SQLStringbox, CnnString);
-            if (boxcount > 0)
+            if (string.IsNullOrEmpty(txtQuantity.Text))
             {
-                lblErrMess.Text = "Box Number Already Exists";
+                lblErrMess.Text = "Please provide Quantity.";
+                txtQuantity.Focus();
                 return;
             }
+            //if (string.IsNullOrEmpty(hiddenUserType.Value))
+            //{
+            //    lblErrMess.Text = "ERP Quantity Not Received.";
+            //    ddlErpProductCode.Focus();
+            //    return;
+            //}
+            //if (hiddenUserType.Value == "0")
+            //{
+            //    lblErrMess.Text = "Please contact to administrator.";
+            //    ddlErpProductCode.Focus();
+            //    return;
+            //}
+
+
+            //string SQLStringbox = "select count(BoxNO) from EmbossingCenterLaserQuantity where  BoxNO='" + Stringboxno + "'";
+            //int boxcount;
+            //boxcount = Utils.getScalarCount(SQLStringbox, CnnString);
+            //if (boxcount > 0)
+            //{
+            //    lblErrMess.Text = "Box Number Already Exists";
+            //    return;
+            //}
 
             string SQLStringfrom = "select count(laserfrom) from EmbossingCenterLaserQuantity where  laserfrom='" + Stringlaserfrom + "'";
             int fromlaser;
@@ -193,17 +284,45 @@ namespace HSRP.Transaction
                 return;
             }
 
-            sqlQuery12 = "insert into EmbossingCenterLaserQuantity(HSRP_ID,RToLocationid,EmbID,BoxNO,LaserFrom,LaserTo,Quantity) values('" + HSRP_StateID + "','" + RTOLocationID + "', '"+dropDownListClient.SelectedValue+"','" + Stringboxno + "', '" + Stringlaserfrom + "','" + Stringlaserto + "','" + Stringquantity + "')";
+            sqlQuery12 = "insert into EmbossingCenterLaserQuantity(HSRP_ID,RToLocationid,EmbID,BoxNO,LaserFrom,LaserTo,Quantity,productcode,ERPQuantity,CreateBy) values('" + HSRP_StateID + "','" + RTOLocationID + "', '" + dropDownListClient.SelectedValue + "','" + Stringboxno + "', '" + Stringlaserfrom + "','" + Stringlaserto + "','" + Stringquantity + "','" + ddlErpProductCode.SelectedValue.ToString().Trim() + "','" + hiddenUserType.Value + "','"+USERID+"')";
             int count = Utils.ExecNonQuery(sqlQuery12, CnnString);
             if (count > 0)
             {
                 lblSucMess.Text = "Records has been Saved Successfully";
+                clear();
             }
             else
             {
                 lblErrMess.Text = "Record Not Saved";
             }
 
+        }
+
+
+        public void clear()
+        {
+            txtboxno.Text = "";
+            txtlaserfrom.Text = "";
+            txtlaserto.Text = "";
+            txtQuantity.Text = "";
+           // dropDownListClient.ClearSelection();
+           // ddlErpProductCode.ClearSelection();          
+            
+        }
+
+        protected void dropDownListClient_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                ddlErpProductCode.ClearSelection();
+                ddlErpProductCode.SelectedValue = "0";
+                lblErrMess.Text = "";
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }   
         }
 
        

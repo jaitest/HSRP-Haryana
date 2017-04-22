@@ -31,6 +31,24 @@ namespace HSRP.Transaction {
         protected global::System.Web.UI.WebControls.DropDownList dropDownListClient;
         
         /// <summary>
+        /// lblErpProductCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErpProductCode;
+        
+        /// <summary>
+        /// ddlErpProductCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlErpProductCode;
+        
+        /// <summary>
         /// labelboxno control.
         /// </summary>
         /// <remarks>
@@ -47,6 +65,15 @@ namespace HSRP.Transaction {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtboxno;
+        
+        /// <summary>
+        /// lblProcessing control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProcessing;
         
         /// <summary>
         /// lbllaserfrom control.
@@ -128,5 +155,14 @@ namespace HSRP.Transaction {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblErrMess;
+        
+        /// <summary>
+        /// hiddenUserType control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hiddenUserType;
     }
 }

@@ -12,6 +12,7 @@ using iTextSharp.text.pdf;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Net;
+using System.Globalization;
 
 namespace HSRP.Transaction
 {
@@ -30,10 +31,12 @@ namespace HSRP.Transaction
         string Sticker = string.Empty;
         string VIP = string.Empty;
         string USERID = string.Empty;
+       
         DataTable dt = new DataTable();
         string macbase = string.Empty;
         int intDepositAmount = 0;
         int inttotcoll = 0;
+       
         protected void Page_Load(object sender, EventArgs e)
         {
              
@@ -101,6 +104,7 @@ namespace HSRP.Transaction
                 lblLastAmont.Visible = true;
                 lblLastAmont.Text = strDepositAmount;
             }
+            InitialSetting();
             if (!IsPostBack)
             {
                 if (ACTextBoxValidation() != "")
@@ -120,6 +124,20 @@ namespace HSRP.Transaction
 
             }
         }
+
+        public void InitialSetting()
+        {
+            string TodayDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
+            string MaxDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
+
+            OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
+            OrderDate.MaxDate = DateTime.Parse(MaxDate);
+            CalendarOrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
+            CalendarOrderDate.VisibleDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
+            
+        }
+       // string RegistrationDate = Convert.ToDateTime(OrderDate);
+       
 
         protected void btnGo_Click(object sender, EventArgs e)
         {
@@ -175,6 +193,94 @@ namespace HSRP.Transaction
 
                 }
 
+                if (Convert.ToInt32(RTOLocationID) == 520 || Convert.ToInt32(RTOLocationID) == 522)
+                {                  
+
+                    string CreationDate = string.Empty;
+                    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() +"'";
+                    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
+                    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
+                    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
+                    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
+                    string Currentstart = Date.ToString();                   
+                    string getdate = Convert.ToString("2017/02/23");
+                    //DateTime today = DateTime.Today;
+
+                    DateTime dt1 = Convert.ToDateTime(Currentstart);
+                    DateTime dt2 = Convert.ToDateTime(getdate);
+
+                    if (dt2 <= dt1)
+                    {
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "";
+                        lblErrMess.Text = "You are not authorized to collect your cash.";
+                        return;
+                    }
+                    else
+                    {
+                       
+                    }
+                }
+
+
+                if (Convert.ToInt32(RTOLocationID) == 529 || Convert.ToInt32(RTOLocationID) == 531)
+                {
+
+                    string CreationDate = string.Empty;
+                    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
+                    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
+                    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
+                    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
+                    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
+                    string Currentstart = Date.ToString();
+                    string getdate = Convert.ToString("2017/04/10");
+                    //DateTime today = DateTime.Today;
+
+                    DateTime dt1 = Convert.ToDateTime(Currentstart);
+                    DateTime dt2 = Convert.ToDateTime(getdate);
+
+                    if (dt2 <= dt1)
+                    {
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "";
+                        lblErrMess.Text = "You are not authorized to collect your cash.";
+                        return;
+                    }
+                    else
+                    {
+
+                    }
+                }
+
+                if (Convert.ToInt32(RTOLocationID) == 483 || Convert.ToInt32(RTOLocationID) == 484 || Convert.ToInt32(RTOLocationID) == 485)
+                {
+
+                    string CreationDate = string.Empty;
+                    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
+                    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
+                    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
+                    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
+                    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
+                    string Currentstart = Date.ToString();
+                    string getdate = Convert.ToString("2017/04/10");
+                    //DateTime today = DateTime.Today;
+
+                    DateTime dt1 = Convert.ToDateTime(Currentstart);
+                    DateTime dt2 = Convert.ToDateTime(getdate);
+
+                    if (dt2 <= dt1)
+                    {
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "";
+                        lblErrMess.Text = "You are not authorized to collect your cash.";
+                        return;
+                    }
+                    else
+                    {
+
+                    }
+                }
+
 
 
                 String SqlQry = "select distinct VehicleregNo  from  hsrpexcelupload WHERE  ISNULL(VehicleregNo,'')!=''";
@@ -201,9 +307,9 @@ namespace HSRP.Transaction
 
 
 
-                string strDate = System.DateTime.Now.ToString("hh:mm tt");
-                string strnine = "09:00 AM";
-                string strsix = "06:00 PM";
+                //string strDate = System.DateTime.Now.ToString("hh:mm tt");
+                //string strnine = "09:00 AM";
+                //string strsix = "06:00 PM";
                 //if (DateTime.Parse(strDate) < DateTime.Parse(strnine) || DateTime.Parse(strDate) > DateTime.Parse(strsix))
                 //{
                 //    lblErrMess.Visible = true;
@@ -433,11 +539,14 @@ namespace HSRP.Transaction
             }
             catch (Exception ex)
             {
+               
                 lblErrMess.Visible = true;
-                lblErrMess.Text = "RTA Server is not responding... Pls contact to System Administrator  " + ex.ToString();
+                lblErrMess.Text = "Please Check your vehicleregno ";
+                //lblErrMess.Text = "RTA Server is not responding... Pls contact to System Administrator  " + ex.ToString();
             }
         }
 
+       
 
         public void refresh()
         {
@@ -1349,9 +1458,49 @@ namespace HSRP.Transaction
                     }
                     
                 }
+               // DateTime myDate = new DateTime();
+               // myDate = Convert.ToDateTime("23/02/2017");
 
+              
 
+               // if (Convert.ToInt32(RTOLocationID) == 520)
+               // {
+               //     //if(OrderDate.SelectedDate.ToShortTimeString())
+                   
+               //    // DateTime start = DateTime.Parse(myDate);
+               //     //DateTime end = start.AddMonths(2);
+               //     DateTime today = DateTime.Today;
+               //     if (myDate >= OrderDate.SelectedDate)
+               //     {
+                        
+               //     }
+               //     else 
+               //     { 
+               //             lblErrMess.Visible = true;
+               //             lblErrMess.Text = "";
+               //             lblErrMess.Text = "You are not authorization to Collect Payment.";
+               //             return;
+               //     }
+               //}
+                       
 
+                   
+                  // if(lblAuthDate.Text.ToString()>="")
+
+                    //CultureInfo provider = CultureInfo.InvariantCulture;
+                    //DateTime currentdate = DateTime.ParseExact(DateTime.Now.ToString("23/02/2017"), "23/02/2017", provider);
+
+                    //if (currentdate >= OrderDate.SelectedDate)
+                    //{
+
+                    //}
+                    //else
+                    //{
+                       
+                    //}
+                    
+                
+                
 
                 string query = "select userid from HRAC_master where hsrp_stateid = 4 and activestatus = 'Y'";
 
@@ -1545,6 +1694,7 @@ namespace HSRP.Transaction
                 cmd.Parameters.AddWithValue("@PlateAffixationDate", date1);
                 cmd.Parameters.AddWithValue("@addrecordby", AddRecordBy);
                 cmd.Parameters.AddWithValue("@CounterNo", CounterNo);
+                cmd.Parameters.AddWithValue("@RegistrationDate", OrderDate.SelectedDate);
                 cmd.Parameters.Add("@Message", SqlDbType.Char,1);
                 cmd.Parameters["@Message"].Direction = ParameterDirection.Output;
                 cmd.ExecuteNonQuery();

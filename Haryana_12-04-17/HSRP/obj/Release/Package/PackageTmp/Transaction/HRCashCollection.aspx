@@ -67,6 +67,75 @@
         });
        
     </script>
+    <%--<script type="text/javascript">
+        function OrderDate_OnDateChange(sender, eventArgs) {
+            var fromDate = OrderDate.getSelectedDate();
+            CalendarOrderDate.setSelectedDate(fromDate);
+
+        }
+
+        function OrderDate_OnChange(sender, eventArgs) {
+            var fromDate = CalendarOrderDate.getSelectedDate();
+            OrderDate.setSelectedDate(fromDate);
+
+        }
+
+        function OrderDate_OnClick() {
+            if (CalendarOrderDate.get_popUpShowing()) {
+                CalendarOrderDate.hide();
+            }
+            else {
+                CalendarOrderDate.setSelectedDate(OrderDate.getSelectedDate());
+                CalendarOrderDate.show();
+            }
+        }
+
+        function OrderDate_OnMouseUp() {
+            if (CalendarOrderDate.get_popUpShowing()) {
+                event.cancelBubble = true;
+                event.returnValue = false;
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+        ////>>>>>> Pollution Due Date
+
+        function HSRPAuthDate_OnDateChange(sender, eventArgs) {
+            var fromDate = HSRPAuthDate.getSelectedDate();
+            CalendarHSRPAuthDate.setSelectedDate(fromDate);
+
+        }
+
+        function CalendarHSRPAuthDate_OnChange(sender, eventArgs) {
+            var fromDate = CalendarHSRPAuthDate.getSelectedDate();
+            HSRPAuthDate.setSelectedDate(fromDate);
+
+        }
+
+        function HSRPAuthDate_OnClick() {
+            if (CalendarHSRPAuthDate.get_popUpShowing()) {
+                CalendarHSRPAuthDate.hide();
+            }
+            else {
+                CalendarHSRPAuthDate.setSelectedDate(HSRPAuthDate.getSelectedDate());
+                CalendarHSRPAuthDate.show();
+            }
+        }
+
+        function HSRPAuthDate_OnMouseUp() {
+            if (CalendarHSRPAuthDate.get_popUpShowing()) {
+                event.cancelBubble = true;
+                event.returnValue = false;
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>--%>
     
 <marquee class="mar1" direction="left" >Please Ensure Customer Data On Screen Matches With Authorization Slip Before Save. Penalty Will Be Imposed On Generation Of Wrong Cash Receipt.</marquee>
     
@@ -157,8 +226,19 @@
       <tr>
         <td class="form_text"> Amount </td>
         <td><asp:Label ID="lblAmount" runat="server" Text=""></asp:Label></td>
-        <td></td>
-        <td></td>
+          <td></td>
+        <%--<td class="form_text"> Registration Date </td>
+        <td class="form_text" onmouseup="OrderDate_OnMouseUp()" >
+                                                                <ComponentArt:Calendar ID="OrderDate" runat="server" PickerFormat="Custom" PickerCustomFormat="dd/MM/yyyy"
+                                                                    ControlType="Picker" PickerCssClass="picker">
+                                                                    <ClientEvents>
+                                                                        <SelectionChanged EventHandler="OrderDate_OnDateChange" />
+                                                                    </ClientEvents>
+                                                                </ComponentArt:Calendar>           
+            <img id="calendar_from_button" alt="" onclick="OrderDate_OnClick()" onmouseup="OrderDate_OnMouseUp()" class="calendar_button" src="../../images/btn_calendar.gif" />
+                                                            </td>--%>
+          
+          
       </tr>
       <tr>
         <td class="form_text"> Third Sticker </td>
@@ -185,6 +265,19 @@
         <td ><asp:Button ID="btnDownload" runat="server" Text="Download Receipt"  OnClick="btnDownloadReceipt_Click" CssClass="button" Visible="false" Width="136px" /></td>
          <td></td>
       </tr>
+
+       <%-- <ComponentArt:Calendar runat="server" ID="CalendarOrderDate" AllowMultipleSelection="false"
+                                                        AllowWeekSelection="false" AllowMonthSelection="false" ControlType="Calendar"
+                                                        PopUp="Custom" PopUpExpandControlId="calendar_from_button" CalendarTitleCssClass="title"
+                                                        DayHoverCssClass="dayhover" DisabledDayCssClass="disabledday" DisabledDayHoverCssClass="disabledday"
+                                                        OtherMonthDayCssClass="othermonthday" DayHeaderCssClass="dayheader" DayCssClass="day"
+                                                        SelectedDayCssClass="selectedday" CalendarCssClass="calendar" NextPrevCssClass="nextprev"
+                                                        MonthCssClass="month" SwapSlide="Linear" SwapDuration="300" DayNameFormat="FirstTwoLetters"
+                                                        ImagesBaseUrl="../../images" PrevImageUrl="cal_prevMonth.gif" NextImageUrl="cal_nextMonth.gif">
+                                                        <ClientEvents>
+                                                            <SelectionChanged EventHandler="OrderDate_OnChange" />
+                                                        </ClientEvents>
+                                                    </ComponentArt:Calendar>--%>
       <tr>
         <td></td>
         <td></td>

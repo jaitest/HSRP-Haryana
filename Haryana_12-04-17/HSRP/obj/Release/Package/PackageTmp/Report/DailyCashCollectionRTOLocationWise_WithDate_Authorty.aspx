@@ -132,8 +132,7 @@
                                                     <asp:UpdatePanel runat="server" ID="UpdateRTOLocation" UpdateMode="Conditional">
                                                         <ContentTemplate>
                                                             <asp:Label Text="Location:" Visible="true" runat="server" ID="labelClient" />&nbsp;&nbsp;
-                                                            <asp:DropDownList AutoPostBack="false" Visible="true" ID="dropDownListClient" CausesValidation="false"
-                                                                runat="server" DataTextField="ReportGroup" DataValueField="ReportGroup">
+                                                            <asp:DropDownList AutoPostBack="false" Visible="true" ID="dropDownListClient" CausesValidation="false" runat="server" DataTextField="ReportGroup" DataValueField="ReportGroup">
                                                             </asp:DropDownList>
                                                         </ContentTemplate>
                                                         <Triggers>

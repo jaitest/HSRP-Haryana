@@ -863,11 +863,11 @@ namespace HSRP.EmbossingData
                         {
                             if (RTOLocationID == "255")
                             {
-                                SMSTextuk = "Your H.S.R.P. for " + reg_no + " is ready for Affixation, Please visit your H.S.R.P. center Between 10 AM - 2 PM for Affixation. HSRP Team";                               
+                                SMSTextuk = "Your H.S.R.P. for " + reg_no + " is ready for Affixation, Please visit your H.S.R.P. center Between 10.00 AM - 2.00 PM and 2.30 PM - 5.00 for Affixation. HSRP Team";                               
                             }
                             else
                             {
-                                SMSTextuk = "Your H.S.R.P. for " + reg_no + " is ready for Affixation, Please visit your H.S.R.P. center Between 2 PM - 5.30 PM for Affixation. HSRP Team";
+                                SMSTextuk = "Your H.S.R.P. for " + reg_no + " is ready for Affixation, Please visit your H.S.R.P. center Between 10.00 AM - 2.00 PM and 2.30 PM - 5.00 PM for Affixation. HSRP Team";
                             }
 
                             string SMSCheck = "Select top 1 HSRPRecordID from UKSMSDetail where HSRPRecordID='" + strRecordId + "'";

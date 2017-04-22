@@ -265,8 +265,8 @@ namespace HSRP.Transaction
             string currenrtDate = DateTime.Now.ToString("MM/dd/yyyy");
 
              #region
-            
 
+            //string Date = CreationDate.ToString("MM/dd/yyyy");
             //DateTime start = DateTime.Parse(Date);
             //DateTime end = start.AddMonths(2);
             //DateTime today = DateTime.Today;
