@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetHSRPAuthorizationDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fromdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="todate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="officecode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHSRPAuthorizationDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHSRPAuthorizationDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHSRPAuthorizationno">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Authno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHSRPAuthorizationnoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHSRPAuthorizationnoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPCharges">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Authno" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Amount" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="CollectionDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPChargesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateHSRPChargesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPLaserCodes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Authno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Frontlasercode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rearlasercode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Embossingdate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPLaserCodesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateHSRPLaserCodesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPAffixation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Authno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Affixationdate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPAffixationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateHSRPAffixationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPAvailableAtOffice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Authno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlateAvailableatOfficeDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateHSRPAvailableAtOfficeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateHSRPAvailableAtOfficeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetHSRPAuthorizationDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHSRPAuthorizationDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetHSRPAuthorizationDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHSRPAuthorizationDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHSRPAuthorizationnoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHSRPAuthorizationno" />
+  </wsdl:message>
+  <wsdl:message name="GetHSRPAuthorizationnoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHSRPAuthorizationnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPChargesSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPCharges" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPChargesSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPChargesResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPLaserCodesSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPLaserCodes" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPLaserCodesSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPLaserCodesResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPAffixationSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPAffixation" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPAffixationSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPAffixationResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPAvailableAtOfficeSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPAvailableAtOffice" />
+  </wsdl:message>
+  <wsdl:message name="UpdateHSRPAvailableAtOfficeSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateHSRPAvailableAtOfficeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HSRPAuthorizationServiceSoap">
+    <wsdl:operation name="GetHSRPAuthorizationDetails">
+      <wsdl:input message="tns:GetHSRPAuthorizationDetailsSoapIn" />
+      <wsdl:output message="tns:GetHSRPAuthorizationDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHSRPAuthorizationno">
+      <wsdl:input message="tns:GetHSRPAuthorizationnoSoapIn" />
+      <wsdl:output message="tns:GetHSRPAuthorizationnoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPCharges">
+      <wsdl:input message="tns:UpdateHSRPChargesSoapIn" />
+      <wsdl:output message="tns:UpdateHSRPChargesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPLaserCodes">
+      <wsdl:input message="tns:UpdateHSRPLaserCodesSoapIn" />
+      <wsdl:output message="tns:UpdateHSRPLaserCodesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPAffixation">
+      <wsdl:input message="tns:UpdateHSRPAffixationSoapIn" />
+      <wsdl:output message="tns:UpdateHSRPAffixationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPAvailableAtOffice">
+      <wsdl:input message="tns:UpdateHSRPAvailableAtOfficeSoapIn" />
+      <wsdl:output message="tns:UpdateHSRPAvailableAtOfficeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HSRPAuthorizationServiceSoap" type="tns:HSRPAuthorizationServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetHSRPAuthorizationDetails">
+      <soap:operation soapAction="http://tempuri.org/GetHSRPAuthorizationDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHSRPAuthorizationno">
+      <soap:operation soapAction="http://tempuri.org/GetHSRPAuthorizationno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPCharges">
+      <soap:operation soapAction="http://tempuri.org/UpdateHSRPCharges" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPLaserCodes">
+      <soap:operation soapAction="http://tempuri.org/UpdateHSRPLaserCodes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPAffixation">
+      <soap:operation soapAction="http://tempuri.org/UpdateHSRPAffixation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPAvailableAtOffice">
+      <soap:operation soapAction="http://tempuri.org/UpdateHSRPAvailableAtOffice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HSRPAuthorizationServiceSoap12" type="tns:HSRPAuthorizationServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetHSRPAuthorizationDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetHSRPAuthorizationDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHSRPAuthorizationno">
+      <soap12:operation soapAction="http://tempuri.org/GetHSRPAuthorizationno" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPCharges">
+      <soap12:operation soapAction="http://tempuri.org/UpdateHSRPCharges" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPLaserCodes">
+      <soap12:operation soapAction="http://tempuri.org/UpdateHSRPLaserCodes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPAffixation">
+      <soap12:operation soapAction="http://tempuri.org/UpdateHSRPAffixation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHSRPAvailableAtOffice">
+      <soap12:operation soapAction="http://tempuri.org/UpdateHSRPAvailableAtOffice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HSRPAuthorizationService">
+    <wsdl:port name="HSRPAuthorizationServiceSoap" binding="tns:HSRPAuthorizationServiceSoap">
+      <soap:address location="https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HSRPAuthorizationServiceSoap12" binding="tns:HSRPAuthorizationServiceSoap12">
+      <soap12:address location="https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

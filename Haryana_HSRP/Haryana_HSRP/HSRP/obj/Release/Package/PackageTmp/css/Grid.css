@@ -1,0 +1,102 @@
+﻿.grid
+{
+    font-family: tahoma;
+    font-size: 12px;
+    border: solid 1px #7f7f7f;
+    border-collapse: collapse;
+    color: #333333;
+    width: 60%;
+}
+
+.grid1
+{
+    font-family: tahoma;
+    font-size: 12px;
+    border: solid 1px #7f7f7f;
+    border-collapse: collapse;
+    color: #333333;
+    width: 95%;
+}
+.grid th
+{
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 1px;
+    color: Menu;
+    padding: 4px 5px 4px 10px;
+    vertical-align: bottom;
+    text-align: left;
+    background-color: Highlight;
+}
+.grid td
+{
+    color: #333333;
+    padding: 4px 1px 4px 1px;
+    border-bottom: solid 1px #BBD9EE;
+    padding: 4px 5px 4px 10px;
+}
+
+.grid1 th
+{
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 1px;
+    color: Menu;
+    padding: 4px 5px 4px 10px;
+    vertical-align: bottom;
+    text-align: left;
+    background-color: Highlight;
+}
+.grid1 td
+{
+    color: #333333;
+    padding: 4px 1px 4px 1px;
+    border-bottom: solid 1px #BBD9EE;
+    padding: 4px 5px 4px 10px;
+}
+
+
+
+.gridRow
+{
+    background-color: #B1DEDC;
+}
+
+.gridAltRow
+{
+    background-color: #D1EDE9;
+}
+
+.gridEditRow
+{
+    background-color: #0DC6DE;
+}
+.gridFooterRow
+{
+    background-color: #E8ECED;
+}
+.grid tr.gridRow:hover, .grid tr.gridAltRow:hover
+{
+    font-family: tahoma;
+    font-size: 12px;
+    border: solid 1px #7f7f7f;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    cursor: hand;
+}
+
+.grid1 tr.gridRow:hover, .grid1 tr.gridAltRow:hover
+{
+    font-family: tahoma;
+    font-size: 12px;
+    border: solid 1px #7f7f7f;
+    border-collapse: collapse;
+    background-color: #ffffcc;
+    cursor: hand;
+}
+
+.hCursor
+{
+    cursor: pointer;
+    cursor: hand;
+} 

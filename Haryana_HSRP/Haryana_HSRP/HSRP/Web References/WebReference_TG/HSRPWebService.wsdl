@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="UpdateWebOrderCreation">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="hSRP_Request_ID" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateWebOrderCreation_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateWebInventory">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemCode" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateWebInventory_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="UpdateWebOrderCreation">
+    <part name="parameters" element="tns:UpdateWebOrderCreation" />
+  </message>
+  <message name="UpdateWebOrderCreation_Result">
+    <part name="parameters" element="tns:UpdateWebOrderCreation_Result" />
+  </message>
+  <message name="UpdateWebInventory">
+    <part name="parameters" element="tns:UpdateWebInventory" />
+  </message>
+  <message name="UpdateWebInventory_Result">
+    <part name="parameters" element="tns:UpdateWebInventory_Result" />
+  </message>
+  <portType name="HSRPWebService_Port">
+    <operation name="UpdateWebOrderCreation">
+      <input name="UpdateWebOrderCreation" message="tns:UpdateWebOrderCreation" />
+      <output name="UpdateWebOrderCreation_Result" message="tns:UpdateWebOrderCreation_Result" />
+    </operation>
+    <operation name="UpdateWebInventory">
+      <input name="UpdateWebInventory" message="tns:UpdateWebInventory" />
+      <output name="UpdateWebInventory_Result" message="tns:UpdateWebInventory_Result" />
+    </operation>
+  </portType>
+  <binding name="HSRPWebService_Binding" type="tns:HSRPWebService_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="UpdateWebOrderCreation">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService:UpdateWebOrderCreation" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateWebOrderCreation">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateWebOrderCreation_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateWebInventory">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService:UpdateWebInventory" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateWebInventory">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateWebInventory_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="HSRPWebService">
+    <port name="HSRPWebService_Port" binding="tns:HSRPWebService_Binding">
+      <address location="http://180.151.100.66:7057/LinkPoint/WS/Link%20Auto%20Tech%20Pvt.%20Ltd.%20TG/Codeunit/HSRPWebService" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

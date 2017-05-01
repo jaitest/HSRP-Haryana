@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx?wsdl" docRef="https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx" xmlns:q1="http://tempuri.org/" binding="q1:HSRPAuthorizationServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx" xmlns:q2="http://tempuri.org/" binding="q2:HSRPAuthorizationServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

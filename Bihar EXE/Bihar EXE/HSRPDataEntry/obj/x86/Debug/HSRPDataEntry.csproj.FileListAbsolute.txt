@@ -1,0 +1,95 @@
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\tels.ini
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.config
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.manifest
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.application
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.pdb
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.TrustInfo.xml
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe.manifest
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.application
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.pdb
+D:\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.config
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.pdb
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\tels.ini
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.manifest
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.application
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.pdb
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.TrustInfo.xml
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe.manifest
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.application
+D:\PROJECTUPDATEAmit\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\tels.ini
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.config
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.manifest
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.application
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.pdb
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.TrustInfo.xml
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe.manifest
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.application
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.pdb
+D:\PROJECTUPDATEAmit\All Exe\BiharEXEandwebservice\BiharEXEandwebservice\BIHAR EXE(04-june-15)(LIVE)\BiharHSRP,EXe\Bihar1\Bihar1\Bihar\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache
+E:\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.config
+E:\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe
+E:\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.pdb
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+E:\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+E:\HSRPDataEntry\bin\Debug\tels.ini
+E:\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe.manifest
+E:\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.application
+E:\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.exe
+E:\HSRPDataEntry\bin\Debug\HSRP Bihar 3.1.pdb
+E:\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.TrustInfo.xml
+E:\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.exe.manifest
+E:\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.1.application
+D:\Bihar EXE\HSRPDataEntry\bin\Debug\tels.ini
+D:\Bihar EXE\HSRPDataEntry\bin\Debug\HSRP Bihar 3.4.exe.config
+D:\Bihar EXE\HSRPDataEntry\bin\Debug\HSRP Bihar 3.4.exe.manifest
+D:\Bihar EXE\HSRPDataEntry\bin\Debug\HSRP Bihar 3.4.application
+D:\Bihar EXE\HSRPDataEntry\bin\Debug\HSRP Bihar 3.4.exe
+D:\Bihar EXE\HSRPDataEntry\bin\Debug\HSRP Bihar 3.4.pdb
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.4.TrustInfo.xml
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.4.exe.manifest
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.4.application
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.4.exe
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRP Bihar 3.4.pdb
+D:\Bihar EXE\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache

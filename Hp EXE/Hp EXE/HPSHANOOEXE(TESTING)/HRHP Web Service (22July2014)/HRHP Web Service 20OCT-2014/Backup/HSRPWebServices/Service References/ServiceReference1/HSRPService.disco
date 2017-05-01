@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://180.151.100.245/APWebService/HSRPService.asmx?wsdl" docRef="http://180.151.100.245/APWebService/HSRPService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://180.151.100.245/APWebService/HSRPService.asmx" xmlns:q1="http://tempuri.org/" binding="q1:HSRPServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://180.151.100.245/APWebService/HSRPService.asmx" xmlns:q2="http://tempuri.org/" binding="q2:HSRPServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

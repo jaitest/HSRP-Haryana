@@ -1,0 +1,131 @@
+C:\Projects\HSRPWebServices\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\HSRPWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Projects\HSRPWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Projects\HSRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Projects\HSRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+C:\Users\Admin\Desktop\HSRPWebServices\HSRPWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\Admin\Desktop\HSRPWebServices\HSRPWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\Admin\Desktop\HSRPWebServices\HSRPWebServices\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\HSRPWebServices\HSRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Users\Admin\Desktop\HSRPWebServices\HSRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\HSRPWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+D:\HSRPWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\HSRPWebServices\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+D:\HSRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\HSRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\ASRPWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+D:\ASRPWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\ASRPWebServices\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+D:\ASRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\ASRPWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+C:\Users\Admin\Desktop\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\Admin\Desktop\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\Admin\Desktop\BiharWebServices\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Users\Admin\Desktop\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\BiharWebServices\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+D:\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+D:\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+C:\Users\user\Desktop\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Users\user\Desktop\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+C:\Users\user\Desktop\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\user\Desktop\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\Admin\Desktop\Code30jan2014\WebServices\BiharWebService\BiharWebServices10dec2013\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\Admin\Desktop\Code30jan2014\WebServices\BiharWebService\BiharWebServices10dec2013\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\Admin\Desktop\Code30jan2014\WebServices\BiharWebService\BiharWebServices10dec2013\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Code30jan2014\WebServices\BiharWebService\BiharWebServices10dec2013\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Users\Admin\Desktop\Code30jan2014\WebServices\BiharWebService\BiharWebServices10dec2013\BiharWebServices10dec2013\BiharWebServices\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+F:\Mine\BiharWebServices3feb\HSRPWebServices\bin\HSRPWebServices.dll
+F:\Mine\BiharWebServices3feb\HSRPWebServices\bin\HSRPWebServices.pdb
+F:\Mine\BiharWebServices3feb\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+F:\Mine\BiharWebServices3feb\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+F:\Mine\BiharWebServices3feb\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\All Lastest Codes\LatestWebServiceForHRandHP\HRHP Web Service For Cash Collection (24-06-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\All Lastest Codes\LatestWebServiceForHRandHP\HRHP Web Service For Cash Collection (24-06-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\All Lastest Codes\LatestWebServiceForHRandHP\HRHP Web Service For Cash Collection (24-06-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\All Lastest Codes\LatestWebServiceForHRandHP\HRHP Web Service For Cash Collection (24-06-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\All Lastest Codes\LatestWebServiceForHRandHP\HRHP Web Service For Cash Collection (24-06-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+C:\Users\IT\Desktop\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\IT\Desktop\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\IT\Desktop\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\IT\Desktop\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Users\IT\Desktop\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (21-07-2014)\HRHP Web Service For Cash Collection (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service (24-06-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service (24-06-2014)\HSRPWebServices\obj\Debug\ResolveAssemblyReference.cache
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\Cash Collection (Exe and Web Service)\HRHP Web Service (24-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (30-06-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (30-06-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (30-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (30-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (30-06-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (02-08-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (02-08-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (02-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (02-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (02-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (08-08-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (08-08-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (08-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (08-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\All Lastest Codes\NewWebServiceForHRAndHP\HRHP Web Service (30-07-2014)\HRHP Web Service (08-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (09-08-2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (09-08-2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (09-08-2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (09-08-2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (09-08-2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\bin\HSRPWebServices.dll
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service (09-08-2014)\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\NEW ALL LatestExe,HSRP\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\ALL New Code5Nov\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+D:\ALL New Code5Nov\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\ALL New Code5Nov\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\ALL New Code5Nov\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+C:\Users\Himanshu\Desktop\HPSHANOO\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\Himanshu\Desktop\HPSHANOO\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\Himanshu\Desktop\HPSHANOO\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Users\Himanshu\Desktop\HPSHANOO\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\SHANOO\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\SHANOO\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+D:\SHANOO\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\SHANOO\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\SHANOO\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\SHANOO\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+G:\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll.config
+G:\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+G:\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+G:\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+G:\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+G:\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\PROJECTUPDATEAmit\All Exe\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll.config
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+E:\Me Code\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.dll
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\Hplatest EXE\HPSHANOOEXE(TESTING)\HRHP Web Service (22July2014)\HRHP Web Service 20OCT-2014\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
