@@ -63,25 +63,15 @@ namespace HSRP.Master
                 if (!IsPostBack)
                 {
                     InitialSetting();
-                    if (HSRPStateID == "9" || HSRPStateID=="11")
-                    {
-                        ddlBothDealerHHT.Visible = false;
-                        labelSelectType.Visible = false;
-                    }
-                    else if (HSRPStateID == "4")
+                    
+                    if (HSRPStateID == "4")
                     {
                         ddlBothDealerHHT.Visible = true;
                         labelSelectType.Visible = true;
                         DropDownList1.Visible = true;
                         labelvehicletype.Visible = true;
                     }
-                    else if (HSRPStateID == "2")
-                    {
-                        ddlBothDealerHHT.Visible = true;
-                        labelSelectType.Visible = true;
-                        DropDownList1.Visible = true;
-                        labelvehicletype.Visible = true;
-                    }
+                    
                     else
                     {
                         DropDownList1.Visible = false;
@@ -290,7 +280,7 @@ namespace HSRP.Master
             String FromDate = StringOrderDate[1] + "-" + Monthdate + "-" + StringOrderDate[2].Split(' ')[0];
             String ReportDateTo = StringOrderDate[1] + "/" + Monthdate + "/" + StringOrderDate[2].Split(' ')[0];
             String From1 = StringOrderDate[0] + "/" + StringOrderDate[1] + "/" + StringOrderDate[2].Split(' ')[0];
-           // string From1 = "11/28/14";
+          
             string ToDate = From1 + " 23:59:59";
 
           
@@ -341,13 +331,17 @@ namespace HSRP.Master
                 strVehicleType = " and vehicletype in ('LMV','LMV(CLASS)','MCV/HCV/TRAILERS','TRACTOR') ";
             }
 
+            if (RTOLocationID == "698")
+            {
+                strSQL.Append("Select a.hsrprecordID,a.roundoff_netamount,a.OrderStatus, a.HSRPRecord_AuthorizationNo,convert(varchar, OrderClosedDate, 105) as OrderClosedDate, CONVERT(varchar(20),orderdate ,103) AS OrderBookDate,CONVERT(varchar(20),OrderEmbossingDate ,103) AS OrderEmbossingDate, a.dealerid as ID, left(a.OwnerName,19) as OwnerName, a.MobileNo,(select  AffixCenterDesc from AffixationCenters where Affix_id= a.affix_id ) as AffixCenterDesc, a.HSRPRecordID, CONVERT(varchar(20), HSRPRecord_AuthorizationDate,103) AS OrderDateAuth, a.OrderDate, (select rtolocationname from rtolocation where  rtolocationid =a.userrtolocationid) as EngineNo, a.ChassisNo, (select rtolocationname from rtolocation where  rtolocationid =a.rtolocationid) as RTOLocationName,  a.VehicleRegNo,  case a.VehicleType when 'MCV/HCV/TRAILERS' then 'Trailers' when 'THREE WHEELER' then 'T.Whe.' when 'SCOOTER' then 'SCOO' when 'TRACTOR' then 'TRAC' when 'LMV(CLASS)' then 'L.CL' when 'LMV' then 'LMV'  when 'MOTOR CYCLE' then 'MO.C' end as VehicleType, case a.VehicleClass when 'Transport' then 'T' else 'N.T.' end as VehicleClass,  a.HSRP_StateID, (select HSRPStateName from hsrpstate where HSRP_StateID=a.HSRP_StateID)  as HSRPStateName, (select replace(ProductCode,'MM-','') from Product where productid= a.RearPlateSize) AS RearProductCode,(select replace(ProductCode,'MM-','') from Product where productid= a.FrontPlateSize) AS FrontProductCode,a.FrontPlateSize, a.HSRP_Front_LaserCode, a.HSRP_Rear_LaserCode, a.RearPlateSize FROM HSRPRecords AS a   where  a.hsrp_StateID='" + strStateID + "' and a.RTOLocationID='" + RTOLocationID + "' and convert(date,erpassigndate) = convert(date,'" + AuthorizationDate + "')  and isnull(newpdfrunningno,'')='' and ([HSRP_Front_LaserCode] is not null or [HSRP_Rear_LaserCode] is not null)  and ([HSRP_Front_LaserCode] !='' or [HSRP_Rear_LaserCode] !='') ");
+            }
+            else
+            {
+                strSQL.Append("Select a.hsrprecordID,a.roundoff_netamount,a.OrderStatus, a.HSRPRecord_AuthorizationNo,convert(varchar, OrderClosedDate, 105) as OrderClosedDate, CONVERT(varchar(20),orderdate ,103) AS OrderBookDate,CONVERT(varchar(20),OrderEmbossingDate ,103) AS OrderEmbossingDate, a.dealerid as ID, left(a.OwnerName,19) as OwnerName, a.MobileNo,(select  AffixCenterDesc from AffixationCenters where Affix_id= a.affix_id ) as AffixCenterDesc, a.HSRPRecordID, CONVERT(varchar(20), HSRPRecord_AuthorizationDate,103) AS OrderDateAuth, a.OrderDate, a.EngineNo, a.ChassisNo, (select rtolocationname from rtolocation where  rtolocationid =a.rtolocationid) as RTOLocationName,  a.VehicleRegNo,  case a.VehicleType when 'MCV/HCV/TRAILERS' then 'Trailers' when 'THREE WHEELER' then 'T.Whe.' when 'SCOOTER' then 'SCOO' when 'TRACTOR' then 'TRAC' when 'LMV(CLASS)' then 'L.CL' when 'LMV' then 'LMV'  when 'MOTOR CYCLE' then 'MO.C' end as VehicleType, case a.VehicleClass when 'Transport' then 'T' else 'N.T.' end as VehicleClass,  a.HSRP_StateID, (select HSRPStateName from hsrpstate where HSRP_StateID=a.HSRP_StateID)  as HSRPStateName, (select replace(ProductCode,'MM-','') from Product where productid= a.RearPlateSize) AS RearProductCode,(select replace(ProductCode,'MM-','') from Product where productid= a.FrontPlateSize) AS FrontProductCode,a.FrontPlateSize, a.HSRP_Front_LaserCode, a.HSRP_Rear_LaserCode, a.RearPlateSize FROM HSRPRecords AS a   where  a.hsrp_StateID='" + strStateID + "' and a.RTOLocationID='" + RTOLocationID + "' and convert(date,erpassigndate) = convert(date,'" + AuthorizationDate + "')  and isnull(newpdfrunningno,'')='' and ([HSRP_Front_LaserCode] is not null or [HSRP_Rear_LaserCode] is not null)  and ([HSRP_Front_LaserCode] !='' or [HSRP_Rear_LaserCode] !='') ");
+            }      
+           
             
-            strSQL.Append("Select a.hsrprecordID,a.roundoff_netamount,a.OrderStatus, a.HSRPRecord_AuthorizationNo,convert(varchar, OrderClosedDate, 105) as OrderClosedDate, CONVERT(varchar(20),orderdate ,103) AS OrderBookDate,CONVERT(varchar(20),OrderEmbossingDate ,103) AS OrderEmbossingDate, a.dealerid as ID, left(a.OwnerName,19) as OwnerName, a.MobileNo,(select  AffixCenterDesc from AffixationCenters where Affix_id= a.affix_id ) as AffixCenterDesc, a.HSRPRecordID, CONVERT(varchar(20), HSRPRecord_AuthorizationDate,103) AS OrderDateAuth, a.OrderDate, a.EngineNo, a.ChassisNo, (select rtolocationname from rtolocation where  rtolocationid =a.rtolocationid) as RTOLocationName,  a.VehicleRegNo,  case a.VehicleType when 'MCV/HCV/TRAILERS' then 'Trailers' when 'THREE WHEELER' then 'T.Whe.' when 'SCOOTER' then 'SCOO' when 'TRACTOR' then 'TRAC' when 'LMV(CLASS)' then 'L.CL' when 'LMV' then 'LMV'  when 'MOTOR CYCLE' then 'MO.C' end as VehicleType, case a.VehicleClass when 'Transport' then 'T' else 'N.T.' end as VehicleClass,  a.HSRP_StateID, (select HSRPStateName from hsrpstate where HSRP_StateID=a.HSRP_StateID)  as HSRPStateName, (select replace(ProductCode,'MM-','') from Product where productid= a.RearPlateSize) AS RearProductCode,(select replace(ProductCode,'MM-','') from Product where productid= a.FrontPlateSize) AS FrontProductCode,a.FrontPlateSize, a.HSRP_Front_LaserCode, a.HSRP_Rear_LaserCode, a.RearPlateSize FROM HSRPRecords AS a   where  a.hsrp_StateID='" + strStateID + "' and a.RTOLocationID='" + RTOLocationID + "' and convert(date,erpassigndate) = convert(date,'" + AuthorizationDate + "')  and isnull(newpdfrunningno,'')='' and ([HSRP_Front_LaserCode] is not null or [HSRP_Rear_LaserCode] is not null)  and ([HSRP_Front_LaserCode] !='' or [HSRP_Rear_LaserCode] !='') ");
-            
-                    //if (strOrderTypeHHTDealer == "Both")
-                    //{
-                    //     strSQL.Append(" ");   
-                    //}
+                   
             if (strStateID == "4" || strStateID == "1")
             {
                 if (ddlBothDealerHHT.SelectedItem.Text == "Dealer")
@@ -391,7 +385,16 @@ namespace HSRP.Master
                 if (dt.Rows.Count > 0)
                 {
                     float Amount = 0;
-                    string filename = "HSRPProductionSheet- " + RTOLocationID + System.DateTime.Now.Day.ToString() + System.DateTime.Now.Month.ToString() + System.DateTime.Now.Year.ToString() + System.DateTime.Now.Hour.ToString() + System.DateTime.Now.Minute.ToString() + ".pdf";
+                    string filename;
+                    if (RTOLocationID == "698")
+                    {
+                        filename = "HSRPProductionSheet- " + dt.Rows[0]["RTOLocationName"].ToString() + RTOLocationID + System.DateTime.Now.Day.ToString() + System.DateTime.Now.Month.ToString() + System.DateTime.Now.Year.ToString() + System.DateTime.Now.Hour.ToString() + System.DateTime.Now.Minute.ToString() + ".pdf";
+                    }
+                    else
+                    {
+                        filename = "HSRPProductionSheet- " + RTOLocationID + System.DateTime.Now.Day.ToString() + System.DateTime.Now.Month.ToString() + System.DateTime.Now.Year.ToString() + System.DateTime.Now.Hour.ToString() + System.DateTime.Now.Minute.ToString() + ".pdf";
+                    }
+                 
                     String StringField = String.Empty;
                     String StringAlert = String.Empty;
                     StringBuilder bb = new StringBuilder();
@@ -651,34 +654,7 @@ namespace HSRP.Master
                         cell1221.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                         table.AddCell(cell1221);
                     
-                    //if (HSRPStateID == "4" && ddlBothDealerHHT.SelectedItem.Text == "Dealer Data")
-                    //{
-                    //    PdfPCell cell120000 = new PdfPCell(new Phrase("ID", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                    //    cell120000.Colspan = 1;
-                    //    cell120000.BorderWidthLeft = 0f;
-                    //    cell120000.BorderWidthRight = 0.8f;
-                    //    cell120000.BorderWidthTop = 0.8f;
-                    //    cell120000.BorderWidthBottom = 0f;
-
-                    //    cell120000.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                    //    table.AddCell(cell120000);
-                    //}
-                    //else if (HSRPStateID.Equals("5") && ddlBothDealerHHT.SelectedItem.Text.Equals("Dealer Data"))
-                    //{
-                    //    PdfPCell cell111 = new PdfPCell(new Phrase("ID", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                    //    cell111.Colspan = 1;
-                    //    cell111.BorderWidthLeft = 0f;
-                    //    cell111.BorderWidthRight = 0.8f;
-                    //    cell111.BorderWidthTop = 0.8f;
-                    //    cell111.BorderWidthBottom = 0f;
-
-                    //    cell111.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                    //    table.AddCell(cell111);
-
-
-                    //}
-                    //else if ( HSRPStateID == "4" || HSRPStateID == "1" || HSRPStateID == "2" || HSRPStateID == "3" || HSRPStateID == "6" || HSRPStateID == "9" || HSRPStateID == "11" || (HSRPStateID == "4" && ddlBothDealerHHT.SelectedItem.Text.Equals("Both") || ddlBothDealerHHT.SelectedItem.Text.Equals("Other")))
-                    //{
+                   
                         PdfPCell cell120933 = new PdfPCell(new Phrase("Owner Name", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
                         cell120933.Colspan = 1;
                         cell120933.BorderWidthLeft = 0f;
@@ -688,8 +664,7 @@ namespace HSRP.Master
 
                         cell120933.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                         table.AddCell(cell120933);
-                   // }
-                    
+                                     
 
                     PdfPCell cell120935 = new PdfPCell(new Phrase("Front Plate Size", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK))); //6
                     cell120935.Colspan = 1;
@@ -972,32 +947,6 @@ namespace HSRP.Master
                             cell1221a.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                             table.AddCell(cell1221a);
 
-
-                            //if (HSRPStateID == "4" && ddlBothDealerHHT.SelectedItem.Text == "Dealer Data")
-                            //{
-                            //    PdfPCell cell120933b = new PdfPCell(new Phrase("ID", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                            //    cell120933b.Colspan = 1;
-                            //    cell120933b.BorderWidthLeft = 0f;
-                            //    cell120933b.BorderWidthRight = 0.8f;
-                            //    cell120933b.BorderWidthTop = 0.8f;
-                            //    cell120933b.BorderWidthBottom = 0f;
-                            //    cell120933b.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                            //    table.AddCell(cell120933b);
-                            //}
-                            //else if (HSRPStateID.Equals("5") && ddlBothDealerHHT.SelectedItem.Text == "Dealer Data")
-                            //{
-                            //    PdfPCell cell120ab = new PdfPCell(new Phrase("ID", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                            //    cell120ab.Colspan = 1;
-                            //    cell120ab.BorderWidthLeft = 0f;
-                            //    cell120ab.BorderWidthRight = 0.8f;
-                            //    cell120ab.BorderWidthTop = 0.8f;
-                            //    cell120ab.BorderWidthBottom = 0f;
-                            //    cell120ab.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                            //    table.AddCell(cell120ab);
-                            //}
-                            //else
-                            //{
-
                                 PdfPCell cell120933a = new PdfPCell(new Phrase("Owner Name", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
                                 cell120933a.Colspan = 1;
                                 cell120933a.BorderWidthLeft = 0f;
@@ -1006,7 +955,7 @@ namespace HSRP.Master
                                 cell120933a.BorderWidthBottom = 0f;
                                 cell120933a.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                                 table.AddCell(cell120933a);
-                           // }
+                        
                             PdfPCell cell120935a = new PdfPCell(new Phrase("Front Plate Size", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
                             cell120935a.Colspan = 1;
                             cell120935a.BorderWidthLeft = 0f;
@@ -1167,56 +1116,10 @@ namespace HSRP.Master
 
                         cell1222.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                         table.AddCell(cell1222);
-                        //if (HSRPStateID == "2" && ddlBothDealerHHT.SelectedItem.Text == "Dealer Data")
-                        //{
-                        //    PdfPCell cell12000 = new PdfPCell(new Phrase(dt.Rows[i]["ID"].ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                        //    cell12000.Colspan = 1;
-                        //    cell12000.MinimumHeight = 0f;//25
-
-                        //    cell12000.BorderWidthLeft = 0f;
-                        //    cell12000.BorderWidthRight = .8f;
-                        //    cell12000.BorderWidthTop = .5f;
-                        //    cell12000.BorderWidthBottom = .5f;
-
-                        //    cell12000.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                        //    table.AddCell(cell12000);
-                        //}
-                        //else if (HSRPStateID == "4" && ddlBothDealerHHT.SelectedItem.Text == "Dealer Data")
-                        //{
-                        //    PdfPCell cell12000 = new PdfPCell(new Phrase(dt.Rows[i]["ID"].ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                        //    cell12000.Colspan = 1;
-                        //    cell12000.MinimumHeight = 0f;//25
-
-                        //    cell12000.BorderWidthLeft = 0f;
-                        //    cell12000.BorderWidthRight = .8f;
-                        //    cell12000.BorderWidthTop = .5f;
-                        //    cell12000.BorderWidthBottom = .5f;
-
-                        //    cell12000.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                        //    table.AddCell(cell12000);
-                        //}
-                        //else if (HSRPStateID.Equals("5") && ddlBothDealerHHT.SelectedItem.Text == "Dealer Data")
-                        //{
-                        //    PdfPCell cell000 = new PdfPCell(new Phrase(dt.Rows[i]["ID"].ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                        //    cell000.Colspan = 1;
-                        //    cell000.MinimumHeight = 0f;//25
-
-                        //    cell000.BorderWidthLeft = 0f;
-                        //    cell000.BorderWidthRight = .8f;
-                        //    cell000.BorderWidthTop = .5f;
-                        //    cell000.BorderWidthBottom = .5f;
-
-                        //    cell000.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                        //    table.AddCell(cell000);
-                        //}
-                        //else
-                        //{
-                         //   PdfPCell cell1209315 = new PdfPCell(new Phrase(dt.Rows[i]["OwnerName"].ToString() + "/ "  +  dt.Rows[i]["MobileNo"].ToString() , new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
                         PdfPCell cell1209315 = new PdfPCell(new Phrase(dt.Rows[i]["OwnerName"].ToString() , new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
                             
                         cell1209315.Colspan = 1;
-                            cell1209315.MinimumHeight = 0f;//25
-
+                        cell1209315.MinimumHeight = 0f;//25
                             cell1209315.BorderWidthLeft = 0f;
                             cell1209315.BorderWidthRight = .8f;
                             cell1209315.BorderWidthTop = .5f;
@@ -1224,8 +1127,6 @@ namespace HSRP.Master
 
                             cell1209315.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                             table.AddCell(cell1209315);
-
-                       // }
 
 
                         PdfPCell cell1209316 = new PdfPCell(new Phrase(dt.Rows[i]["FrontProductCode"].ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
@@ -1346,7 +1247,7 @@ namespace HSRP.Master
                         cell12241.HorizontalAlignment = 1; //0=Left, 1=Centre, 2=Right
                         table.AddCell(cell12241);
                         document.Add(table);
-                        // document.Add(table1); 
+                       
 
                         document.Close();
 

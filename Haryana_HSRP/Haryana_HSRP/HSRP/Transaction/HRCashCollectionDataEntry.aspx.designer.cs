@@ -256,24 +256,6 @@ namespace HSRP.Transaction {
         protected global::System.Web.UI.WebControls.Label lblAmount;
         
         /// <summary>
-        /// Table3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTable Table3;
-        
-        /// <summary>
-        /// OrderDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ComponentArt.Web.UI.Calendar OrderDate;
-        
-        /// <summary>
         /// btnSave control.
         /// </summary>
         /// <remarks>
@@ -335,14 +317,5 @@ namespace HSRP.Transaction {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.Calendar Calendar1;
-        
-        /// <summary>
-        /// CalendarOrderDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ComponentArt.Web.UI.Calendar CalendarOrderDate;
     }
 }

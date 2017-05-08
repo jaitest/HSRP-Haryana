@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HSRP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HSRP_org_mptransport_oltp_HSRP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://oltp.mptransport.org/TServiceHSRP/HSRP.asmx</Value>
+    </Setting>
+    <Setting Name="HSRP_APWebrefrence_HSRPAuthorizationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://aptransport.in/aprtawebsrv/hsrpauthorizationservice.asmx</Value>
+    </Setting>
+    <Setting Name="HSRP_TGWebrefrence_HSRPAuthorizationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

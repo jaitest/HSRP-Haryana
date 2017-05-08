@@ -192,3 +192,8 @@ D:\Haryna\Haryana all Latest Code 24-4-17\Haryana_24-04-17\DataProvider\bin\Rele
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana_24-04-17\DataProvider\obj\Release\DataProvider.csprojResolveAssemblyReference.cache
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana_24-04-17\DataProvider\obj\Release\DataProvider.dll
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana_24-04-17\DataProvider\obj\Release\DataProvider.pdb
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\bin\Release\DataProvider.dll
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\bin\Release\DataProvider.pdb
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\obj\Release\DataProvider.csprojResolveAssemblyReference.cache
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\obj\Release\DataProvider.dll
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\obj\Release\DataProvider.pdb

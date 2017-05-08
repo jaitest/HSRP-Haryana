@@ -380,10 +380,7 @@ namespace HSRP.BusinessReports
                 
             string state = DropDownListStateName.SelectedValue;
             string hsrprecord_creationdate = string.Empty;
-            if (state == "9" || state == "11")
-            {
-                hsrprecord_creationdate = "01-jan-2001";
-            }
+            
 
             //else if (state == "4")
             //{

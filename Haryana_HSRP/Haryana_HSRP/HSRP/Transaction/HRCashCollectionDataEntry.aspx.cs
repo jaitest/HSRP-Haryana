@@ -111,8 +111,7 @@ namespace HSRP.Transaction
             string MaxDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
 
            
-            //OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
-            //OrderDate.MaxDate = DateTime.Parse(MaxDate);
+            
 
             CalendarDepositDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
             CalendarDepositDate.VisibleDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
@@ -990,7 +989,7 @@ namespace HSRP.Transaction
                
                 else
                 {
-                  //  lblAmount.Text = "0";
+                 
                     lblSucMess.Visible = false;
                     lblErrMess.Visible = true;
                     lblErrMess.Text = "Please Contact With Administrator.";
@@ -998,7 +997,7 @@ namespace HSRP.Transaction
                    
                 }
                                 
-               // decimal vehamount = decimal.Parse(lblAmount.Text.ToString());
+              
                 decimal vehamount = decimal.Parse(lblAmount.Text.ToString());                           
                
                
@@ -1008,8 +1007,7 @@ namespace HSRP.Transaction
                 {
                     DepositAmount = "0";
                 }
-               //decimal  intDepositAmount = decimal.Parse(DepositAmount);
-
+               
                 string sqlq = "select isnull(sum(roundoff_netamount),0) as amount from HSRPRecords where createdby='" + USERID + "' and HSRP_StateID=4 ";
 
                 string collamt = Utils.getScalarValue(sqlq, ConnectionString);
@@ -1017,7 +1015,7 @@ namespace HSRP.Transaction
                 string sqlfixcharge = "select isnull(sum(fixingcharge),0) as fixingcharge from HSRPRecords where createdby='" + USERID + "' and HSRP_StateID=4 ";
 
                 string fixamt = Utils.getScalarValue(sqlfixcharge, ConnectionString);
-               // inttotcoll =  Convert.ToInt32(Math.Round(decimal.Parse(collamt), 0)) +  Convert.ToInt32(Math.Round(decimal.Parse(fixamt), 0));
+             
 
                 inttotcoll = decimal.Parse(collamt)+ decimal.Parse(fixamt);
 
@@ -1031,34 +1029,13 @@ namespace HSRP.Transaction
                {
                    StickerMandatory = "N";
                }
-               if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM")
-               {
-                   lblErrMess.Visible = true;
-                   lblErrMess.Text = "Please Select Regisreation Date.";
-                   return;
-               }
-               else
-               {
-                   string queryrto = "select dealerstartdate  from rtolocation  where rtolocationid='" + dropDownListRTOLocation.SelectedValue.ToString() + "'";
-                   string validRegistrationdate = Utils.getScalarValue(queryrto, ConnectionString);
-
-                   if (validRegistrationdate.ToString() != "")
-                   {
-                       if (Convert.ToDateTime(OrderDate.SelectedDate) > Convert.ToDateTime(validRegistrationdate))
-                       {
-                           lblErrMess.Visible = true;
-                           lblErrMess.Text = "You are not authorized to collect your cash.";
-                           return;
-
-                       }
-                   }
-               }
+              
                               
                string strQuery = "insert into HSRPRecords (hsrprecord_authorizationno,hsrprecord_authorizationdate,SaveMacAddress,DeliveryChallanNo,ISFrontPlateSize,ISRearPlateSize,invoiceno, address1," +
                        " HSRPRecord_CreationDate,HSRP_StateID,RTOLocationID,OwnerName,MobileNo," +
                        "VehicleClass,OrderType,NetAmount,VehicleType,OrderStatus,CashReceiptNo,EmailID,ChassisNo, EngineNo," +
                        "frontplatesize, rearplatesize,CreatedBy,vehicleref,FrontplatePrize,RearPlatePrize,StickerPrize,ScrewPrize,TotalAmount," +
-                       "VAT_Amount,RoundOff_NetAmount,VAT_Percentage,PlateAffixationDate,DateOfInsurance,ReceiptNo,Exshowroomprice,vehicleregno,addrecordby, StickerMandatory,registrationdate ) " +
+                       "VAT_Amount,RoundOff_NetAmount,VAT_Percentage,PlateAffixationDate,DateOfInsurance,ReceiptNo,Exshowroomprice,vehicleregno,addrecordby, StickerMandatory ) " +
                        "values('0',GetDate(),'" + macbase + "','" + DC + "', '" + dt.Rows[0]["frontplateflag"].ToString() + "','" + dt.Rows[0]["rearplateflag"].ToString() + "', '" + Invoice +
                        "','" + txtAddress.Text + "',GetDate(),'" + HSRPStateID + "','" + dropDownListRTOLocation.SelectedValue.ToString() + "','" + txtOwnerName.Text + "','" + txtMobileNo.Text + "','" + ddlVehicleclass.SelectedItem.ToString().ToUpper() +
                        "','NB','" + lblAmount.Text + "','" + ddlVehicletype.SelectedItem.ToString() + "','New Order','" + cashrc +
@@ -1066,7 +1043,7 @@ namespace HSRP.Transaction
                        dt.Rows[0]["frontplateID"].ToString() + "', '" + dt.Rows[0]["RearPlateID"].ToString() + "','" + USERID +
                        "','New','" + dt.Rows[0]["FrontPlateCost"].ToString() + "','" + dt.Rows[0]["rearplatecost"].ToString() + "','" + dt.Rows[0]["stickercost"].ToString() +
                        "','" + dt.Rows[0]["snaplockcost"].ToString() + "','" + dt.Rows[0]["totalamount"].ToString() + "','" + dt.Rows[0]["vatamount"].ToString() + "','" +
-                       Math.Round(decimal.Parse(lblAmount.Text), 0) + "','" + dt.Rows[0]["vatper"].ToString() + "','" + date1 + "','" + DepositDate.SelectedDate + "','','','" + txtRegNumber.Text + "','WebDirect', '" + StickerMandatory + "' ,'" + OrderDate.SelectedDate + "')";
+                       Math.Round(decimal.Parse(lblAmount.Text), 0) + "','" + dt.Rows[0]["vatper"].ToString() + "','" + date1 + "','" + DepositDate.SelectedDate + "','','','" + txtRegNumber.Text.Replace(" ","") + "','WebDirect', '" + StickerMandatory + "' )";
                 int i = Utils.ExecNonQuery(strQuery, ConnectionString);
                 if (i > 0)
                 {
@@ -1105,7 +1082,7 @@ namespace HSRP.Transaction
                         myResponse.Close();
                         System.Threading.Thread.Sleep(350);
 
-                        Utils.ExecNonQuery("insert into HRSMSDetail(RtoLocationID,VehicleRegNo,MobileNo,SentResponseCode,smstext) values('" + RTOLocationID + "','" + txtRegNumber.Text.Trim().ToUpper() + "'," + txtMobileNo.Text.ToString() + ",'" + result + "','" + SMSText + "')", ConnectionString);
+                        Utils.ExecNonQuery("insert into HRSMSDetail(RtoLocationID,VehicleRegNo,MobileNo,SentResponseCode,smstext) values('" + RTOLocationID + "','" + txtRegNumber.Text.Trim().Replace(" ","").ToUpper() + "'," + txtMobileNo.Text.ToString() + ",'" + result + "','" + SMSText + "')", ConnectionString);
                     }
                   
                     Cleardatasave();
@@ -1195,15 +1172,10 @@ namespace HSRP.Transaction
                 //Opens the document:
                 document.Open();
 
-                //Adds content to the document:
-                // document.Add(new Paragraph("Ignition Log Report"));
+                
                 PdfPTable table = new PdfPTable(2);
                 PdfPTable table1 = new PdfPTable(2);
-                //PdfPTable table2 = new PdfPTable(2);
-                //actual width of table in points
-                //table.TotalWidth = 100f;
-
-                //fix the absolute width of the table
+               
 
                 PdfPCell cell312 = new PdfPCell(new Phrase("Original", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
                 cell312.Colspan = 2;
@@ -1211,11 +1183,6 @@ namespace HSRP.Transaction
                 cell312.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                 table1.AddCell(cell312);
 
-                //PdfPCell cell312a = new PdfPCell(new Phrase("Duplicate", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                //cell312a.Colspan = 2;
-                //cell312a.BorderColor = BaseColor.WHITE;
-                //cell312a.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table2.AddCell(cell312a);
 
                 PdfPCell cell12 = new PdfPCell(new Phrase("" + GetAddress.Rows[0]["CompanyName"].ToString(), new iTextSharp.text.Font(bfTimes, 9f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
                 cell12.Colspan = 2;
@@ -1357,26 +1324,7 @@ namespace HSRP.Transaction
                 cell222.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                 table.AddCell(cell222);
 
-                //string getExciseNo = Utils.getScalarValue("select ExciseNo from hsrpstate where HSRP_StateID='" + HSRPStateID + "' ", ConnectionString);
-                //PdfPCell cell221 = new PdfPCell(new Phrase("EXCISE NO. ", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell221.Colspan = 0;
-                //cell221.BorderWidthLeft = 0f;
-                //cell221.BorderWidthRight = 0f;
-                //cell221.BorderWidthTop = 0f;
-                //cell221.BorderWidthBottom = 0f;
-                //cell221.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell221);
-
-                //PdfPCell cell2221 = new PdfPCell(new Phrase(": " + getExciseNo.ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell2221.Colspan = 0;
-
-                //cell2221.BorderWidthLeft = 0f;
-                //cell2221.BorderWidthRight = 0f;
-                //cell2221.BorderWidthTop = 0f;
-                //cell2221.BorderWidthBottom = 0f;
-                //cell2221.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell2221);
-
+               
 
 
                 PdfPCell cell5 = new PdfPCell(new Phrase("AUTH NO.", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
@@ -1409,7 +1357,7 @@ namespace HSRP.Transaction
                 cell25.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                 table.AddCell(cell25);
 
-                //DateTime AuthDate = Convert.ToDateTime(dataSetFillHSRPDeliveryChallan.Rows[0]["HSRPRecord_AuthorizationDate"].ToString());
+               
                 string auths = string.Empty;
                 auths = dataSetFillHSRPDeliveryChallan.Rows[0]["HSRPRecord_AuthorizationDate"].ToString();
                 if (auths == "")
@@ -1516,26 +1464,6 @@ namespace HSRP.Transaction
 
 
 
-                //PdfPCell cell99 = new PdfPCell(new Phrase(" Vehicle Reg NO.", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell9.Colspan = 0;
-                //cell9.BorderWidthLeft = 0f;
-                //cell9.BorderWidthRight = 0f;
-                //cell9.BorderWidthTop = 0f;
-                //cell9.BorderWidthBottom = 0f;
-                //cell9.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell99);
-
-                //PdfPCell cell959 = new PdfPCell(new Phrase(": " + dataSetFillHSRPDeliveryChallan.Rows[0]["VehicleRegNo"].ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell95.Colspan = 0;
-                //cell95.BorderWidthLeft = 0f;
-                //cell95.BorderWidthRight = 0f;
-                //cell95.BorderWidthTop = 0f;
-                //cell95.BorderWidthBottom = 0f;
-                //cell95.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell959);
-
-
-
                 PdfPCell cell10 = new PdfPCell(new Phrase("VEHICLE MODEL", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
                 cell10.Colspan = 0;
                 cell10.BorderWidthLeft = 0f;
@@ -1636,7 +1564,7 @@ namespace HSRP.Transaction
                 celldupRouCash402.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                 table.AddCell(celldupRouCash402);
 
-                //string Message = "\u2022" + " Vehicle Owner is required to visit along with vehicle for the affixation of HSRP, on the fourth working day from the date of  issuance of cash receipt.";
+               
                 string Message = "\u2022" + " Vehicle Owner is requested to please check the Correctness of the cash slip.";
 
                 PdfPCell cell64 = new PdfPCell(new Phrase(Message, new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
@@ -1669,57 +1597,7 @@ namespace HSRP.Transaction
                 cell63.HorizontalAlignment = 2; //0=Left, 1=Centre, 2=Right
                 table.AddCell(cell63);
 
-                //PdfPCell cellsp4 = new PdfPCell(new Phrase(" ", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cellsp4.Colspan = 2;
-                //cellsp4.BorderWidthLeft = 0f;
-                //cellsp4.BorderWidthRight = 0f;
-                //cellsp4.BorderWidthTop = 0f;
-                //cellsp4.BorderWidthBottom = 0f;
-                //cellsp4.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cellsp4);
-
-                //PdfPCell cellsp5 = new PdfPCell(new Phrase(" ", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cellsp5.Colspan = 2;
-                //cellsp5.BorderWidthLeft = 0f;
-                //cellsp5.BorderWidthRight = 0f;
-                //cellsp5.BorderWidthTop = 0f;
-                //cellsp5.BorderWidthBottom = 0f;
-                //cellsp5.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cellsp5);
-                //PdfPCell cell163 = new PdfPCell(new Phrase("--Affixation--", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell163.Colspan = 4;
-                //cell163.BorderWidthLeft = 0f;
-                //cell163.BorderWidthRight = 0f;
-                //cell163.BorderWidthTop = 0f;
-                //cell163.BorderWidthBottom = 0f;
-                //cell163.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell163);
-
-                //PdfPCell cell13 = new PdfPCell(new Phrase("Date : " + date1 + " dd/mm/yyyy", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                //cell13.Colspan = 4;
-                //cell13.BorderWidthLeft = 0f;
-                //cell13.BorderWidthRight = 0f;
-                //cell13.BorderWidthTop = 0f;
-                //cell13.BorderWidthBottom = 0f;
-                //cell13.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell13);
-                //PdfPCell cell1213 = new PdfPCell(new Phrase("Time : 2:00 PM - 6:00 PM", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                //cell1213.Colspan = 4;
-                //cell1213.BorderWidthLeft = 0f;
-                //cell1213.BorderWidthRight = 0f;
-                //cell1213.BorderWidthTop = 0f;
-                //cell1213.BorderWidthBottom = 0f;
-                //cell1213.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell1213);
-                //PdfPCell cell123 = new PdfPCell(new Phrase("Place : " + AffAddress, new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
-                //cell123.Colspan = 4;
-                //cell123.BorderWidthLeft = 0f;
-                //cell123.BorderWidthRight = 0f;
-                //cell123.BorderWidthTop = 0f;
-                //cell123.BorderWidthBottom = 0f;
-                //cell123.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell123);                
-
+               
                 PdfPCell cell62 = new PdfPCell(new Phrase("(AUTH. SIGH.)", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
                 cell62.Colspan = 2;
                 cell62.BorderWidthLeft = 0f;
@@ -1731,20 +1609,6 @@ namespace HSRP.Transaction
 
 
 
-
-
-
-                //////////////////////////////////////Duplicate CashRecipt/////////////////////////////////////////////////////////////////////////////////////////////
-
-
-                //PdfPCell cell2195 = new PdfPCell(new Phrase("---------------------------------------------", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell2195.Colspan = 2;
-                //cell2195.BorderWidthLeft = 0f;
-                //cell2195.BorderWidthRight = 0f;
-                //cell2195.BorderWidthTop = 0f;
-                //cell2195.BorderWidthBottom = 0f;
-                //cell2195.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell2195);
 
                 PdfPCell cellsp1 = new PdfPCell(new Phrase(" ", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
                 cellsp1.Colspan = 2;
@@ -1759,8 +1623,7 @@ namespace HSRP.Transaction
                 document.Add(table1);
                 document.Add(table);
 
-                //document.Add(table2);
-                //document.Add(table);
+                
 
                 document.Close();
                 HttpContext context = HttpContext.Current;
@@ -1775,14 +1638,7 @@ namespace HSRP.Transaction
         {
             UpdatePanel2.Update();
             ddlVehicleclass.ClearSelection();
-            //if (ddlVehicletype.SelectedItem.ToString() == "-Select Vehicle Type-" || ddlVehicleclass.SelectedItem.ToString() == "-Select Vehicle Class-")
-            //{
-            //    return;
-            //}
-            //else
-            //{
-            //    GetAmount();
-            //}
+           
         }
 
         protected void ddlVehicleclass_SelectedIndexChanged(object sender, EventArgs e)
@@ -1815,10 +1671,7 @@ namespace HSRP.Transaction
 
         protected void btngo_Click(object sender, EventArgs e)
         {
-            string TodayDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
-            string MaxDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
-            OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
-            OrderDate.MaxDate = DateTime.Parse(MaxDate);
+           
             lblErrMess.Text = string.Empty;
             string strAuthno = string.Empty;
             string StrRtoLocationCode = string.Empty;
@@ -1848,13 +1701,13 @@ namespace HSRP.Transaction
 
             try
             {
-                if (string.IsNullOrEmpty(txtRegNumber.Text.Trim()))
+                if (string.IsNullOrEmpty(txtRegNumber.Text.Trim().Replace(" ","")))
                 {
                     lblErrMess.Visible = true;
                     lblErrMess.Text = "Please Enter Vehicle Registration No.";
                     return;
                 }
-                string strVehicleNo = txtRegNumber.Text.Trim();
+                string strVehicleNo = txtRegNumber.Text.Replace(" ", "");
                 if (strVehicleNo.Length < 4)
                 {
                     lblErrMess.Visible = true;
@@ -1895,7 +1748,7 @@ namespace HSRP.Transaction
                 if (dtbl.Rows.Count > 0)
                 {
 
-                    string VehicleNo = Convert.ToString(txtRegNumber.Text).Trim();
+                    string VehicleNo = Convert.ToString(txtRegNumber.Text).Replace(" ", "");
 
                     for (int i = 0; i < dtbl.Rows.Count; i++)
                     {
@@ -1913,14 +1766,14 @@ namespace HSRP.Transaction
 
                             
               //  string ACno;
-                if (txtRegNumber.Text == "")
+                if (txtRegNumber.Text.Replace(" ", "") == "")
                 {
                     lblErrMess.Visible = true;
                     lblErrMess.Text = "Required Registration No..";
                     return;
                 }
-             
-                    String SqlQuery1 = "SELECT top(1) VehicleClass FROM HSRPRecordsStaggingArea where VehicleRegNo='" + txtRegNumber.Text.Trim() + "' and HSRP_StateID='" + HSRPStateID.Trim() + "' order by  HSRPRecord_CreationDate desc";
+
+                String SqlQuery1 = "SELECT top(1) VehicleClass FROM HSRPRecordsStaggingArea where VehicleRegNo='" + txtRegNumber.Text.Replace(" ", "") + "' and HSRP_StateID='" + HSRPStateID.Trim() + "' order by  HSRPRecord_CreationDate desc";
                     DataTable dt1 = Utils.GetDataTable(SqlQuery1, ConnectionString);
                     string result = txtRegNumber.Text.Substring(0, 4);
                     String SqlQuery2 = "Select * from HR_Assignment_Days_RTO where rtocode='" + result + "'";
@@ -1978,10 +1831,10 @@ namespace HSRP.Transaction
                        txtOwnerName.Text = StrOwnerName;
                        txtAddress.Text = StrOwnerAddress;
                        ddlVehicletype.Text = StrVehicleType;
-                       // lblTransactionType.Text = StrTransactonType;
+                     
                        txtMobileNo.Text = StrMobileNo;
                        ddlVehicleclass.Text = StrVehicleClassType;
-                       //// lblMfgName.Text = StrManufacturarName;
+                      
                        txtmodel.Text = StrModelName;
                        txtRegNumber.Text = StrRegistrationNo;
                        txtEngineNo.Text = StrEngineNo;
@@ -2007,10 +1860,7 @@ namespace HSRP.Transaction
                            txtAddress.ReadOnly = true;
                        }
 
-                       //if (!string.IsNullOrEmpty(ddlVehicletype.Text.Trim()))
-                       //{
-                       //    ddlVehicletype.ReadOnly = true;
-                       //}
+                      
 
                        if (!string.IsNullOrEmpty(txtEngineNo.Text.Trim()))
                        {
@@ -2094,11 +1944,7 @@ namespace HSRP.Transaction
 
         }
 
-        protected void btnupload_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("UploadDealerData.aspx");
-          
-        }
+       
 
      
     }

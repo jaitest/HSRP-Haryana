@@ -661,11 +661,7 @@ namespace HSRP.BusinessReports
             string state = DropDownListStateName.SelectedValue;
             string hsrprecord_creationdate = string.Empty;
 
-            if (state == "9" || state == "11")
-            {
-                hsrprecord_creationdate = "01-jan-2001";
-
-            }
+          
             if (state == "4")
             {
                 hsrprecord_creationdate = "01-oct-2015";
@@ -1374,10 +1370,7 @@ namespace HSRP.BusinessReports
                 {
                     hsrprecord_creationdate = "01-dec-2014";
                 }
-                if (state == "5")
-                {
-                    hsrprecord_creationdate = "09-sep-2014";
-                }
+                
                 if (e.CommandName == "Day5orMore")
                 {
 
@@ -1433,27 +1426,7 @@ namespace HSRP.BusinessReports
             }
             string strVehicleType = string.Empty;
 
-            //OrderDatefrom.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
-            ////string selectdate = OrderDatefrom.SelectedDate.AddDays(-4.00).ToString();
-            //String[] StringAuthDate = OrderDatefrom.SelectedDate.ToString().Split('/');
-            //String ReportDateEnd = StringAuthDate[0] + "/" + StringAuthDate[1] + "/" + StringAuthDate[2].Split(' ')[0];
-
-
-
-
-
-
-            //strSQL.Append("Select a.hsrprecordID,a.roundoff_netamount,a.OrderStatus, a.HSRPRecord_AuthorizationNo,convert(varchar, OrderClosedDate, 105) as OrderClosedDate, CONVERT(varchar(20),orderdate ,103) AS OrderBookDate,CONVERT(varchar(20),OrderEmbossingDate ,103) AS OrderEmbossingDate, a.dealerid as ID, left(a.OwnerName,19) as OwnerName, a.MobileNo,(select  AffixCenterDesc from AffixationCenters where Affix_id= a.affix_id ) as AffixCenterDesc, CONVERT(varchar(20), HSRPRecord_AuthorizationDate,103) AS OrderDateAuth, a.OrderDate, a.EngineNo, a.ChassisNo, (select rtolocationname from rtolocation where  rtolocationid =a.rtolocationid) as RTOLocationName,  a.VehicleRegNo,  case a.VehicleType when 'MCV/HCV/TRAILERS' then 'Trailers' when 'THREE WHEELER' then 'T.Whe.' when 'SCOOTER' then 'SCOO' when 'TRACTOR' then 'TRAC' when 'LMV(CLASS)' then 'L.CL' when 'LMV' then 'LMV'  when 'MOTOR CYCLE' then 'MO.C' end as VehicleType, case a.VehicleClass when 'Transport' then 'T' else 'N.T.' end as VehicleClass,  a.HSRP_StateID, (select HSRPStateName from hsrpstate where HSRP_StateID=a.HSRP_StateID)  as HSRPStateName, (select replace(ProductCode,'MM-','') from Product where productid= a.RearPlateSize) AS RearProductCode,(select replace(ProductCode,'MM-','') from Product where productid= a.FrontPlateSize) AS FrontProductCode,a.FrontPlateSize, a.HSRP_Front_LaserCode, a.HSRP_Rear_LaserCode, a.RearPlateSize FROM HSRPRecords AS a   where  a.hsrp_StateID=11 and a.RTOLocationID='" + RTOCode + "' and convert(date,erpassigndate) ='" + OrderDatefrom.SelectedDate.ToString() + "' and isnull(newpdfrunningno,'')='' and ([HSRP_Front_LaserCode] is not null or [HSRP_Rear_LaserCode] is not null)  and ([HSRP_Front_LaserCode] !='' or [HSRP_Rear_LaserCode] !='') ");
-
-
-            //strSQL.Append("select convert(date,erpassigndate) as erpassigndate,embcentername,rtolocationname,vehicleregno,hsrp_front_lasercode, hsrp_rear_lasercode from hsrprecords a, rtolocation b where a.rtolocationid=b.RTOLocationID and b.HSRP_StateID='" + state + "' and OrderStatus in ('New Order') and convert(date,erpassigndate) <='" + ReportDate2 + "' and embcentername='" + embcentername + "' and isnull(orderembossingdate,'')='' and isnull(vehicleregno,'')!=''  and isnull(hsrp_front_lasercode,'')!='' and  isnull(hsrp_front_lasercode,'')!='' order by 1,2,3");
-
-
-            // strSQL.Append("Select a.hsrprecordID,a.roundoff_netamount,a.OrderStatus, a.HSRPRecord_AuthorizationNo,convert(varchar, OrderClosedDate, 105) as OrderClosedDate, CONVERT(varchar(20),orderdate ,103) AS OrderBookDate,CONVERT(varchar(20),OrderEmbossingDate ,103) AS OrderEmbossingDate, a.dealerid as ID, left(a.OwnerName,19) as OwnerName, a.MobileNo,(select  AffixCenterDesc from AffixationCenters where Affix_id= a.affix_id ) as AffixCenterDesc, CONVERT(varchar(20), HSRPRecord_AuthorizationDate,103) AS OrderDateAuth, a.OrderDate, a.EngineNo, a.ChassisNo, (select rtolocationname from rtolocation where  rtolocationid =a.rtolocationid) as RTOLocationName,  a.VehicleRegNo,  case a.VehicleType when 'MCV/HCV/TRAILERS' then 'Trailers' when 'THREE WHEELER' then 'T.Whe.' when 'SCOOTER' then 'SCOO' when 'TRACTOR' then 'TRAC' when 'LMV(CLASS)' then 'L.CL' when 'LMV' then 'LMV'  when 'MOTOR CYCLE' then 'MO.C' end as VehicleType, case a.VehicleClass when 'Transport' then 'T' else 'N.T.' end as VehicleClass,  a.HSRP_StateID, (select HSRPStateName from hsrpstate where HSRP_StateID=a.HSRP_StateID)  as HSRPStateName, (select replace(ProductCode,'MM-','') from Product where productid= a.RearPlateSize) AS RearProductCode,(select replace(ProductCode,'MM-','') from Product where productid= a.FrontPlateSize) AS FrontProductCode,a.FrontPlateSize, a.HSRP_Front_LaserCode, a.HSRP_Rear_LaserCode, a.RearPlateSize FROM HSRPRecords AS a   where  a.hsrp_StateID='" + strStateID + "' and a.RTOLocationID='" + RTOLocationID + "' and convert(date,hsrprecord_creationdate) between '2014-12-31 00:00:00' and '2015-02-19 23:59:59' and orderstatus='New Order' and ([HSRP_Front_LaserCode] is not null or [HSRP_Rear_LaserCode] is not null)   and ([HSRP_Front_LaserCode] !='' or [HSRP_Rear_LaserCode] !='') ");
-
-            // strSQL.Append("select convert(date,erpassigndate) as erpassigndate,embcentername,rtolocationname,vehicleregno,hsrp_front_lasercode, hsrp_rear_lasercode from hsrprecords a, rtolocation b where a.rtolocationid=b.RTOLocationID and b.HSRP_StateID='" + state + "' and OrderStatus in ('New Order') and embcentername='" + embcentername + "' and isnull(orderembossingdate,'')='' and isnull(vehicleregno,'')!='' and isnull(hsrp_front_lasercode,'')!='' and  isnull(HSRP_Rear_LaserCode,'')!='' and isnull(erpassigndate,'')!='' and hsrprecordid not in (select hsrprecordid from hsrprecords a, rtolocation b where a.rtolocationid=b.rtolocationid and a.HSRP_StateID='" + state + "' and convert(date,erpassigndate,103)>'" + ReportDate2 + "' and OrderStatus='New Order' and embcentername='" + embcentername + "')");
-
-
+         
 
 
             DataTable dt = Utils.GetDataTable(strSQL.ToString(), CnnString1);
@@ -1643,8 +1616,7 @@ namespace HSRP.BusinessReports
                         row.Cells.Add(new WorksheetCell(dtrows["erpassigndate"].ToString(), DataType.String, "HeaderStyle1"));
                         row.Cells.Add(new WorksheetCell(dtrows["embcentername"].ToString(), DataType.String, "HeaderStyle1"));
                         row.Cells.Add(new WorksheetCell(dtrows["rtolocationname"].ToString(), DataType.String, "HeaderStyle1"));
-                        // row.Cells.Add(new WorksheetCell(dtrows["ManufacturerName"].ToString(), DataType.String, "HeaderStyle1"));
-
+                       
                         row.Cells.Add(new WorksheetCell(dtrows["vehicleregno"].ToString(), DataType.String, "HeaderStyle1"));
                         row.Cells.Add(new WorksheetCell(dtrows["hsrp_front_lasercode"].ToString(), DataType.String, "HeaderStyle1"));
                         row.Cells.Add(new WorksheetCell(dtrows["hsrp_rear_lasercode"].ToString(), DataType.String, "HeaderStyle1"));
@@ -1727,11 +1699,7 @@ namespace HSRP.BusinessReports
             string state = DropDownListStateName.SelectedValue;
 
             string hsrprecord_creationdate = string.Empty;
-            if (state == "9" || state == "11")
-            {
-                hsrprecord_creationdate = "01-jan-2001";
-
-            }
+           
             if (state == "4")
             {
                 hsrprecord_creationdate = "01-oct-2015";
@@ -1748,10 +1716,7 @@ namespace HSRP.BusinessReports
             {
                 hsrprecord_creationdate = "01-dec-2014";
             }
-            if (state == "5")
-            {
-                hsrprecord_creationdate = "09-sep-2014";
-            }
+           
 
             if (e.CommandName == "OpeningWithRegNoA")
             {
@@ -1760,7 +1725,7 @@ namespace HSRP.BusinessReports
                 int RowIndex = oItem.RowIndex;
                 Label lblembnameEC = (Label)grdPvA.Rows[RowIndex].FindControl("lblembnameEC");
                 embcentername = lblembnameEC.Text.ToString();
-                //strSQL.Append(" select convert(varchar(15),erpassigndate,103) as erpassigndate,embcentername,rtolocationname,vehicleregno,hsrp_front_lasercode, hsrp_rear_lasercode,OrderStatus,convert(varchar(15),aptgvehrecdate,103) aptgvehrecdate from hsrprecords a, rtolocation b  where a.rtolocationid=b.RTOLocationID  and b.HSRP_StateID='" + state + "' and embcentername='" + embcentername + "' and convert(date,erpassigndate)<=dateadd(day,-4,'" + ReportDate2 + "') and (convert(date,orderembossingdate)>'" + ReportDate2 + "' or isnull(orderembossingdate,'')='') and (isnull(HSRP_Front_LaserCode,'')!='' or  isnull(HSRP_Rear_LaserCode,'')!='') order by 1");
+               
                 strSQL.Append(" select isnull(convert(varchar(15),aptgvehrecdate,103),convert(varchar(15),OrderDate,103)) aptgvehrecdate,convert(varchar(15),erpassigndate,103) as erpassigndate,embcentername,rtolocationname,vehicleregno,hsrp_front_lasercode, hsrp_rear_lasercode,OrderStatus,challanno,challandate,RejectFlag,isnull(NewPdfRunningNo,PdfRunningNo) as NewPdfRunningNo,PdfDownloadDate from hsrprecords a, rtolocation b  where a.rtolocationid=b.RTOLocationID  and b.HSRP_StateID='" + state + "' and embcentername='" + embcentername + "'and (convert(date,HSRPRecord_CreationDate,103)<= dateadd(day,-1,'" + ReportDate2 + "') and  hsrprecord_creationdate >'" + hsrprecord_creationdate + "' and (convert(date,orderembossingdate,103)>'" + ReportDate2 + "'  or isnull(orderembossingdate,'')='')) and isnull(vehicleregno,'')!='' ");
 
             }
@@ -1775,15 +1740,7 @@ namespace HSRP.BusinessReports
                 embcentername = embcenter.Text.ToString();
                 strSQL.Append(" select isnull(convert(varchar(15),aptgvehrecdate,103),convert(varchar(15),OrderDate,103)) aptgvehrecdate,convert(varchar(15),erpassigndate,103) as erpassigndate,embcentername,rtolocationname,vehicleregno,hsrp_front_lasercode, hsrp_rear_lasercode,OrderStatus,challanno,challandate,RejectFlag,isnull(NewPdfRunningNo,PdfRunningNo) as NewPdfRunningNo,PdfDownloadDate from hsrprecords a, rtolocation b  where a.rtolocationid=b.RTOLocationID  and b.HSRP_StateID='" + state + "' and embcentername='" + embcentername + "' and convert(date,HSRPRecord_CreationDate,103)<= dateadd(day,-1,'" + ReportDate2 + "') and hsrprecord_creationdate >'" + hsrprecord_creationdate + "' and (isnull(vehicleregno,'')='')  ");
             }
-            //if (e.CommandName == "PIPTotal")
-            //{
-
-            //    GridViewRow oItem = (GridViewRow)((LinkButton)e.CommandSource).NamingContainer;
-            //    int RowIndex = oItem.RowIndex;
-            //    Label lblembnameEC = (Label)grdPvA.Rows[RowIndex].FindControl("lblembnameEC");
-            //    embcentername = lblembnameEC.Text.ToString();
-            //    strSQL.Append(" select isnull(convert(varchar(15),aptgvehrecdate,103),convert(varchar(15),OrderDate,103)) aptgvehrecdate,convert(varchar(15),erpassigndate,103) as erpassigndate,embcentername,rtolocationname,vehicleregno,hsrp_front_lasercode, hsrp_rear_lasercode,OrderStatus,challanno,challandate,RejectFlag,isnull(NewPdfRunningNo,PdfRunningNo) as NewPdfRunningNo,PdfDownloadDate from hsrprecords a, rtolocation b  where a.rtolocationid=b.RTOLocationID  and b.HSRP_StateID='" + state + "' and embcentername='" + embcentername + "' and (convert(date,HSRPRecord_CreationDate,103)<= dateadd(day,-1,@reportDate) and  hsrprecord_creationdate >@fromdate and (convert(date,orderembossingdate,103)>@reportDate  or isnull(orderembossingdate,'')='')) and isnull(vehicleregno,'')!='' ");
-            //}
+           
             if (e.CommandName == "TodayOrderswithRegNoC")
             {
 
@@ -1805,17 +1762,6 @@ namespace HSRP.BusinessReports
 
             }
 
-            //if (e.CommandName == "TodayOrders")
-            //{
-
-            //    GridViewRow oItem = (GridViewRow)((LinkButton)e.CommandSource).NamingContainer;
-            //    int RowIndex = oItem.RowIndex;
-            //    Label lblembnameEC = (Label)grdPvA.Rows[RowIndex].FindControl("lblembnameEC");
-            //    embcentername = lblembnameEC.Text.ToString();
-            //    strSQL.Append(" select isnull(convert(varchar(15),aptgvehrecdate,103),convert(varchar(15),OrderDate,103)) aptgvehrecdate,convert(varchar(15),erpassigndate,103) as erpassigndate,embcentername,rtolocationname,vehicleregno,hsrp_front_lasercode, hsrp_rear_lasercode,OrderStatus,challanno,challandate,RejectFlag,isnull(NewPdfRunningNo,PdfRunningNo) as NewPdfRunningNo,PdfDownloadDate from hsrprecords a, rtolocation b  where a.rtolocationid=b.RTOLocationID  and b.HSRP_StateID='" + state + "' and embcentername='" + embcentername + "' and convert(date,aptgvehrecdate)=dateadd(day,-3,'" + ReportDate2 + "') and (convert(date,orderembossingdate)>'" + ReportDate2 + "' or isnull(orderembossingdate,'')='')  order by 1");
-
-
-            //}
 
             string strVehicleType = string.Empty;
 

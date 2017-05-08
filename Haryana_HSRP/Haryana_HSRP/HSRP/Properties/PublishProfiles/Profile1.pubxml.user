@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile>2015-05-09T11:05:28.0000000+05:30</TimeStampOfAssociatedLegacyPublishXmlFile>
-    <_PublishTargetUrl>C:\deploy\HSRP-28-April-2017</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\deploy\HSRP-06-May-2017</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="APReports/AffixationSummaryForAP.aspx">
@@ -67,19 +67,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/25/2011 13:16:50</publishTime>
     </File>
     <File Include="bin/DataProvider.dll">
-      <publishTime>04/28/2017 13:12:38</publishTime>
+      <publishTime>05/06/2017 11:11:31</publishTime>
     </File>
     <File Include="bin/Excel.dll">
       <publishTime>01/17/2013 18:40:30</publishTime>
     </File>
     <File Include="bin/HSRP.dll">
-      <publishTime>04/28/2017 13:13:00</publishTime>
+      <publishTime>05/06/2017 11:11:39</publishTime>
     </File>
     <File Include="bin/HSRP.dll.config">
-      <publishTime>04/28/2017 11:06:33</publishTime>
+      <publishTime>05/05/2017 16:47:36</publishTime>
     </File>
     <File Include="bin/HSRP.XmlSerializers.dll">
-      <publishTime>04/28/2017 13:13:02</publishTime>
+      <publishTime>05/06/2017 11:11:40</publishTime>
     </File>
     <File Include="bin/ICSharpCode.SharpZipLib.dll">
       <publishTime>01/10/2013 16:59:48</publishTime>
@@ -2149,7 +2149,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/28/2014 12:05:52</publishTime>
     </File>
     <File Include="Report/ZonewiseReport.aspx">
-      <publishTime>04/28/2017 12:43:35</publishTime>
+      <publishTime>04/29/2017 09:46:30</publishTime>
     </File>
     <File Include="Scripts/date.js">
       <publishTime>06/21/2012 21:29:06</publishTime>
@@ -2338,7 +2338,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/29/2016 16:15:36</publishTime>
     </File>
     <File Include="Transaction/BankTransactionDealer.aspx">
-      <publishTime>06/06/2016 12:48:40</publishTime>
+      <publishTime>05/05/2017 16:44:24</publishTime>
     </File>
     <File Include="Transaction/BankTransactionDealerwise.aspx">
       <publishTime>04/11/2017 14:01:38</publishTime>
@@ -2500,16 +2500,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/17/2017 18:14:50</publishTime>
     </File>
     <File Include="Transaction/HRCashCollection.aspx">
-      <publishTime>04/26/2017 11:42:47</publishTime>
+      <publishTime>05/06/2017 10:34:25</publishTime>
     </File>
     <File Include="Transaction/HRCashCollectionDataEntry.aspx">
-      <publishTime>04/28/2017 10:57:33</publishTime>
+      <publishTime>05/05/2017 14:19:50</publishTime>
     </File>
     <File Include="Transaction/HRCashCollectionOld.aspx">
       <publishTime>04/07/2016 18:12:38</publishTime>
     </File>
     <File Include="Transaction/HRCashCollection_V4.aspx">
-      <publishTime>04/27/2017 11:54:30</publishTime>
+      <publishTime>05/05/2017 18:35:05</publishTime>
     </File>
     <File Include="Transaction/HRCashRecept.aspx">
       <publishTime>03/08/2017 11:20:00</publishTime>
@@ -2917,7 +2917,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/28/2016 20:44:06</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/28/2017 13:13:46</publishTime>
+      <publishTime>05/06/2017 10:34:46</publishTime>
     </File>
     <File Include="windowfiles/bird.jpg">
       <publishTime>06/26/2012 17:21:50</publishTime>

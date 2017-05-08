@@ -10,6 +10,8 @@
     <script src="../Scripts/jquery.min.js" type="text/javascript"></script>
     <script src="../javascript/bootstrap.min.js" type="text/javascript"></script>
     <script src="../javascript/bootbox.min.js" type="text/javascript"></script>  
+   
+
     
     <script type="text/javascript">
        
@@ -137,6 +139,7 @@
         }
 
     </script>
+
     
 <marquee class="mar1" direction="left" >Please Ensure Customer Data On Screen Matches With Authorization Slip Before Save. Penalty Will Be Imposed On Generation Of Wrong Cash Receipt.</marquee>
     
@@ -221,10 +224,10 @@
             <asp:ListItem>NON-TRANSPORT</asp:ListItem>
            </asp:DropDownList>
         </td>
-        <%--<td><asp:Label ID="lblVehicleClassType" runat="server" Text=""></asp:Label></td>--%>
+        
         <td class="form_text"> Mobile No
           *</td>
-         <%-- ^[0-9]{10}$--%>
+       
         <td><asp:TextBox ID="txtMobileno"  runat="server" CssClass="text_box" MaxLength="10" 
                     ValidationGroup="Mobile" ></asp:TextBox>
           <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
@@ -287,13 +290,7 @@
         <td><asp:TextBox ID="remarks" runat="server" Height="66px" TextMode="MultiLine" Width="241px"></asp:TextBox></td>
 
           <td colspan="2"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<asp:Label ID="lblSucMess" runat="server" Font-Size="18px" ForeColor="Blue"></asp:Label>   <asp:Label ID="lblErrMess" runat="server" Font-Size="18px" ForeColor="Red"></asp:Label></td>
-        <%-- <td>
-            Affixation Center Name :<span style="color:Red">*</span>
-            </td>--%>
-        <%-- <asp:DropDownList ID="ddlaffixation" runat="server" Height="25px" 
-                                     Width="187px" DataTextField="AffixCenterDesc" 
-                                    DataValueField="Rto_Id" Visible="False">
-                                </asp:DropDownList>--%>
+       
       </tr>
       <tr>
         <td><a class="alert1" id="save1">Confirm</a>   <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click"  BackColor="Orange" Width="57px" ValidationGroup="Mobile"    /></td>
@@ -302,14 +299,14 @@
          <td></td>
       </tr>
 
-     <ComponentArt:Calendar runat="server" ID="CalendarOrderDate" AllowMultipleSelection="false"
+     <ComponentArt:Calendar runat="server" ID="CalendarOrderDate" AllowMultipleSelection="false" 
                                                         AllowWeekSelection="false" AllowMonthSelection="false" ControlType="Calendar"
                                                         PopUp="Custom" PopUpExpandControlId="calendar_from_button" CalendarTitleCssClass="title"
                                                         DayHoverCssClass="dayhover" DisabledDayCssClass="disabledday" DisabledDayHoverCssClass="disabledday"
                                                         OtherMonthDayCssClass="othermonthday" DayHeaderCssClass="dayheader" DayCssClass="day"
                                                         SelectedDayCssClass="selectedday" CalendarCssClass="calendar" NextPrevCssClass="nextprev"
                                                         MonthCssClass="month" SwapSlide="Linear" SwapDuration="300" DayNameFormat="FirstTwoLetters"
-                                                        ImagesBaseUrl="../../images" PrevImageUrl="cal_prevMonth.gif" NextImageUrl="cal_nextMonth.gif">
+                                                        ImagesBaseUrl="../images" PrevImageUrl="cal_prevMonth.gif" NextImageUrl="cal_nextMonth.gif">
                                                         <ClientEvents>
                                                             <SelectionChanged EventHandler="OrderDate_OnChange" />
                                                         </ClientEvents>
@@ -333,7 +330,8 @@
         <td></td>
         <td></td>
       </tr>
-    </table></td>
+    </table> 
+          </td>
     <td valign="top"><table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td colspan="2" nowrap="nowrap"><strong>Today Summary:</strong></td>

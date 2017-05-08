@@ -83,8 +83,7 @@
                 return false;
             }
             if (invalidChar11(document.getElementById("textBoxAddress"))) {
-                alert("Please provide valid address.");
-                //jAlert("Please Provide Valid Vehicle Chassis No.", "Order Form : Requirement");
+                alert("Please provide valid address.");               
                 document.getElementById("textBoxAddress").focus();
                 return false;
             }
@@ -94,22 +93,15 @@
                 return false;
             }
             if (invalidChar(document.getElementById("textBoxCity"))) {
-                alert("Please provide valid city name.");
-                //jAlert("Please Provide Valid Vehicle Chassis No.", "Order Form : Requirement");
+                alert("Please provide valid city name.");                
                 document.getElementById("textBoxCity").focus();
                 return false;
             }
 
-            <%--if (document.getElementById("<%=textBoxDealerArea.ClientID%>").value == "") {
-                alert("Please Provide Dealer Area.");
-                document.getElementById("<%=textBoxDealerArea.ClientID%>").focus();
-                return false;
-            }--%>
-
+           
 
             if (invalidChar(document.getElementById("textBoxDealerArea"))) {
-                alert("Please provide valid dealer area.");
-                //jAlert("Please Provide Valid Vehicle Chassis No.", "Order Form : Requirement");
+                alert("Please provide valid dealer area.");              
                 document.getElementById("textBoxDealerArea").focus();
                 return false;
             }
@@ -294,13 +286,7 @@
                                                         </td>
                                                         <td class="style8">&nbsp;
                                                         </td>
-                                                        <%--<td class="style5" nowrap="nowrap">
-                                                            Area Of Dealer: <span class="alert">* </span>
-                                                        </td>
-                                                        <td>
-                                                            <asp:TextBox class="form_textbox12" MaxLength="100" ID="textBoxDealerArea" runat="server"
-                                                                TabIndex="8"></asp:TextBox><br />
-                                                        </td>--%>
+                                                        
                                                     </tr>
                                                     <tr>
                                                         <td colspan="3">
@@ -309,10 +295,6 @@
                                                                 OnCheckedChanged="radioButtonShowRoom_CheckedChanged" Visible="false" AutoPostBack="true" />
 
 
-                                                            <%--    <asp:RadioButton ID="radioButtonShowRoom" runat="server" TabIndex="12" GroupName="kk"
-                                                                Text="Fixation At Dealer ShowRoom : " TextAlign="Left" /><br />
-                                                            <asp:RadioButton ID="radioButtonCenter" runat="server" GroupName="kk" TabIndex="13"
-                                                                Text="Fixation At Our Center : " TextAlign="Left" />--%>
                                                         </td>
                                                         <td colspan="2">
                                                             <asp:CheckBox ID="radioButtonCenter" runat="server"
@@ -563,7 +545,7 @@
                                                            
                                                             &nbsp;
                                                          
-                                                            <asp:Button ID="buttonSave" runat="server" TabIndex="16" class="button" Text="Save"   
+                                                            <asp:Button ID="buttonSave" runat="server" TabIndex="16" class="button" Text="Save"
                                                                Visible="false" OnClick="buttonUpdate_Click" />&nbsp;
                                                            
                                                             &nbsp;

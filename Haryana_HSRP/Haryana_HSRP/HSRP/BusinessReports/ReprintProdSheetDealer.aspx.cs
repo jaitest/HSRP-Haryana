@@ -271,7 +271,7 @@ namespace HSRP.BusinessReports
                     string MonthdateTO = MonTo.Replace("00", "0").Replace("01", "1");
                     String ReportDateFrom = StringAuthDate[1] + "/" + MonthdateTO + "/" + StringAuthDate[2].Split(' ')[0];
                     String From = StringAuthDate[0] + "/" + StringAuthDate[1] + "/" + StringAuthDate[2].Split(' ')[0];
-                    //AuthorizationDate = new DateTime(Convert.ToInt32(StringAuthDate[2].Split(' ')[0]), Convert.ToInt32(StringAuthDate[0]), Convert.ToInt32(StringAuthDate[1]));
+                    
                     string AuthorizationDate = From + " 00:00:00";
                     String[] StringOrderDate = HSRPAuthDate.SelectedDate.ToString().Replace("-", "/").Split('/');
                     string Mon = ("0" + StringOrderDate[0]);
@@ -697,7 +697,7 @@ namespace HSRP.BusinessReports
                     
               
               
-                     if (HSRPStateID == "1" || HSRPStateID == "2" || HSRPStateID == "3" || HSRPStateID == "6" || HSRPStateID == "9" || HSRPStateID == "11")
+                     if (HSRPStateID == "1" || HSRPStateID == "2" || HSRPStateID == "3" || HSRPStateID == "6" )
                     {
                         PdfPCell cell120933 = new PdfPCell(new Phrase("Owner Name", new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
                         cell120933.Colspan = 1;

@@ -12,6 +12,13 @@
     <script src="../javascript/bootstrap.min.js" type="text/javascript"></script>
     <script src="../javascript/bootbox.min.js" type="text/javascript"></script>
 
+
+
+
+
+
+
+
     <script type="text/javascript">
         function DepositDate_OnDateChange(sender, eventArgs) {
             var fromDate = DepositDate.getSelectedDate();
@@ -46,39 +53,7 @@
             }
         }
 
-        function OrderDate_OnDateChange(sender, eventArgs) {
-            var fromDate = OrderDate.getSelectedDate();
-            CalendarOrderDate.setSelectedDate(fromDate);
-
-        }
-
-        function OrderDate_OnChange(sender, eventArgs) {
-            var fromDate = CalendarOrderDate.getSelectedDate();
-            OrderDate.setSelectedDate(fromDate);
-
-        }
-
-        function OrderDate_OnClick() {
-            if (CalendarOrderDate.get_popUpShowing()) {
-                CalendarOrderDate.hide();
-            }
-            else {
-                CalendarOrderDate.setSelectedDate(OrderDate.getSelectedDate());
-                CalendarOrderDate.show();
-            }
-        }
-
-        function OrderDate_OnMouseUp() {
-            if (CalendarOrderDate.get_popUpShowing()) {
-                event.cancelBubble = true;
-                event.returnValue = false;
-                return false;
-            }
-            else {
-                return true;
-            }
-        }
-
+      
         ////>>>>>> Pollution Due Date
 
         function boxbatchRelesedDate_OnDateChange(sender, eventArgs) {
@@ -348,17 +323,7 @@
 
             </tr>
 
-           <%-- <tr>
-                <td class="form_text" style="height: 22px">Ex Showroom Price <span style="color: #FF3300">*</span>
-                </td>
-                <td style="height: 22px">
-                    <asp:TextBox ID="txtexprice" runat="server"  CssClass="text_box"  MaxLength="10"   onkeypress="javascript:return isNumber(event)" ></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
-                        ControlToValidate="txtexprice" ValidationGroup="save" ErrorMessage="Please Enter Ex Showroom Price"></asp:RequiredFieldValidator>
-                </td>
-
-
-            </tr>--%>
+          
 
             <tr>
                 <td class="form_text" style="height: 22px">Model <span style="color: #FF3300">*</span>
@@ -373,16 +338,8 @@
             </tr>
 
             <tr>
-
-                <%--<td>
-                <asp:TextBox ID="txtrecno" runat="server" Visible="false" CssClass="text_box"></asp:TextBox>
-               
-            </td>--%>
-            </tr>
-
-            <tr>
                 <td class="style4">
-                    <%--  class="alert"--%>
+                   
                     Date of Insurance <span style="color: #FF3300">*</span>
                 </td>
                 <td>
@@ -428,38 +385,7 @@
 
             </tr>
 
-             <tr>
-            <td  class="style4"> Registration Date  <span style="color: #FF3300">*</span> </td>
-      
-            <td>
-                 <table id="Table3" runat="server" style="margin-left: 8px;" align="left" cellspacing="0"
-                        cellpadding="0" border="0">
-                        <tr>
-                           <td class="form_text" onmouseup="OrderDate_OnMouseUp()" >
-                        <ComponentArt:Calendar ID="OrderDate" runat="server" PickerFormat="Custom" PickerCustomFormat="dd/MM/yyyy"
-                            ControlType="Picker" PickerCssClass="picker">
-                            <ClientEvents>
-                                <SelectionChanged EventHandler="OrderDate_OnDateChange" />
-                            </ClientEvents>
-                        </ComponentArt:Calendar>           
-                          </td>
-
-                            <td style="font-size: 10px;">&nbsp;
-                            </td>
-                            <td valign="top">
-                                <img id="calendar_from_button" alt="" onclick="OrderDate_OnClick()" onmouseup="OrderDate_OnMouseUp()" class="calendar_button" src="../images/btn_calendar.gif" />
-                            </td>
-                        </tr>
-                    </table>
-
-            </td>
-            <td valign="top">
-             
-           
-            </td>
-            <td>
-            </td>
-        </tr> 
+        
 
             <tr>
                 <td>
@@ -469,7 +395,7 @@
                 </td>
                 <td>
                     <asp:Button ID="Button3" runat="server" CssClass="button" Height="23px"
-                        OnClick="Button3_Click" TabIndex="12" Text="Download Print"
+                        OnClick="Button3_Click" TabIndex="12" Text="Epson Print"
                         Width="153px" Visible="false" />
                     <asp:Button ID="btnDownload" runat="server" Text="Download Receipt"
                         OnClick="btnDownloadReceipt_Click" CssClass="button" Visible="false" />
@@ -519,18 +445,7 @@
                 </ComponentArt:Calendar>
             </td>
             <td>
-                 <ComponentArt:Calendar runat="server" ID="CalendarOrderDate" AllowMultipleSelection="false"
-                                                        AllowWeekSelection="false" AllowMonthSelection="false" ControlType="Calendar"
-                                                        PopUp="Custom" PopUpExpandControlId="calendar_from_button" CalendarTitleCssClass="title"
-                                                        DayHoverCssClass="dayhover" DisabledDayCssClass="disabledday" DisabledDayHoverCssClass="disabledday"
-                                                        OtherMonthDayCssClass="othermonthday" DayHeaderCssClass="dayheader" DayCssClass="day"
-                                                        SelectedDayCssClass="selectedday" CalendarCssClass="calendar" NextPrevCssClass="nextprev"
-                                                        MonthCssClass="month" SwapSlide="Linear" SwapDuration="300" DayNameFormat="FirstTwoLetters"
-                                                        ImagesBaseUrl="../../images" PrevImageUrl="cal_prevMonth.gif" NextImageUrl="cal_nextMonth.gif">
-                                                        <ClientEvents>
-                                                            <SelectionChanged EventHandler="OrderDate_OnChange" />
-                                                        </ClientEvents>
-                                                    </ComponentArt:Calendar>
+              
             </td>
         </tr>
     </table>

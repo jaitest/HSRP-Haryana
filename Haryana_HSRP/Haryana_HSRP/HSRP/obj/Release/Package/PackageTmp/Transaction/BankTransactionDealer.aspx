@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="BankTransactionDealer.aspx.cs" Inherits="HSRP.Transaction.BankTransactionDealer" %>
 
-
 <%@ Register TagPrefix="ComponentArt" Namespace="ComponentArt.Web.UI" Assembly="ComponentArt.Web.UI" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -113,39 +112,12 @@
                 alert("Please Provide  Bank Address ");
                 document.getElementById("<%=txtBranchName.ClientID%>").focus();
                 return false;
-            }
-
-
-            
-
-            
-
-            
-
-
-            
-
-           
-
-
-            //if (invalidChar(document.getElementById("TextBoxDepositAmount"))) {
-            //    alert("Special Characters Not Allowed.");
-            //    document.getElementById("TextBoxDepositAmount").focus();
-            //    return false;
-            //}
-
-            //if (invalidChar(document.getElementById("TextBoxDepositby"))) {
-            //    alert("Special Characters Not Allowed in Deposited by");
-            //    document.getElementById("TextBoxDepositby").focus();
-            //    return false;
-            //}
-
+            }        
 
 
         }
 
         function isNumberKey(evt) {
-            //debugger;
             var charCode = (evt.which) ? evt.which : event.keyCode
             if (charCode > 31 && (charCode < 48 || charCode > 57))
                 return false;
@@ -154,7 +126,6 @@
         }
 
         function ischarKey(evt) {
-            //debugger;
             var charCode = (evt.which) ? evt.which : event.keyCode
             if (charCode > 31 && (charCode < 96 || charCode > 122) && (charCode < 65 || charCode > 90) && (charCode < 31 || charCode > 33))
                 return false;
@@ -162,15 +133,7 @@
             return true;
         }
 
-        //                var TCode = document.getElementById("TextBoxDepositby").value;
-        //                if (/[^a-zA-Z]/.test(TCode)) {
-        //                    alert('Input is not alphanumeric');
-        //                    return false;
-        //                }
-        //                return true;
-
-
-        //            }
+       
 
 
 
@@ -207,10 +170,6 @@
               
             <table  border="0" align="right"  style="height: 348px; width:85%;">
                 <tr>
-                    <%--<td class="style4">
-                        ReferenceNo<span class="alert">* </span>
-                    </td>--%>
-
                    <td class="style4">
                         <asp:Label ID="lblref" runat="server" Font-Size="18px" ForeColor="Blue"></asp:Label>
                     </td>
@@ -261,10 +220,7 @@
                         Bank Name <span class="alert">* </span>
                     </td>
                     <td>
-                        <%-- <asp:TextBox ID="txtBankName" runat="server" class="form_textbox12" MaxLength="30"></asp:TextBox>--%>
-                        <asp:DropDownList ID="DropDownListBankName" runat="server" 
-                            Style="margin-left: 8px" TabIndex="4" Width="165px" AutoPostBack="true" 
-                            onselectedindexchanged="DropDownListBankName_SelectedIndexChanged">                           
+                         <asp:DropDownList ID="DropDownListBankName" runat="server" Style="margin-left: 8px" TabIndex="4" Width="165px" AutoPostBack="true" onselectedindexchanged="DropDownListBankName_SelectedIndexChanged">                         
                           
                         </asp:DropDownList>
                          
@@ -281,32 +237,26 @@
                                                   <asp:ListItem Value="--Select--">--Select--</asp:ListItem>
                                                 <asp:ListItem Value="Cheque">Cheque</asp:ListItem>
                                                 <asp:ListItem Value="Cash">Cash</asp:ListItem>
-                                                    <asp:ListItem Value="NEFT/RTGS">NEFT/RTGS</asp:ListItem>
-                                               
-                                            </asp:DropDownList>
-                                          
-                          
-                        
+                                                    <asp:ListItem Value="NEFT/RTGS">NEFT/RTGS</asp:ListItem>                                               
+                                            </asp:DropDownList>  
                          
                     </td>
                 </tr>
              
-                <%-- edited on 10/10/2015 --%>
+             
                 <tr>
                     <td class="style4">
                        Payment Details
                         <span class="alert">* </span>
                     </td>
                     <td>
-                        <%--<asp:Label ID="lblChecqNo" runat="server" class="form_textbox12" 
-                            Width="160px" TabIndex="5"></asp:Label>--%>
+                      
                   <asp:TextBox ID="txtChecqNo" runat="server" class="form_textbox12" MaxLength="30" ></asp:TextBox>
 
                 
                     </td>
                 </tr>
-                <%-- end --%>
-                 
+                              
 
                 <tr>
                     <td class="style4">
@@ -354,19 +304,13 @@
                        <asp:Label ID="lblSucMess" runat="server" Font-Size="18px" ForeColor="Blue"></asp:Label>
                                                           <asp:Label ID="lblErrMess" runat="server" Font-Size="18px" ForeColor="Red"></asp:Label>
                                                             <asp:Button ID="buttonUpdate" runat="server" TabIndex="10" class="button" Visible="false"
-                                                                 Text="Update" onclick="buttonUpdate_Click" /> <%-- OnClientClick="return validate()"--%>
-                                  <%--<asp:Button ID="btnApproval" runat="server" TabIndex="10" class="button" Visible="true"
-                                                                 Text="Approved"  OnClientClick="return validate()" OnClick="btnApproval_Click" 
-                                                                 />--%>
-
+                                                                 Text="Update" onclick="buttonUpdate_Click" />
                                                             &nbsp;&nbsp;
-                                                            <%--OnClientClick="return validate();"--%>
+                                                       
                                                             <asp:Button ID="buttonSave" runat="server" TabIndex="9" class="button" Text="Save"
                                                                 OnClientClick=" return validate()" Visible="false" 
                                                                 OnClick="ButtonSubmit_Click" />&nbsp;&nbsp;
-                                                          <%--  <input type="button"  name="buttonClose" id="buttonClose"   onclick="javascript: parent.googlewin.close();"  value="Close" class="button" TabIndex="11"/>
-                                                            &nbsp;&nbsp;--%>
-                                                            <%-- <input type="reset" class="button" value="Reset" />--%>
+                                                          
                                                             <asp:Button ID="btnReset" runat="server"  class="button" Text="Reset" 
                                                                 onclick="btnReset_Click" TabIndex="12" />
                                                         </td>

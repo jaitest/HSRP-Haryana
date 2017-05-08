@@ -32,8 +32,7 @@ namespace HSRP.Transaction
         string USERID = string.Empty;
         DataTable dt = new DataTable();
         string macbase = string.Empty;
-        int intDepositAmount = 0;
-        int inttotcoll = 0;
+       
         protected void Page_Load(object sender, EventArgs e)
         {
              
@@ -128,8 +127,12 @@ namespace HSRP.Transaction
             string TodayDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
             string MaxDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
 
-            //OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
-            //OrderDate.MaxDate = DateTime.Parse(MaxDate);
+            if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "01/01/0001 00:00:00" || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM")
+            {
+                OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
+                OrderDate.MaxDate = DateTime.Parse(MaxDate);
+            }
+            
             CalendarOrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
             CalendarOrderDate.VisibleDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
 
@@ -137,13 +140,10 @@ namespace HSRP.Transaction
 
         protected void btnGo_Click(object sender, EventArgs e)
         {
-            string TodayDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
-            string MaxDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
-
-            OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
-            OrderDate.MaxDate = DateTime.Parse(MaxDate);
+           
 
             lblErrMess.Text = string.Empty;
+            string RegistrationDate = string.Empty;
             string strAuthno = string.Empty;
             string StrRtoLocationCode = string.Empty;
             string StrRtoName = string.Empty;
@@ -160,13 +160,12 @@ namespace HSRP.Transaction
             string StrRegistrationNo = string.Empty;
             string StrEngineNo = string.Empty;
             string StrChasisNo = string.Empty;
-            // string strAuthNo = txtAuthNo.Text.Trim();
+          
             string stremail = string.Empty;
             string SQLString = string.Empty;
             string RTOlocationName = string.Empty;
             string StrNICVehicleType1 = string.Empty;
-           // string StrNICVehicleType2 = string.Empty;
-            int inttotcoll = 0;
+          
             Button3.Visible = false;
             btnDownload.Visible = false;
 
@@ -199,94 +198,7 @@ namespace HSRP.Transaction
 
                 }
 
-                //if (Convert.ToInt32(RTOLocationID) == 520 || Convert.ToInt32(RTOLocationID) == 522)
-                //{
-
-                //    string CreationDate = string.Empty;
-                //    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
-                //    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
-                //    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
-                //    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
-                //    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
-                //    string Currentstart = Date.ToString();
-                //    string getdate = Convert.ToString("2017/02/23");
-                //    //DateTime today = DateTime.Today;
-
-                //    DateTime dt1 = Convert.ToDateTime(Currentstart);
-                //    DateTime dt2 = Convert.ToDateTime(getdate);
-
-                //    if (dt2 >= dt1)
-                //    {
-                //        lblErrMess.Visible = true;
-                //        lblErrMess.Text = "";
-                //        lblErrMess.Text = "You are not authorized to collect your cash.";
-                //        return;
-                //    }
-                //    else
-                //    {
-
-                //    }
-                //}
-
-
-                //if (Convert.ToInt32(RTOLocationID) == 529 || Convert.ToInt32(RTOLocationID) == 531)
-                //{
-
-                //    string CreationDate = string.Empty;
-                //    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
-                //    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
-                //    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
-                //    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
-                //    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
-                //    string Currentstart = Date.ToString();
-                //    string getdate = Convert.ToString("2017/04/10");
-                //    //DateTime today = DateTime.Today;
-
-                //    DateTime dt1 = Convert.ToDateTime(Currentstart);
-                //    DateTime dt2 = Convert.ToDateTime(getdate);
-
-                //    if (dt2 >= dt1)
-                //    {
-                //        lblErrMess.Visible = true;
-                //        lblErrMess.Text = "";
-                //        lblErrMess.Text = "You are not authorized to collect your cash.";
-                //        return;
-                //    }
-                //    else
-                //    {
-
-                //    }
-                //}
-
-                //if (Convert.ToInt32(RTOLocationID) == 483 || Convert.ToInt32(RTOLocationID) == 484 || Convert.ToInt32(RTOLocationID) == 485)
-                //{
-
-                //    string CreationDate = string.Empty;
-                //    string SQLStringvehicle = "select Convert(date,HSRPRecord_CreationDate) from HSRPRecordsStaggingArea where vehicleregno='" + Convert.ToString(txtRegNo.Text).Trim() + "'";
-                //    CreationDate = Utils.getScalarValue(SQLStringvehicle, ConnectionString);
-                //    DateTime CreationDate1 = Convert.ToDateTime(CreationDate);
-                //    string Date = Convert.ToString(CreationDate1.ToString("yyyy/MM/dd"));
-                //    //string Currentstart = Convert.ToString(DateTime.Parse(Date));
-                //    string Currentstart = Date.ToString();
-                //    string getdate = Convert.ToString("2017/04/10");
-                //    //DateTime today = DateTime.Today;
-
-                //    DateTime dt1 = Convert.ToDateTime(Currentstart);
-                //    DateTime dt2 = Convert.ToDateTime(getdate);
-
-                //    if (dt2 >= dt1)
-                //    {
-                //        lblErrMess.Visible = true;
-                //        lblErrMess.Text = "";
-                //        lblErrMess.Text = "You are not authorized to collect your cash.";
-                //        return;
-                //    }
-                //    else
-                //    {
-
-                //    }
-                //}
-
+                
 
 
                 String SqlQry = "select distinct VehicleregNo  from  hsrpexcelupload WHERE  ISNULL(VehicleregNo,'')!=''";
@@ -309,19 +221,7 @@ namespace HSRP.Transaction
                         
                     }
                 }             
-
-
-
-
-                //string strDate = System.DateTime.Now.ToString("hh:mm tt");
-                //string strnine = "09:00 AM";
-                //string strsix = "06:00 PM";
-                ////if (DateTime.Parse(strDate) < DateTime.Parse(strnine) || DateTime.Parse(strDate) > DateTime.Parse(strsix))
-                //{
-                //    lblErrMess.Visible = true;
-                //    lblErrMess.Text = "Cash Collection Timing is  Between 9 AM TO 6 PM ";
-                //    return;
-                //}                    
+         
 
                 bln3rdSticker.Checked = false;
                 string ACno;
@@ -408,10 +308,15 @@ namespace HSRP.Transaction
                         }
                     }                
                 }
-                String SqlQuery = "SELECT top(1) HSRPRecord_AuthorizationNo,HSRPRecord_AuthorizationDate,OwnerName,Address1,MobileNo,EmailID,OrderType,VehicleClass,NICvehicletype,ManufacturerName,ManufacturerModel,ChassisNo,EngineNo,VehicleRegNo FROM HSRPRecordsStaggingArea where VehicleRegNo='" + txtRegNo.Text + "' and HSRP_StateID='" + HSRPStateID + "' order by  HSRPRecord_CreationDate desc";
+                String SqlQuery = "SELECT top(1) RegistrationDate, HSRPRecord_AuthorizationNo,HSRPRecord_AuthorizationDate,OwnerName,Address1,MobileNo,EmailID,OrderType,VehicleClass,NICvehicletype,ManufacturerName,ManufacturerModel,ChassisNo,EngineNo,VehicleRegNo FROM HSRPRecordsStaggingArea where VehicleRegNo='" + txtRegNo.Text + "' and HSRP_StateID='" + HSRPStateID + "' order by  HSRPRecord_CreationDate desc";
                 DataTable dt = Utils.GetDataTable(SqlQuery, ConnectionString);
                 if (dt.Rows.Count > 0)
                 {
+                    if (!string.IsNullOrEmpty(dt.Rows[0]["RegistrationDate"].ToString()))
+                    {
+                        OrderDate.SelectedDate = Convert.ToDateTime(dt.Rows[0]["RegistrationDate"].ToString());
+                    }
+
                     strAuthno = dt.Rows[0]["HSRPRecord_AuthorizationNo"].ToString();
                     StrAuthdate = dt.Rows[0]["HSRPRecord_AuthorizationDate"].ToString();
                     StrRegistrationNo = dt.Rows[0]["VehicleRegNo"].ToString();
@@ -425,8 +330,6 @@ namespace HSRP.Transaction
                     StrOwnerName = dt.Rows[0]["OwnerName"].ToString();
                     stremail = dt.Rows[0]["EmailID"].ToString();
                     StrOwnerAddress = dt.Rows[0]["Address1"].ToString();
-
-                    //StrNICVehicleType = dt.Rows[0]["NICvehicletype"].ToString();
 
                     StrNICVehicleType1 = dt.Rows[0]["NICvehicletype"].ToString().Split('*')[0];
 
@@ -481,7 +384,7 @@ namespace HSRP.Transaction
                     lblTransactionType.Text = StrTransactonType;
                     lblAuthDate.Text = StrAuthdate;                    
                     txtMobileno.Text = StrMobileNo;                    
-                   // lblVehicleClassType.Text = StrVehicleClassType;
+                  
                     lblMfgName.Text = StrManufacturarName;
                     lblModelName.Text = StrModelName;
                     lblRegNo.Text = StrRegistrationNo;
@@ -575,7 +478,7 @@ namespace HSRP.Transaction
             {
                 lblErrMess.Visible = true;
                 lblErrMess.Text = "Please check your vehicleregno ";
-                //lblErrMess.Text = "RTA Server is not responding... Pls contact to System Administrator  " + ex.ToString();
+              
             }
         }
 
@@ -1646,12 +1549,12 @@ namespace HSRP.Transaction
                 string DC = string.Empty;
                 cashrc = "select (prefixtext+right('00000'+ convert(varchar,lastno+1),5)) as Receiptno from prefix  where hsrp_stateid='" + HSRPStateID + "' and rtolocationid ='" + RTOLocationID + "' and prefixfor='Cash Receipt No'";
                 cashrc = Utils.getScalarValue(cashrc, ConnectionString);
-                //cashrc = dt5.Rows[0]["Receiptno"].ToString();
+              
                 Invoice = "select (prefixtext+right('00000'+ convert(varchar,lastno+1),5)) as Receiptno from prefix  where hsrp_stateid='" + HSRPStateID + "' and rtolocationid ='" + RTOLocationID + "' and prefixfor='Invoice No'";
                 Invoice = Utils.getScalarValue(Invoice, ConnectionString);
                 DC = "select (prefixtext+right('00000'+ convert(varchar,lastno+1),5)) as Receiptno from prefix  where hsrp_stateid='" + HSRPStateID + "' and rtolocationid ='" + RTOLocationID + "' and prefixfor='Delivery Challan No'";
                 DC = Utils.getScalarValue(DC, ConnectionString);
-                lblAddress.Text = lblAddress.Text.Replace("'", "");
+                lblAddress.Text = lblAddress.Text.Replace("'", "").Trim();
 
 
                 String strquery1 = "select [dbo].GetAffxDate_insert_new('" + HSRPStateID + "') as Date";
@@ -1673,8 +1576,7 @@ namespace HSRP.Transaction
                 con.Open();
                 String strFrontPrize = "0.00";
                 String strRearPrize = "0.00";
-
-                  
+                                
                 
 
                 if (!string.IsNullOrEmpty(dt.Rows[0]["FrontPlateCost"].ToString()))
@@ -1692,7 +1594,7 @@ namespace HSRP.Transaction
                     return;
                 }
 
-                if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM")
+                if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "01/01/0001 00:00:00" || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM")
                 {
                     lblErrMess.Visible = true;
                     lblErrMess.Text = "Please Select Regisreation Date.";
@@ -1732,7 +1634,6 @@ namespace HSRP.Transaction
                 cmd.Parameters.AddWithValue("@OwnerName", lblOwnerName.Text);
                 cmd.Parameters.AddWithValue("@MobileNo", txtMobileno.Text);
                 cmd.Parameters.AddWithValue("@VehicleClass", ddlVehicleClass.SelectedItem.ToString());
-                //cmd.Parameters.AddWithValue("@VehicleClass", lblVehicleClassType.Text);
                 cmd.Parameters.AddWithValue("@OrderType", lblTransactionType.Text);
                 cmd.Parameters.AddWithValue("@StickerMandatory", sticker1);
                 cmd.Parameters.AddWithValue("@isVIP", VIP);
@@ -1745,9 +1646,7 @@ namespace HSRP.Transaction
                 else
                 {
                     cmd.Parameters.AddWithValue("@VehicleType", lblVehicleType.Text);
-                }
-
-               // cmd.Parameters.AddWithValue("@VehicleType", lblVehicleType.Text);
+                }              
                 cmd.Parameters.AddWithValue("@OrderStatus", "New Order");
                 cmd.Parameters.AddWithValue("@CashReceiptNo", cashrc);
                 cmd.Parameters.AddWithValue("@OwnerFatherName", "");
@@ -1756,8 +1655,7 @@ namespace HSRP.Transaction
                 cmd.Parameters.AddWithValue("@EngineNo", lblEngineNo.Text.Trim());
                 cmd.Parameters.AddWithValue("@frontplatesize", dt.Rows[0]["frontplateID"].ToString());
                 cmd.Parameters.AddWithValue("@rearplatesize", dt.Rows[0]["RearPlateID"].ToString());
-                cmd.Parameters.AddWithValue("@CreatedBy", USERID);
-                //cmd.Parameters.AddWithValue("@Reference", remarks.Text);
+                cmd.Parameters.AddWithValue("@CreatedBy", USERID);              
                 cmd.Parameters.AddWithValue("@Reference", ddltakal.SelectedValue.ToString());
                 cmd.Parameters.AddWithValue("@ManufacturerModel", lblModelName.Text);
                 cmd.Parameters.AddWithValue("@vehicleref", "New");
@@ -1773,8 +1671,7 @@ namespace HSRP.Transaction
                 cmd.Parameters.AddWithValue("@PlateAffixationDate", date1);
                 cmd.Parameters.AddWithValue("@addrecordby", AddRecordBy);
                 cmd.Parameters.AddWithValue("@CounterNo", CounterNo);
-                cmd.Parameters.AddWithValue("@RegistrationDate", OrderDate.SelectedDate);
-                //cmd.Parameters.AddWithValue("@VoidRemark", ddltakal.SelectedValue.ToString());
+                cmd.Parameters.AddWithValue("@RegistrationDate", OrderDate.SelectedDate);                
                 cmd.Parameters.Add("@Message", SqlDbType.Char,1);
                 cmd.Parameters["@Message"].Direction = ParameterDirection.Output;
                 cmd.ExecuteNonQuery();
@@ -1799,11 +1696,9 @@ namespace HSRP.Transaction
 
                     if (txtMobileno.Text.Length > 0)
                     {
-
                         string SMSText = "Received Rs. " + Math.Round(decimal.Parse(lblAmount.Text), 0) + " against HSRP For Reg No. " + lblRegNo.Text.Trim().ToUpper() + " RECEIPT No. " + cashrc + " dated  " + System.DateTime.Now.ToString("dd/MM/yyyy") + "-HSRP Team ";
                         string sendURL = "http://103.16.101.52:8080/bulksms/bulksms?username=sse-hsrphr&password=hsrphr&type=0&dlr=1&destination=" + txtMobileno.Text.ToString() + "&source=HRHSRP&message=" + SMSText;
-                        // string sendURL = "http://onextelbulksms.in/shn/api/pushsms.php?usr=demolinkutsav&pwd=Look@123&sndr=HRHSRP&ph="+ txtMobileno.Text.ToString().Trim()+"&text=" + SMSText + "&rpt=1";
-
+                       
                         HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(sendURL);
                         myRequest.Method = "GET";
                         WebResponse myResponse = myRequest.GetResponse();
@@ -1922,7 +1817,7 @@ namespace HSRP.Transaction
                 string strquery1 = "select convert(varchar(15),PlateAffixationDate,103) as Date from hsrprecords where HSRPRecord_AuthorizationNo='" + dataSetFillHSRPDeliveryChallan.Rows[0]["HSRPRecord_AuthorizationNo"].ToString() + "'";
                 string date1 = Utils.getDataSingleValue(strquery1, ConnectionString, "Date");
 
-                //string filename = "CASH RECEIPT-" + System.DateTime.Now.Day.ToString() + System.DateTime.Now.Month.ToString() + System.DateTime.Now.Year.ToString() + System.DateTime.Now.Hour.ToString() + System.DateTime.Now.Minute.ToString() + ".pdf";
+            
                 string filename = "CASHRECEIPT_No-" + dataSetFillHSRPDeliveryChallan.Rows[0]["CashReceiptNo"].ToString().Replace("/", "-") + ".pdf";
 
 
@@ -2103,27 +1998,7 @@ namespace HSRP.Transaction
                 cell222.BorderWidthTop = 0f;
                 cell222.BorderWidthBottom = 0f;
                 cell222.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                table.AddCell(cell222);
-
-                //string getExciseNo = Utils.getScalarValue("select ExciseNo from hsrpstate where HSRP_StateID='" + HSRPStateID + "' ", ConnectionString);
-                //PdfPCell cell221 = new PdfPCell(new Phrase("EXCISE NO. ", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell221.Colspan = 0;
-                //cell221.BorderWidthLeft = 0f;
-                //cell221.BorderWidthRight = 0f;
-                //cell221.BorderWidthTop = 0f;
-                //cell221.BorderWidthBottom = 0f;
-                //cell221.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell221);
-
-                //PdfPCell cell2221 = new PdfPCell(new Phrase(": " + getExciseNo.ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                //cell2221.Colspan = 0;
-
-                //cell2221.BorderWidthLeft = 0f;
-                //cell2221.BorderWidthRight = 0f;
-                //cell2221.BorderWidthTop = 0f;
-                //cell2221.BorderWidthBottom = 0f;
-                //cell2221.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
-                //table.AddCell(cell2221);
+                table.AddCell(cell222);               
 
 
 

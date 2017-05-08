@@ -1,22 +1,23 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
-    CodeBehind="HRCashCollection.aspx.cs" Inherits="HSRP.Transaction.HRCashCollection" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="HRCashCollection.aspx.cs" Inherits="HSRP.Transaction.HRCashCollection" %>
 
 <%@ Register Assembly="ComponentArt.Web.UI" Namespace="ComponentArt.Web.UI" TagPrefix="ComponentArt" %>
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="../css/table.css" rel="stylesheet" type="text/css" />
     <link href="../css/legend.css" rel="stylesheet" type="text/css" />
-    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
-    
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />     
+     
     <script src="../Scripts/jquery.min.js" type="text/javascript"></script>
     <script src="../javascript/bootstrap.min.js" type="text/javascript"></script>
     <script src="../javascript/bootbox.min.js" type="text/javascript"></script>  
-    
+  
+
+     
     <script type="text/javascript">
-       
-        
+               
         $(document).ready(function () {
             $("#ctl00_ContentPlaceHolder1_btnSave").hide();
-
 
         });
 
@@ -27,7 +28,6 @@
 
             if (regno == "")
             {
-
                 bootbox.alert("Please Enter Registration No. and Click On Go Button !", function () {
 
                 });
@@ -56,7 +56,6 @@
 
                 bootbox.confirm("<B>Please Confirm !</b> <BR><i>Please Ensure Customer Data On Screen Matches With Authorization Slip Before Save. Penalty Will Be Imposed On Generation Of Wrong Cash Receipt.</i>", function (result)
                 {
-
                         if (result) {
                             $("#save1").hide();
                             $("#ctl00_ContentPlaceHolder1_btnSave").show();
@@ -68,6 +67,7 @@
        
     </script>
     <script type="text/javascript">
+
         function OrderDate_OnDateChange(sender, eventArgs) {
             var fromDate = OrderDate.getSelectedDate();
             CalendarOrderDate.setSelectedDate(fromDate);
@@ -101,40 +101,7 @@
             }
         }
 
-        ////>>>>>> Pollution Due Date
-
-        function HSRPAuthDate_OnDateChange(sender, eventArgs) {
-            var fromDate = HSRPAuthDate.getSelectedDate();
-            CalendarHSRPAuthDate.setSelectedDate(fromDate);
-
-        }
-
-        function CalendarHSRPAuthDate_OnChange(sender, eventArgs) {
-            var fromDate = CalendarHSRPAuthDate.getSelectedDate();
-            HSRPAuthDate.setSelectedDate(fromDate);
-
-        }
-
-        function HSRPAuthDate_OnClick() {
-            if (CalendarHSRPAuthDate.get_popUpShowing()) {
-                CalendarHSRPAuthDate.hide();
-            }
-            else {
-                CalendarHSRPAuthDate.setSelectedDate(HSRPAuthDate.getSelectedDate());
-                CalendarHSRPAuthDate.show();
-            }
-        }
-
-        function HSRPAuthDate_OnMouseUp() {
-            if (CalendarHSRPAuthDate.get_popUpShowing()) {
-                event.cancelBubble = true;
-                event.returnValue = false;
-                return false;
-            }
-            else {
-                return true;
-            }
-        }
+       
     </script>
     
 <marquee class="mar1" direction="left" >Please Ensure Customer Data On Screen Matches With Authorization Slip Before Save. Penalty Will Be Imposed On Generation Of Wrong Cash Receipt.</marquee>
@@ -201,7 +168,7 @@
         <td><asp:Label ID="lblVehicleClassType" runat="server" Text=""></asp:Label></td>
         <td class="form_text"> Mobile No
           *</td>
-         <%-- ^[0-9]{10}$--%>
+  
         <td><asp:TextBox ID="txtMobileno"  runat="server" CssClass="text_box" MaxLength="10" 
                     ValidationGroup="Mobile" ></asp:TextBox>
           <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
@@ -226,7 +193,7 @@
       <tr>
         <td class="form_text"> Amount </td>
         <td><asp:Label ID="lblAmount" runat="server" Text=""></asp:Label></td>
-          <%--<td></td>--%>
+         
         <td class="form_text"> Registration Date </td>
         <td class="form_text" onmouseup="OrderDate_OnMouseUp()" >
                         <ComponentArt:Calendar ID="OrderDate" runat="server" PickerFormat="Custom" PickerCustomFormat="dd/MM/yyyy"
@@ -235,8 +202,9 @@
                                 <SelectionChanged EventHandler="OrderDate_OnDateChange" />
                             </ClientEvents>
                         </ComponentArt:Calendar>           
-            <img id="calendar_from_button" alt="" onclick="OrderDate_OnClick()" onmouseup="OrderDate_OnMouseUp()" class="calendar_button" src="../images/btn_calendar.gif"   style="margin-left: 250px; margin-top: -10px;"/>
-                                                            </td>
+            <img id="calendar_from_button" alt="" onclick="OrderDate_OnClick()" onmouseup="OrderDate_OnMouseUp()" class="calendar_button" src="../images/btn_calendar.gif"   style="margin-left: 250px; margin-top: -10px;"/>          
+             </td>         
+                   
           
           
       </tr>
@@ -269,13 +237,7 @@
         <td><asp:TextBox ID="remarks" runat="server" Height="66px" TextMode="MultiLine" Width="241px"></asp:TextBox></td>
 
           <td colspan="2"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<asp:Label ID="lblSucMess" runat="server" Font-Size="18px" ForeColor="Blue"></asp:Label>   <asp:Label ID="lblErrMess" runat="server" Font-Size="18px" ForeColor="Red"></asp:Label></td>
-        <%-- <td>
-            Affixation Center Name :<span style="color:Red">*</span>
-            </td>--%>
-        <%-- <asp:DropDownList ID="ddlaffixation" runat="server" Height="25px" 
-                                     Width="187px" DataTextField="AffixCenterDesc" 
-                                    DataValueField="Rto_Id" Visible="False">
-                                </asp:DropDownList>--%>
+       
       </tr>
       <tr>
         <td><a class="alert1" id="save1">Confirm</a>   <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click"  BackColor="Orange" Width="57px" ValidationGroup="Mobile"    /></td>
@@ -291,11 +253,23 @@
                                                         OtherMonthDayCssClass="othermonthday" DayHeaderCssClass="dayheader" DayCssClass="day"
                                                         SelectedDayCssClass="selectedday" CalendarCssClass="calendar" NextPrevCssClass="nextprev"
                                                         MonthCssClass="month" SwapSlide="Linear" SwapDuration="300" DayNameFormat="FirstTwoLetters"
-                                                        ImagesBaseUrl="../../images" PrevImageUrl="cal_prevMonth.gif" NextImageUrl="cal_nextMonth.gif">
+                                                        ImagesBaseUrl="../images" PrevImageUrl="cal_prevMonth.gif" NextImageUrl="cal_nextMonth.gif">
                                                         <ClientEvents>
                                                             <SelectionChanged EventHandler="OrderDate_OnChange" />
                                                         </ClientEvents>
                                                     </ComponentArt:Calendar>
+       
+   
+      </tr>
+    </table></td>
+    <td valign="top"><table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="2" nowrap="nowrap"><strong>Today Summary:</strong></td>
+      </tr>
+      <tr>
+        <td class="input-medium" style="width: 184px">Today Booking Count:</td>
+        <td><asp:Label ID="lblCount" runat="server">0</asp:Label></td>
+      </tr>
       <tr>
         <td></td>
         <td></td>
@@ -314,17 +288,6 @@
         <td></td>
         <td></td>
         <td></td>
-      </tr>
-    </table></td>
-    <td valign="top"><table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-        <td colspan="2" nowrap="nowrap"><strong>Today Summary:</strong></td>
-      </tr>
-      <tr>
-        <td class="input-medium" style="width: 184px">Today Booking Count:</td>
-        <td><asp:Label ID="lblCount" runat="server">0</asp:Label></td>
-      </tr>
-      <tr>
         <td class="input-medium" style="width: 184px">Today Collection :</td>
         <td><asp:Label ID="lblCollection" runat="server">0</asp:Label></td>
       </tr>

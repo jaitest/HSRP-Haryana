@@ -67,23 +67,18 @@ namespace HSRP.Master
             if (StringMode.Equals("Edit"))
             {
                 int.TryParse(Request.QueryString["DealerID"].ToString(), out DealerID);
-                //buttonUpdate.Visible = true;
+              
                 buttonSave.Visible = false;
             }
             else
             {
                 buttonSave.Visible = true;
-                //buttonUpdate.Visible = false;
+              
             }
 
             if (!Page.IsPostBack)
             {
-                if (HsrpStateId == "4")
-                {
-                    //lblemb.Visible = true;
-                    //ddlembossing.Visible = true;
-                    //dropDownListClient.Visible = true;
-                }
+                
                 BL.blEntryDetail bl = new BL.blEntryDetail();
                 bl.DailyEnityDeatail(Session["UID"].ToString(), "Dealer.aspx");
 
@@ -118,18 +113,15 @@ namespace HSRP.Master
             while (PReader.Read())
             {
 
-                ddlDealermaster.SelectedValue = PReader["DealerID"].ToString();
-                // textBoxDealerCode.Text = PReader["DealerCode"].ToString();
+                ddlDealermaster.SelectedValue = PReader["DealerID"].ToString();                
                 textBoxAddress.Text = PReader["Address"].ToString();
                 textBoxCity.Text = PReader["City"].ToString();
                 DropDownListStateName.SelectedValue = PReader["hsrp_stateid"].ToString();
                 if (PReader["rtolocationid"].ToString() != "")
-                    DropdownRTOName.SelectedValue = PReader["rtolocationid"].ToString();
+                DropdownRTOName.SelectedValue = PReader["rtolocationid"].ToString();
                 textBoxPersonName.Text = PReader["ContactPerson"].ToString();
                 textBoxMobileNo.Text = PReader["ContactMobileNo"].ToString();
-                // textBoxDealerArea.Text = PReader["AreaOfDealer"].ToString();
-                //txtERPClientCode.Text = PReader["erpclientcode"].ToString();
-                //txtERPEmbossingCode.Text = PReader["erpembcode"].ToString();
+              
                 if (PReader["IsDealingInTwoWheeler"].ToString().Equals("True"))
                 {
                     checkBoxTwoWheeler.Checked = true;
@@ -164,14 +156,13 @@ namespace HSRP.Master
         protected void buttonUpdate_Click(object sender, EventArgs e)
         {
 
-            StringDealerName = ddlDealermaster.SelectedItem.ToString();           
+             StringDealerName = ddlDealermaster.SelectedItem.ToString();           
             StringPersonName = textBoxPersonName.Text.Trim().Replace("'", "''").ToString();
             StringMobileNo = textBoxMobileNo.Text.Trim().Replace("'", "''").ToString();
             StringAddress = textBoxAddress.Text.Trim().Replace("'", "''").ToString();
             StringCity = textBoxCity.Text.Trim().Replace("'", "''").ToString();
             StringState = DropDownListStateName.SelectedItem.ToString();
-            StringAreaDealer = "HR";
-           
+             StringAreaDealer = "HR";          
 
             if (string.IsNullOrEmpty(StringDealerName))
             {
@@ -241,16 +232,17 @@ namespace HSRP.Master
                 "Address='" + StringAddress + "',City='" + StringCity + "',State='" + StringState + "',ContactPerson='" + StringPersonName + "'" +
             ",ContactMobileNo='" + StringMobileNo + "',AreaOfDealer='" + StringAreaDealer + "',IsDealingInTwoWheeler=" + StringcheckBoxTwoWheeler + "," +
             "IsDealingInFourWheeler=" + StringcheckBoxFourWheeler + ",IsDealingInCommercial=" + StringcheckBoxCommercialVehicle + "," +
-            "ChargingType='" + StringChargingType + "', IsActive= '1' where DealerID=" + dealerid + " ";
+            "ChargingType='" + StringChargingType + "', IsActive= '1' where DealerID="+ dealerid +" ";
 
             if (Utils.ExecNonQuery(SQLString, CnnString) > 0)
             {
-                string Sqlstring = "Select * From Users where UserLoginName='" + txtDealerloginid.Text + "'";
+                string Sqlstring = "Select * From Users where UserLoginName like '"+txtDealerloginid.Text.Trim().Replace(" ","") + "'";
                 DataTable dt = Utils.GetDataTable(Sqlstring, CnnString);
                 if (dt.Rows.Count > 0)
                 {
                     lblSucMess.Text = string.Empty;
                     lblSucMess.Text = "Someone already has that username. Try another?.";
+                    return;
                    
                 }
                 string Sql = "Select * From Users where dealerid ='" + dealerid + "'";
@@ -259,6 +251,7 @@ namespace HSRP.Master
                 {
                     lblSucMess.Text = string.Empty;
                     lblSucMess.Text = "Dealer Already Maped Please . Try another?.";
+                    return;
                    
                 }
 
