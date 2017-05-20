@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="ZonewiseReport.aspx.cs" Inherits="HSRP.Report.ZonewiseReport" %>
+
 <%@ Register assembly="ComponentArt.Web.UI" namespace="ComponentArt.Web.UI" tagprefix="ComponentArt" %>
 
 <asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">
@@ -122,10 +123,11 @@
                 
                      
                 
-            </td>
+           <%-- </td>
               <td style="height: 40px;" valign="middle" width="80">
                 <asp:Label Text="Rtolocation :" runat="server" ID="label3" ForeColor="Black" Font-Bold="True" Width="100px" />
             </td>
+
             <td style="width: 150px; height: 40px;" valign="middle">              
                         <asp:DropDownList ID="DropDownListRtolocation" runat="server" AutoPostBack="True"                                                                               
                         CausesValidation="false" DataTextField="RTOLocationName"  DataValueField="RTOLocationID"  Height="22px" Width="120px" OnSelectedIndexChanged="DropDownListRtolocation_SelectedIndexChanged">
@@ -133,10 +135,11 @@
                 
                    
                 
-            </td>
+            </td>--%>
 
 
-             <td style="height: 40px;" valign="middle" width="80">
+
+           <%--  <td style="height: 40px;" valign="middle" width="80">
                 <asp:Label Text="Dealer Name :" runat="server" ID="label4" ForeColor="Black" Font-Bold="True" Width="100px" />
             </td>
             <td style="width: 150px; height: 40px;" valign="middle">              
@@ -146,7 +149,7 @@
                 
                      ,
                 
-            </td>
+            </td>--%>
           
             <td nowrap="nowrap" class="style7" style="padding-bottom: 10px;">
                                             <asp:Label ID="label5" runat="server" Font-Bold="True" ForeColor="Black"  Text="Report Type" Width="100px" />

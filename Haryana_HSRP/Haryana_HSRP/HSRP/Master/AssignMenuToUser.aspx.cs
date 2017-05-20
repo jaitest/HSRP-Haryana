@@ -154,7 +154,7 @@ namespace HSRP.Master
                 intRTOLocationID = RTOLocationID;
             }
 
-            SQLString = "select UserID,ISNULL(UserFirstName,'')+Space(2)+ISNULL(UserLastName,'') + SPACE(3)+isNULL(UserLoginName,'') as Names from Users where HSRP_StateID='" + intHSRPStateID + "' and RTOLocationID=" + intRTOLocationID + "  order by UserFirstName";
+            SQLString = "select UserID, ISNULL( convert(varchar(10), dealerid),'')+Space(2)+ ISNULL(UserFirstName,'')+Space(2)+ISNULL(UserLastName,'') + SPACE(3)+isNULL(UserLoginName,'') as Names from Users where HSRP_StateID='" + intHSRPStateID + "' and RTOLocationID=" + intRTOLocationID + "  order by UserFirstName";
             CnnString = System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
             Utils.PopulateDropDownList(dropDownListUser, SQLString, CnnString, "--Select User--");
             dropDownListUser.SelectedIndex = 0;
@@ -198,16 +198,6 @@ namespace HSRP.Master
         {
             if (dropDownListUser.SelectedItem.Text != "--Select User--")
             {
-                //if (UserType == 3)
-                //{
-                //    buildTree(UserID);
-                //}
-                //else
-                //{
-                //    buildTree(Convert.ToInt32(dropDownListUser.SelectedValue));
-                //}
-
-
                 TreeView1.Nodes.Clear();
                 buildTree(Convert.ToInt32(dropDownListUser.SelectedValue));
                 UpdatePanelTree.Update();
@@ -222,15 +212,14 @@ namespace HSRP.Master
         #endregion
 
         #region Tree events and functions
+
         private void buildTree(int userid)
         {
             DataSet ds = new DataSet();
             sbQuery.Remove(0, sbQuery.Length);
             sbQuery.Append("SELECT a.MenuName, b.ParentMenuID,b.MenuID, b.MenuRelationID,isnull(cast((select case ISNUMERIC(v.MenuRelationID) when 1 ");
             sbQuery.Append("then 'Y'else 'N' end from UserMenuRelation v where b.MenuRelationID=v.MenuRelationID and v.userid='" + userid + "') as varchar(44)),'N') as UnCheckItem");
-            sbQuery.Append(" from Menu a,MenuRelation  b where a.MenuID = b.MenuID ");
-
-            
+            sbQuery.Append(" from Menu a,MenuRelation  b where a.MenuID = b.MenuID ");            
 
             SqlDataAdapter adapter = new SqlDataAdapter(sbQuery.ToString(), CnnString);
             adapter.Fill(ds);
@@ -252,7 +241,6 @@ namespace HSRP.Master
                 }
             }
         }
-
         private void PopulateSubTree(DataRow dbRow, ComponentArt.Web.UI.TreeViewNode node)
         {
             ComponentArt.Web.UI.TreeViewNode childNode;
@@ -264,7 +252,6 @@ namespace HSRP.Master
                 this.PopulateSubTree(childRow, childNode);
             }
         }
-
         private TreeViewNode CreateNode(DataRow childRow, bool expanded)
         {
             TreeViewNode node = new TreeViewNode();

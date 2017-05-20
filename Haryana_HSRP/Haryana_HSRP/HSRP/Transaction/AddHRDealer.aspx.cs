@@ -155,14 +155,29 @@ namespace HSRP.Master
 
         protected void buttonUpdate_Click(object sender, EventArgs e)
         {
-
-             StringDealerName = ddlDealermaster.SelectedItem.ToString();           
+            if (ddlDealermaster.SelectedItem.ToString()=="--Select Dealer Name--")
+            {
+                lblErrMess.Text = String.Empty;
+                lblErrMess.Text = "Please Select Dealer Name.";
+                return;
+            }
+            string   SQLStringdealername = "Select dealername from dealermaster where HSRP_StateID='4' and Dealerid ='"+ddlDealermaster.SelectedValue.ToString()+"' ";
+            DataTable dtdealername = Utils.GetDataTable(SQLStringdealername, CnnString);
+                                 
+       //    StringDealerName = ddlDealermaster.SelectedItem.ToString();
+            StringDealerName = dtdealername.Rows[0]["dealername"].ToString();
+         
+         
             StringPersonName = textBoxPersonName.Text.Trim().Replace("'", "''").ToString();
+
             StringMobileNo = textBoxMobileNo.Text.Trim().Replace("'", "''").ToString();
             StringAddress = textBoxAddress.Text.Trim().Replace("'", "''").ToString();
             StringCity = textBoxCity.Text.Trim().Replace("'", "''").ToString();
             StringState = DropDownListStateName.SelectedItem.ToString();
-             StringAreaDealer = "HR";          
+             StringAreaDealer = "HR";
+
+             
+
 
             if (string.IsNullOrEmpty(StringDealerName))
             {
@@ -226,29 +241,31 @@ namespace HSRP.Master
                 lblErrMess.Text = String.Empty;
                 lblErrMess.Text = "Please Provide Dealer Area.";
                 return;
-            }          
+            }
 
-            SQLString = "Update DealerMaster Set DealerName='" + StringDealerName + "'," +
+            SQLString =  "Update DealerMaster Set DealerName='" + StringDealerName + "'," +
                 "Address='" + StringAddress + "',City='" + StringCity + "',State='" + StringState + "',ContactPerson='" + StringPersonName + "'" +
             ",ContactMobileNo='" + StringMobileNo + "',AreaOfDealer='" + StringAreaDealer + "',IsDealingInTwoWheeler=" + StringcheckBoxTwoWheeler + "," +
             "IsDealingInFourWheeler=" + StringcheckBoxFourWheeler + ",IsDealingInCommercial=" + StringcheckBoxCommercialVehicle + "," +
-            "ChargingType='" + StringChargingType + "', IsActive= '1' where DealerID="+ dealerid +" ";
+            "ChargingType='" + StringChargingType + "', IsActive= '1' where DealerID=" + dealerid + " ";
 
             if (Utils.ExecNonQuery(SQLString, CnnString) > 0)
             {
-                string Sqlstring = "Select * From Users where UserLoginName like '"+txtDealerloginid.Text.Trim().Replace(" ","") + "'";
+                string Sqlstring = "Select * From Users where UserLoginName ='"+txtDealerloginid.Text.ToString()+"'";
                 DataTable dt = Utils.GetDataTable(Sqlstring, CnnString);
                 if (dt.Rows.Count > 0)
                 {
+                    lblSucMess.Visible = true;
                     lblSucMess.Text = string.Empty;
                     lblSucMess.Text = "Someone already has that username. Try another?.";
                     return;
-                   
+
                 }
                 string Sql = "Select * From Users where dealerid ='" + dealerid + "'";
                 DataTable dtt = Utils.GetDataTable(Sql, CnnString);
                 if (dtt.Rows.Count > 0)
                 {
+                    lblSucMess.Visible = true;
                     lblSucMess.Text = string.Empty;
                     lblSucMess.Text = "Dealer Already Maped Please . Try another?.";
                     return;
@@ -258,7 +275,7 @@ namespace HSRP.Master
                 else
                 {
                     string password=GetPassword();
-                    string SQLString2 = "insert into dbo.Users (HSRP_StateID,RTOLocationID,LocationType,UserType,UserFirstName,UserLastName,UserLoginName,[Password],Address1,Address2,City,[State],Zip,EmailID,MobileNo,ContactNo,ActiveStatus,FirstLoginStatus,DefaultPage,dealerid,withoutMAC)  values (" + DropDownListStateName.SelectedValue + "," + DropdownRTOName.SelectedValue + ",'Sub-Urban','8','" + ddlDealermaster.SelectedItem + "','','" + txtDealerloginid.Text + "','"+password+"','" + textBoxAddress.Text + "','','" + textBoxCity.Text + "','" + StringState + "','','"+txtEmailid.Text+"','" + StringMobileNo + "','','Y','Y','~/LiveReports/LiveTracking.aspx','" + dealerid + "','Y')";
+                    string SQLString2 = "insert into dbo.Users (HSRP_StateID,RTOLocationID,LocationType,UserType,UserFirstName,UserLastName,UserLoginName,[Password],Address1,Address2,City,[State],Zip,EmailID,MobileNo,ContactNo,ActiveStatus,FirstLoginStatus,DefaultPage,dealerid,withoutMAC)  values (" + DropDownListStateName.SelectedValue + "," + DropdownRTOName.SelectedValue + ",'Sub-Urban','8','" + StringDealerName + "','','" + txtDealerloginid.Text + "','" + password + "','" + textBoxAddress.Text + "','','" + textBoxCity.Text + "','" + StringState + "','','" + txtEmailid.Text + "','" + StringMobileNo + "','','Y','Y','~/LiveReports/LiveTracking.aspx','" + dealerid + "','Y')";
                     if (Utils.ExecNonQuery(SQLString2, CnnString) > 0)
                     {
                         string Stringquery = "select userid  from users where  dealerid ='" + dealerid + "' and ActiveStatus = 'Y' and HSRP_StateID = '4'  and RTOLocationID = '" + DropdownRTOName.SelectedValue + "'";
@@ -354,13 +371,13 @@ namespace HSRP.Master
         {
             if (UserType.Equals(0))
             {
-               
-                SQLString = "Select Dealerid,dealername from dealermaster where HSRP_StateID='4' order by dealername";
+
+                SQLString = "Select Dealerid, CONVERT(varchar(10), Dealerid) +' '+dealername  as dealername from dealermaster where HSRP_StateID='4' order by dealername";
                 Utils.PopulateDropDownList(ddlDealermaster, SQLString.ToString(), CnnString, "--Select Dealer Name--");
             }
             else
             {
-                SQLString = "Select Dealerid,dealername from dealermaster where HSRP_StateID='4' order by dealername";
+                SQLString = "Select Dealerid, CONVERT(varchar(10), Dealerid) +' '+dealername  as dealername from dealermaster  where HSRP_StateID='4' order by dealername";
                 DataSet dss = Utils.getDataSet(SQLString, CnnString);
                 ddlDealermaster.DataSource = dss;
                 ddlDealermaster.DataBind();
@@ -744,6 +761,7 @@ namespace HSRP.Master
             textBoxCity.Text = "";
             textBoxPersonName.Text = "";
             textBoxMobileNo.Text = "";
+            txtEmailid.Text = "";
             DropDownListStateName.ClearSelection();
             ddlDealermaster.ClearSelection();
             DropdownRTOName.ClearSelection();

@@ -934,17 +934,19 @@ namespace HSRP.Transaction
                     lblErrMess.Visible = true;
                      lblErrMess.Text = "Please Enter Valid  Engine No.";
                      return;
-                }              
-                           
-                 Query = "select Engineno from hsrprecords where hsrp_stateid='" + HSRPStateID + "' and Engineno ='"+txtEngineNo.Text.Trim()+"'";
-               
-                DataTable dtResult = Utils.GetDataTable(Query, ConnectionString);
-                if (dtResult.Rows.Count > 0)
+                }
+                if (ddlOrderType.SelectedValue.ToString() == "NB")
                 {
-                    lblSucMess.Visible = false;
-                    lblErrMess.Visible = true;
-                    lblErrMess.Text = "EngineNo. Already Exist";
-                    return;
+                Query = "select chassisno from hsrprecords where hsrp_stateid='" + HSRPStateID + "' and chassisno ='" + txtChassisno.Text.Trim() + "'";
+              
+                    DataTable dtResult = Utils.GetDataTable(Query, ConnectionString);
+                    if (dtResult.Rows.Count > 0)
+                    {
+                        lblSucMess.Visible = false;
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "Chassis No. Already Exist";
+                        return;
+                    }
                 }
 
               
@@ -952,7 +954,7 @@ namespace HSRP.Transaction
 
                  string sticker1 = Sticker;
 
-                string sql = "exec [getPlatesData] '" + HSRPStateID + "','" + ddlVehicletype.SelectedItem.ToString() + "','" + ddlVehicleclass.SelectedItem.ToString() + "','NB'";
+                 string sql = "exec [getPlatesData] '" + HSRPStateID + "','" + ddlVehicletype.SelectedItem.ToString() + "','" + ddlVehicleclass.SelectedItem.ToString() + "','" + ddlOrderType.SelectedValue + "'";
                 DataTable dt = Utils.GetDataTable(sql, ConnectionString);
                 if (dt.Rows.Count > 0)
                 {
@@ -1035,15 +1037,15 @@ namespace HSRP.Transaction
                        " HSRPRecord_CreationDate,HSRP_StateID,RTOLocationID,OwnerName,MobileNo," +
                        "VehicleClass,OrderType,NetAmount,VehicleType,OrderStatus,CashReceiptNo,EmailID,ChassisNo, EngineNo," +
                        "frontplatesize, rearplatesize,CreatedBy,vehicleref,FrontplatePrize,RearPlatePrize,StickerPrize,ScrewPrize,TotalAmount," +
-                       "VAT_Amount,RoundOff_NetAmount,VAT_Percentage,PlateAffixationDate,DateOfInsurance,ReceiptNo,Exshowroomprice,vehicleregno,addrecordby, StickerMandatory ) " +
+                       "VAT_Amount,RoundOff_NetAmount,VAT_Percentage,PlateAffixationDate,DateOfInsurance,ReceiptNo,Exshowroomprice,vehicleregno,addrecordby, StickerMandatory ,userrtolocationid) " +
                        "values('0',GetDate(),'" + macbase + "','" + DC + "', '" + dt.Rows[0]["frontplateflag"].ToString() + "','" + dt.Rows[0]["rearplateflag"].ToString() + "', '" + Invoice +
-                       "','" + txtAddress.Text + "',GetDate(),'" + HSRPStateID + "','" + dropDownListRTOLocation.SelectedValue.ToString() + "','" + txtOwnerName.Text + "','" + txtMobileNo.Text + "','" + ddlVehicleclass.SelectedItem.ToString().ToUpper() +
-                       "','NB','" + lblAmount.Text + "','" + ddlVehicletype.SelectedItem.ToString() + "','New Order','" + cashrc +
+                       "','" + txtAddress.Text + "',GetDate(),'" + HSRPStateID + "','" +  Session["UserRTOLocationID"].ToString()+ "','" + txtOwnerName.Text + "','" + txtMobileNo.Text + "','" + ddlVehicleclass.SelectedItem.ToString().ToUpper() +
+                       "','" + ddlOrderType.SelectedValue + "','" + lblAmount.Text + "','" + ddlVehicletype.SelectedItem.ToString() + "','New Order','" + cashrc +
                        "', '" + txtEmail.Text.Trim() + "', '" + txtChassisno.Text.Trim() + "', '" + txtEngineNo.Text.Trim() + "', '" +
                        dt.Rows[0]["frontplateID"].ToString() + "', '" + dt.Rows[0]["RearPlateID"].ToString() + "','" + USERID +
                        "','New','" + dt.Rows[0]["FrontPlateCost"].ToString() + "','" + dt.Rows[0]["rearplatecost"].ToString() + "','" + dt.Rows[0]["stickercost"].ToString() +
                        "','" + dt.Rows[0]["snaplockcost"].ToString() + "','" + dt.Rows[0]["totalamount"].ToString() + "','" + dt.Rows[0]["vatamount"].ToString() + "','" +
-                       Math.Round(decimal.Parse(lblAmount.Text), 0) + "','" + dt.Rows[0]["vatper"].ToString() + "','" + date1 + "','" + DepositDate.SelectedDate + "','','','" + txtRegNumber.Text.Replace(" ","") + "','WebDirect', '" + StickerMandatory + "' )";
+                       Math.Round(decimal.Parse(lblAmount.Text), 0) + "','" + dt.Rows[0]["vatper"].ToString() + "','" + date1 + "','" + DepositDate.SelectedDate + "','','','" + txtRegNumber.Text.Replace(" ", "") + "','WebDirect', '" + StickerMandatory + "', '" + dropDownListRTOLocation.SelectedValue.ToString() + "' )";
                 int i = Utils.ExecNonQuery(strQuery, ConnectionString);
                 if (i > 0)
                 {
@@ -1444,21 +1446,21 @@ namespace HSRP.Transaction
                 table.AddCell(cell95);
 
                 PdfPCell cell999 = new PdfPCell(new Phrase("VehicleReg NO.", new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                cell9.Colspan = 0;
-                cell9.BorderWidthLeft = 0f;
-                cell9.BorderWidthRight = 0f;
-                cell9.BorderWidthTop = 0f;
-                cell9.BorderWidthBottom = 0f;
-                cell9.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
+                cell999.Colspan = 0;
+                cell999.BorderWidthLeft = 0f;
+                cell999.BorderWidthRight = 0f;
+                cell999.BorderWidthTop = 0f;
+                cell999.BorderWidthBottom = 0f;
+                cell999.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                 table.AddCell(cell999);
 
                 PdfPCell cell950 = new PdfPCell(new Phrase(": " + dataSetFillHSRPDeliveryChallan.Rows[0]["VehicleRegNo"].ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
-                cell95.Colspan = 0;
-                cell95.BorderWidthLeft = 0f;
-                cell95.BorderWidthRight = 0f;
-                cell95.BorderWidthTop = 0f;
-                cell95.BorderWidthBottom = 0f;
-                cell95.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
+                cell950.Colspan = 0;
+                cell950.BorderWidthLeft = 0f;
+                cell950.BorderWidthRight = 0f;
+                cell950.BorderWidthTop = 0f;
+                cell950.BorderWidthBottom = 0f;
+                cell950.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                 table.AddCell(cell950);
 
 
@@ -1634,17 +1636,47 @@ namespace HSRP.Transaction
             }
         }
 
+        //protected void ddlTransactionType_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+        //    UpdatePanel2.Update();
+        //    ddlVehicleclass.ClearSelection();
+           
+        //}
+
+        //protected void ddlVehicleclass_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+            
+        //        GetAmount();
+
+        //}
+
         protected void ddlTransactionType_SelectedIndexChanged(object sender, EventArgs e)
         {
             UpdatePanel2.Update();
             ddlVehicleclass.ClearSelection();
-           
+
+            if (ddlVehicletype.SelectedItem.ToString() == "-Select Vehicle Type-" || ddlVehicleclass.SelectedItem.ToString() == "-Select Vehicle Class-" || ddlOrderType.SelectedItem.ToString() == "-Select Order Type-")
+            {
+                return;
+            }
+            else
+            {
+                GetAmount();
+            }
         }
 
         protected void ddlVehicleclass_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            if (ddlVehicletype.SelectedItem.ToString() == "-Select Vehicle Type-" || ddlVehicleclass.SelectedItem.ToString() == "-Select Vehicle Class-" || ddlOrderType.SelectedItem.ToString() == "-Select Order Type-")
+            {
+                return;
+            }
+            else
+            {
                 GetAmount();
+            }
+
+
 
         }
 
@@ -1818,7 +1850,8 @@ namespace HSRP.Transaction
                         lblErrMess.Text = StrNICVehicleType + " Vehicle Type Not Found";
                         return;
                     }
-                    StrTransactonType = dt.Rows[0]["OrderType"].ToString();
+                   // StrTransactonType
+                     ddlOrderType.SelectedValue  = dt.Rows[0]["OrderType"].ToString().Trim().ToUpper();
                     StrVehicleClassType = dt.Rows[0]["VehicleClass"].ToString();
                     StrMobileNo = dt.Rows[0]["MobileNo"].ToString();
                     StrManufacturarName = dt.Rows[0]["ManufacturerName"].ToString();
@@ -1881,10 +1914,12 @@ namespace HSRP.Transaction
 
 
                     string SQLString2 = string.Empty;
-                    SQLString2 = "select dbo.hsrpplateamt ('" + HSRPStateID + "','" + StrVehicleType + "','" + StrVehicleClassType + "','" + StrTransactonType + "') as Amount";
+                    SQLString2 = "select dbo.hsrpplateamt ('" + HSRPStateID + "','" + StrVehicleType + "','" + StrVehicleClassType + "','" + ddlOrderType.SelectedValue.ToString() + "') as Amount";
                     DataTable dtamt = Utils.GetDataTable(SQLString2, ConnectionString);
                     lblAmount.Text = dtamt.Rows[0]["Amount"].ToString();
 
+                    if(ddlOrderType.SelectedValue.ToString()=="NB")
+                    { 
 
                     string query = "select userid from HRAC_master where hsrp_stateid = 4 and activestatus = 'Y'";
 
@@ -1901,14 +1936,14 @@ namespace HSRP.Transaction
                                 for (int j = 0; j < dtAcuserid.Rows.Count; j++)
                                 {
 
-                                    string sqlquery = "select count (engineno)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(engineno))= '" + txtEngineNo.Text.ToString().Trim() + "' and createdby = '" + dtAcuserid.Rows[j]["userid"].ToString().Trim() + "'";
+                                    string sqlquery = "select count (chassisno)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(chassisno))= '" + txtChassisno.Text.ToString().Trim() + "' ";
                                     int no = Utils.getScalarCount(sqlquery, ConnectionString);
 
                                     if (no > 0)
                                     {
                                         lblErrMess.Visible = true;
                                         lblErrMess.Text = "";
-                                        lblErrMess.Text = "Duplicate  Engine No.";
+                                        lblErrMess.Text = "Duplicate  Chassis No.";
                                         return;
 
                                     }
@@ -1922,6 +1957,7 @@ namespace HSRP.Transaction
                         }
 
                     }
+                }
 
                     txtRegNumber.ReadOnly = true;
 
@@ -1941,6 +1977,19 @@ namespace HSRP.Transaction
                 lblErrMess.Text = "RTA Server is not responding... Pls contact to System Administrator  " + ex.ToString();
             }
 
+
+        }
+
+        protected void ddlOrderType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlVehicletype.SelectedItem.ToString() == "-Select Vehicle Type-" || ddlVehicleclass.SelectedItem.ToString() == "-Select Vehicle Class-" || ddlOrderType.SelectedItem.ToString() == "-Select Order Type-")
+            {
+                return;
+            }
+            else
+            {
+                GetAmount();
+            }
 
         }
 

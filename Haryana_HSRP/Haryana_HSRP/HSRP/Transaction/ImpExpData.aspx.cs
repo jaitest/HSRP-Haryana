@@ -164,9 +164,6 @@ namespace HSRP.Transaction
                     int Cols = Fields.GetLength(0);
                     DataTable dt = new DataTable();
                     CreateDynamicDataTable(dt, "VehicleRegNo", "ChassisNo", "EngineNo", "OrderType", "VehicleType", "Manufacturername", "Manufacturemodel", "OwnerName", "Manufacturer", "HSRPRecord_AuthorizationNo");
-
-                    
-
                    
                     DataRow Row;
                     for (int i = 0; i < Lines.GetLength(0); i++)
@@ -206,27 +203,7 @@ namespace HSRP.Transaction
                         {
                             if (j < dt.Columns.Count - 1)
                             {
-                                HSRP_Authrization_no = dt.Rows[i][9].ToString();
-                                //VehicleReg = dt.Rows[i][0].ToString();
-
-                                //string strAuthno = HSRP_Authrization_no.Substring(0, 2);
-                                //string strVehicleNo = VehicleReg.Substring(0, 2);                              
-
-                                //if (strAuthno.ToUpper() != "HR")
-                                //{
-                                //    llbFileName.Visible = true;
-                                //    llbFileName.Text = "";
-                                //    llbFileName.Text = "Please Enter Valid Vehicle Registration No.";
-                                //    return;
-                                //}
-
-                                //if (strVehicleNo.ToUpper() != "HR")
-                                //{
-                                //    llbFileName.Visible = true;
-                                //    llbFileName.Text = "";
-                                //    llbFileName.Text = "Please Enter Valid Vehicle Registration No.";
-                                //    return;
-                                //}
+                                HSRP_Authrization_no = dt.Rows[i][9].ToString();                                
                             }
                             else
                             {
@@ -361,28 +338,7 @@ namespace HSRP.Transaction
                             if (j < dt.Columns.Count - 1)
                             {                               
                                 HSRP_Authrization_no = dt.Rows[i][9].ToString();
-                                //VehicleReg = dt.Rows[i][0].ToString();
-
-                                //string strAuthno = HSRP_Authrization_no.Substring(0, 1);
-                                //string strVehicleNo = VehicleReg.Substring(0, 1);
-
-                                //if (strAuthno.ToUpper() != "U")
-                                //{
-                                //    llbMSGError.Visible = true;
-                                //    llbMSGSuccess.Text = "";
-                                //    llbFileName.Text = "";
-                                //    llbMSGError.Text = "Please Enter Valid Auth No.";
-                                //    return;
-                                //}
-
-                                //if (strVehicleNo.ToUpper() != "U")
-                                //{
-                                //    llbMSGError.Visible = true;
-                                //    llbFileName.Text = "";
-                                //    llbMSGSuccess.Text = "";
-                                //    llbMSGError.Text = "Please Enter Valid Vehicle Registration No.";
-                                //    return;
-                                //}
+                               
                             }
                             else
                             {
@@ -752,11 +708,16 @@ namespace HSRP.Transaction
 
             if (StateID == "4")
             {
-
+                //if(dropDownListFilenameforlocation.SelectedValue.ToString()=="--Select FileName--")
+                //{
+                //    llbMSGError.Text = "Please Select File Name";
+                //    return;
+                //}
+                llbMSGError.Text = "";
                 string getDataQry = string.Empty;
 
                 getDataQry = "select b.HSRPRecord_AuthorizationNo,b.NICVehicleRegNo,b.OrderType,a.HSRP_Front_LaserCode,a.HSRP_Rear_LaserCode,CONVERT(VARCHAR(10), a.OrderClosedDate, 105) AS AffixationDate,a.NetAmount,CONVERT(VARCHAR(10), a.hsrprecord_creationdate, 105) AS hsrprecord_creationdate from HSRPRecords a,HSRPRecordsStaggingArea b where a.VehicleRegNo=b.VehicleRegNo and b.HSRP_StateID='" + dropDownListOrg.SelectedValue + "' and b.rtolocationid='" + dropDownListClient.SelectedValue.ToString() + "' and a.OrderStatus='Closed' and a.SendRecordToNic='N' and hsrpflag1='V4'";
-                //getDataQry = "select b.HSRPRecord_AuthorizationNo,b.NICVehicleRegNo,b.OrderType,a.HSRP_Front_LaserCode,a.HSRP_Rear_LaserCode,CONVERT(VARCHAR(10), a.OrderClosedDate, 105) AS AffixationDate,a.NetAmount,CONVERT(VARCHAR(10), a.hsrprecord_creationdate, 105) AS hsrprecord_creationdate from HSRPRecords a,HSRPRecordsStaggingArea b where a.VehicleRegNo=b.VehicleRegNo and b.HSRP_StateID='" + dropDownListOrg.SelectedValue + "' and b.rtolocationid='" + dropDownListClient.SelectedValue.ToString() + "' and a.OrderStatus='Closed' and a.SendRecordToNic='N'";
+              
 
                 DataTable dt = Utils.GetDataTable(getDataQry, CnnString);
                 if (dt.Rows.Count > 0)
@@ -779,6 +740,12 @@ namespace HSRP.Transaction
 
             else if (StateID == "6")
             {
+                //if (dropDownListFilenameforlocation.SelectedValue.ToString() == "--Select FileName--")
+                //{
+                //    llbMSGError.Text = "Please Select File Name";
+                //    return;
+                //}
+                llbMSGError.Text = "";
                 string getDataQry = string.Empty;
 
                 getDataQry = "select b.HSRPRecord_AuthorizationNo,b.NICVehicleRegNo,b.OrderType,a.HSRP_Front_LaserCode,a.HSRP_Rear_LaserCode,CONVERT(VARCHAR(10), a.OrderClosedDate, 105) AS AffixationDate,a.NetAmount,CONVERT(VARCHAR(10), a.hsrprecord_creationdate, 105) AS hsrprecord_creationdate from HSRPRecords a,HSRPRecordsStaggingArea b where a.VehicleRegNo=b.VehicleRegNo and b.HSRP_StateID='" + dropDownListOrg.SelectedValue + "' and b.rtolocationid='" + dropDownListClient.SelectedValue.ToString() + "' and a.OrderStatus='Closed' and a.SendRecordToNic='N'";
@@ -810,45 +777,15 @@ namespace HSRP.Transaction
         public void CreateCSVFile(DataTable dt, string strFilePath)
         {
             // Create the CSV file to which grid data will be exported.
-
-            StreamWriter sw = new StreamWriter(strFilePath, false);
-
-            // First we will write the headers.
-
-            //DataTable dt = m_dsProducts.Tables[0];
+            StreamWriter sw = new StreamWriter(strFilePath, false);       
 
             int iColCount = dt.Columns.Count;
-           
-            //for (int i = 0; i < iColCount; i++)
-            //{
-
-            //    sw.Write(dt.Columns[i]);
-
-            //    if (i < iColCount - 1)
-            //    {
-
-            //        sw.Write(";");
-
-            //    }
-
-            //}
-
-            //sw.Write(sw.NewLine);
-
-            // Now write all the rows.
 
             foreach (DataRow dr in dt.Rows)
             {
                 for (int i = 0; i < iColCount; i++)
                 {
-                    //if (i == 5)
-                    //{
-                    //    dr[5] = dr[5].ToString().Replace("`", "'");
-                    //}
-                    //if (i == 6)
-                    //{
-                    //    dr[6] = dr[6].ToString().Replace("`", "'");
-                    //}
+                   
                     if (!Convert.IsDBNull(dr[i]))
                     {
                         sw.Write(dr[i].ToString());
@@ -868,9 +805,8 @@ namespace HSRP.Transaction
             response.ContentType = "text/plain";
 
             if (Session["UserHSRPStateID"].ToString() == "4" || Session["UserHSRPStateID"].ToString() == "1")
-            {
-                
-                response.AddHeader("Content-Disposition", "attachment; filename=" + dropDownListFilenameforlocation.SelectedValue + ";");
+            {               
+                response.AddHeader("Content-Disposition", "attachment; filename=" + strFilePath + ";");
             }
             else
             {
@@ -905,14 +841,9 @@ namespace HSRP.Transaction
             }
             else
             {
-                if (Session["UserHSRPStateID"].ToString() == "2")
-                {
-                    divLocationFileName.Visible = false;
-                }
-                else
-                {
+               
                     divLocationFileName.Visible = true;
-                }
+               
             }
         }
 

@@ -28,3 +28,15 @@ D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HRHP Web Service 
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.dll
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.pdb
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll.config
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.dll
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.pdb
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.dll
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Release\HSRPWebServices.pdb

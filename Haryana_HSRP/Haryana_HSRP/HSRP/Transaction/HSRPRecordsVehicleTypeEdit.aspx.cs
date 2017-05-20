@@ -56,11 +56,11 @@ namespace HSRP.Transaction
                 lblErrMsg.Text = string.Empty;
                 lblErrMsg.Visible = false;
 
-                if (String.IsNullOrEmpty(txtVehicleNo.Text))
+                if (String.IsNullOrEmpty(txtChassisNo.Text))
                 {
 
                     lblErrMsg.Visible = true;
-                    lblErrMsg.Text = "Please Enter Vehicle Registration No.";
+                    lblErrMsg.Text = "Please Enter Chassis No.";
                     return;
                 }
 
@@ -72,11 +72,11 @@ namespace HSRP.Transaction
                 ddlVehicleType.ClearSelection();
                 ddlVehicleType.SelectedIndex = 0;
 
-                dtgetDetail = Utils.GetDataTable(" GetVehicleDetails '" + HSRPStateID + "','" + txtVehicleNo.Text + "'", CnnString);
+                dtgetDetail = Utils.GetDataTable(" GetVehicleDetails '" + HSRPStateID + "','" + txtChassisNo.Text + "'", CnnString);
                 if (dtgetDetail.Rows.Count <= 0)
                 {
                     lblErrMsg.Visible = true;
-                    lblErrMsg.Text = "Vehicle not found";
+                    lblErrMsg.Text = "Chassis No not found";
                     return;
                 }
                 else if (dtgetDetail.Columns.Count == 1)
@@ -102,7 +102,7 @@ namespace HSRP.Transaction
                     else
                         ddlVehicleType.SelectedValue = dtgetDetail.Rows[0]["VehicleType"].ToString().ToUpper();
 
-                    txtVehicleNo.Enabled = false;
+                    txtChassisNo.Enabled = false;
                     fillCostWithBindType();
                 }
             }
@@ -163,25 +163,14 @@ namespace HSRP.Transaction
                     lblErrMsg.Text = "Please Enter Approved By";
                     return;
                 }
-                //if ((!Regex.Match(txtapprovedBy.Text.ToString().Trim(), @"^[a-zA-Z\s\.]{1,100}$", RegexOptions.None).Success))
-                //{
-                //    lblErrMsg.Visible = true;
-                //    lblErrMsg.Text = "Please enter vaild Name of Approved by";
-                //    return;
-                //}
-
+               
                 if (string.IsNullOrEmpty(txtRemarks.Text))
                 {
                     lblErrMsg.Visible = true;
                     lblErrMsg.Text = "Please Enter Remarks";
                     return;
                 }
-                //if ((!Regex.Match(txtRemarks.Text.ToString().Trim(), @"^[a-zA-Z0-9\@\!\$\&amp;\^\?\*\/\+\,\-\.\:\;\{\}\|\~\(\)\=\ \`\[\]\\\%]{1,250}$", RegexOptions.None).Success))
-                //{
-                //    lblErrMsg.Visible = true;
-                //    lblErrMsg.Text = "Please enter vaild Remarks!";
-                //    return;
-                //}                
+                           
 
                 string strUserID = string.Empty;
                 strUserID = Session["UID"].ToString();
@@ -209,8 +198,8 @@ namespace HSRP.Transaction
                 {
                     rearplatecost = Convert.ToInt32(dt.Rows[0]["rearplatecost"].ToString().Trim());
                 }
-                string q = " UpdateVehicleType1 '" + HSRPStateID + "','" + RTOLocationID + "','" + HiddenRecordid.Value.ToString() + "', '" + txtVehicleNo.Text + "','" + txtOrderType.Text + "','" + txtVehicleClass.Text + "','" + ddlVehicleType.SelectedValue + "','" + txtapprovedBy.Text + "','" + txtRemarks.Text + "','" + Session["UID"].ToString() + "','" + dt.Rows[0]["FrontPlateID"].ToString() + "','" + dt.Rows[0]["RearPlateID"].ToString() + "','" + dt.Rows[0]["stickerflag"].ToString() + "','" + dt.Rows[0]["totalamount"].ToString() + "','" + dt.Rows[0]["netamount"].ToString() + "','" + frontplatecost + "','" + rearplatecost + "','" + dt.Rows[0]["stickercost"].ToString() + "'";
-                int i = Utils.ExecNonQuery(" UpdateVehicleType1 '" + HSRPStateID + "','" + RTOLocationID + "','" + HiddenRecordid.Value.ToString() + "', '" + txtVehicleNo.Text + "','" + txtOrderType.Text + "','" + txtVehicleClass.Text + "','" + ddlVehicleType.SelectedValue + "','" + txtapprovedBy.Text + "','" + txtRemarks.Text + "','" + Session["UID"].ToString() + "','" + dt.Rows[0]["FrontPlateID"].ToString() + "','" + dt.Rows[0]["RearPlateID"].ToString() + "','" + dt.Rows[0]["stickerflag"].ToString() + "','" + dt.Rows[0]["totalamount"].ToString() + "','" + dt.Rows[0]["netamount"].ToString() + "','" + frontplatecost + "','" + rearplatecost + "','" + dt.Rows[0]["stickercost"].ToString() + "'", CnnString);
+             
+                int i = Utils.ExecNonQuery(" UpdateVehicleType1 '" + HSRPStateID + "','" + RTOLocationID + "','" + HiddenRecordid.Value.ToString() + "', '" + txtChassisNo.Text + "','" + txtOrderType.Text + "','" + txtVehicleClass.Text + "','" + ddlVehicleType.SelectedValue + "','" + txtapprovedBy.Text + "','" + txtRemarks.Text + "','" + Session["UID"].ToString() + "','" + dt.Rows[0]["FrontPlateID"].ToString() + "','" + dt.Rows[0]["RearPlateID"].ToString() + "','" + dt.Rows[0]["stickerflag"].ToString() + "','" + dt.Rows[0]["totalamount"].ToString() + "','" + dt.Rows[0]["netamount"].ToString() + "','" + frontplatecost + "','" + rearplatecost + "','" + dt.Rows[0]["stickercost"].ToString() + "'", CnnString);
                 if (i > 0)
                 {
                     lblErrMsg.Visible = true;
@@ -223,27 +212,7 @@ namespace HSRP.Transaction
                     lblErrMsg.Text = "Record not saved";
                     return;
                 }
-                //UpdateData();
-
-                //dtgetDetail = Utils.GetDataTable(" UpdateVehicleType '" + HSRPStateID + "','" + RTOLocationID + "','" + HiddenRecordid.Value.ToString() + "','" + txtVehicleNo.Text + "','" + txtOrderType.Text + "','" + txtVehicleClass.Text + "','" + ddlVehicleType.SelectedValue + "','" + txtapprovedBy.Text + "','" + txtRemarks.Text + "','" + strUserID + "'", CnnString);
-                //if (dtgetDetail.Rows.Count <= 0)
-                //{
-                //    lblErrMsg.Visible = true;
-                //    lblErrMsg.Text = "Vehicle not found";
-                //    return;
-                //}
-                //else if (dtgetDetail.Columns.Count == 1)
-                //{
-                //    lblErrMsg.Visible = true;
-                //    lblErrMsg.Text = dtgetDetail.Rows[0]["msg"].ToString();
-                //    return;
-                //}
-                //else if (dtgetDetail.Columns.Count > 1)
-                //{
-                //    lblmsg.Visible = true;
-                //    lblmsg.Text = dtgetDetail.Rows[0]["msg"].ToString();
-                //    return;
-                //}
+               
             }
             catch (Exception ex)
             {
@@ -255,7 +224,7 @@ namespace HSRP.Transaction
         {
             lnkModifyVehicle.Visible = false;
             btnGo.Visible = true;
-            txtVehicleNo.Enabled = true;
+            txtChassisNo.Enabled = true;
             td_Vehicle.Visible = false;
             ddlVehicleType.SelectedIndex = 0;
             lblErrMsg.Text = string.Empty;
@@ -439,7 +408,7 @@ namespace HSRP.Transaction
             string StringRearPlateSize = HiddenFieldRearPlateCode.Text;
 
             StringVehicleType = ddlVehicleType.SelectedItem.Value;
-            StringVehicleRegNo = txtVehicleNo.Text.Trim().Replace("'", "''").ToString();
+            StringVehicleRegNo = txtChassisNo.Text.Trim().Replace("'", "''").ToString();
             //>>> Number Plate Info
 
             StringOrderType = txtOrderType.Text;                
@@ -498,7 +467,7 @@ namespace HSRP.Transaction
             if (dtgetDetail.Rows.Count <= 0)
             {
                 lblErrMsg.Visible = true;
-                lblErrMsg.Text = "Vehicle not found";
+                lblErrMsg.Text = "Chassis No not found";
                 return;
             }
             else if (dtgetDetail.Columns.Count == 1)

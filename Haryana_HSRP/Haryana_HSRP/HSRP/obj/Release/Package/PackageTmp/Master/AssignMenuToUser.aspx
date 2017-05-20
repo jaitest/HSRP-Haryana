@@ -40,7 +40,7 @@
                                                                     State:
                                                                 </td>
                                                                 <td width="82%">
-                                                                    <asp:DropDownList TabIndex="6" Enabled="false" AutoPostBack="true" CausesValidation="false" Width="125px"
+                                                                    <asp:DropDownList TabIndex="6" Enabled="false" AutoPostBack="true" CausesValidation="false" Width="250px"
                                                                         ID="dropDownListHSRPState" runat="server" DataTextField="HSRPStateName" DataValueField="HSRP_StateID"
                                                                         OnSelectedIndexChanged="dropDownListOrg_SelectedIndexChanged">
                                                                     </asp:DropDownList>
@@ -54,7 +54,7 @@
                                                                     <asp:UpdatePanel UpdateMode="Conditional" ID="UpdatePanelClient" ChildrenAsTriggers="true"
                                                                         runat="server">
                                                                         <ContentTemplate>
-                                                                            <asp:DropDownList AutoPostBack="true" Enabled="false" TabIndex="6" CausesValidation="false" Width="125px"
+                                                                            <asp:DropDownList AutoPostBack="true" Enabled="false" TabIndex="6" CausesValidation="false" Width="250px"
                                                                                 ID="dropDownListRTOLocation" runat="server" DataTextField="RTOLocationName" DataValueField="RTOLocationID"
                                                                                 OnSelectedIndexChanged="dropDownListClient_SelectedIndexChanged">
                                                                             </asp:DropDownList>
@@ -72,7 +72,7 @@
                                                                 <td>
                                                                     <asp:UpdatePanel UpdateMode="Conditional" ID="UpdatePanelUser" runat="server">
                                                                         <ContentTemplate>
-                                                                            <asp:DropDownList AutoPostBack="true" CausesValidation="true" ID="dropDownListUser" Width="125px"
+                                                                            <asp:DropDownList AutoPostBack="true" CausesValidation="true" ID="dropDownListUser" Width="250px"
                                                                                 Enabled="false" runat="server" TabIndex="8" DataTextField="Names" DataValueField="UserID"
                                                                                 OnSelectedIndexChanged="dropDownListUser_SelectedIndexChanged">
                                                                             </asp:DropDownList>

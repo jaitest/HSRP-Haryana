@@ -1,0 +1,91 @@
+.MenuGroup
+{
+ border-left-color:#adaead;
+ border-right-color:#adaead;
+
+}
+
+.TopMenuItem
+{
+  	background-image: url(../images/Internal_bar/Curve_bg.png); 
+    font: normal 12px tahoma, arial, verdana;
+	font-weight:bold;
+	line-height:18px;
+	color:#051f3f;
+	cursor:pointer;
+	text-decoration: none;
+	height:28px;
+}
+
+.TopMenuItemHover
+{
+  	background-image: url(../images/item_bg_hover.gif); 
+    font: normal 12px tahoma, arial, verdana;
+	line-height:18px;
+	font-weight:bold;
+	color:#4a98cb;
+	cursor:pointer;
+	text-decoration: underline;
+	height:28px;
+}
+
+.TopMenuItemActive
+{
+  background-image: url(../images/item_bg_hover.gif); 
+  color:#3F3F3F;
+  font: normal 12px tahoma, arial, verdana;
+  font-weight:bold; 
+  border: solid 1px gray;
+  border-left-color:gray;
+  border-top-color:gray;
+  cursor:pointer;
+  height:28px;
+}
+
+.MenuItem
+{
+  background-image: url(../images/item_bg.gif); 
+  color:#ffffff;
+  font: normal 12px tahoma, arial, verdana;
+  border: solid 1px gray;
+  border-left-color:#85888a;
+  border-top-color:#85888a;
+  cursor:pointer;
+  height:28px;
+
+}
+
+.MenuItemHover
+{
+ /* background-image: url(../images/item_bg_hover.gif); 
+  color:#3F3F3F;
+  font-family:verdana;
+  font-size:13px;
+  border: solid 1px gray;
+  border-left-color:white;
+  border-top-color:white;
+  cursor:pointer;*/
+  background-image: url(../images/item_bg_hover.gif); 
+  color:#000000;
+font: normal 12px tahoma, arial, verdana;
+  border: solid 1px gray;
+  border-left-color:white;
+  border-top-color:white;
+  cursor:pointer;
+  text-decoration: none;
+  height:28px;
+
+}
+
+.MenuItemActive
+{
+ background-image: url(../images/item_bg_hover.gif); 
+  color:#3F3F3F;
+font: normal 12px tahoma, arial, verdana;
+  border: solid 1px gray;
+  border-left-color:gray;
+  border-top-color:gray;
+  cursor:pointer;
+  height:28px;
+}
+

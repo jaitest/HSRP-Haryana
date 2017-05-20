@@ -53,11 +53,11 @@ namespace HSRP.Transaction
                 lblErrMsg.Text = string.Empty;
                 lblErrMsg.Visible = false;
 
-                if (String.IsNullOrEmpty(txtVehicleNo.Text))
+                if (String.IsNullOrEmpty(txtChassisNo.Text))
                 {
 
                     lblErrMsg.Visible = true; 
-                    lblErrMsg.Text = "Please Enter Vehicle Registration No.";
+                    lblErrMsg.Text = "Please Enter Chassis No.";
                     return;
                 }
 
@@ -69,11 +69,11 @@ namespace HSRP.Transaction
                 ddlVehicleClass.ClearSelection();
                 ddlVehicleClass.SelectedIndex = 0;
 
-                dtgetDetail = Utils.GetDataTable(" GetVehicleDetails '" + HSRPStateID + "','" + txtVehicleNo.Text + "'", CnnString);
+                dtgetDetail = Utils.GetDataTable(" GetVehicleDetails '" + HSRPStateID + "','" + txtChassisNo.Text + "'", CnnString);
                 if (dtgetDetail.Rows.Count <= 0)
                 {
                     lblErrMsg.Visible = true; 
-                    lblErrMsg.Text = "Vehicle not found";
+                    lblErrMsg.Text = "Chassis No not found";
                     return;
                 }
                 else if (dtgetDetail.Columns.Count == 1)
@@ -98,7 +98,7 @@ namespace HSRP.Transaction
                     }
                     else
                         ddlVehicleClass.SelectedValue = dtgetDetail.Rows[0]["VehicleClass"].ToString().ToUpper();
-                        txtVehicleNo.Enabled = false;
+                    txtChassisNo.Enabled = false;
                 }
             }
             catch(Exception ex)
@@ -106,9 +106,11 @@ namespace HSRP.Transaction
                 throw ex;            
             }
         }
+
         public static string VehicleClass;
         public static string VehicleType;
         public static string RTOLocationID;
+
         protected void btnEdit_Click(object sender, EventArgs e)
         {
             try
@@ -158,8 +160,8 @@ namespace HSRP.Transaction
                 HSRPStateID = Session["UserHSRPStateID"].ToString();                
                 DataTable dt4 = new DataTable();
                 dt4 = GetTable(HSRPStateID, VehicleType, ddlVehicleClass.SelectedValue, txtOrderType.Text);
-                //dtgetDetail = Utils.GetDataTable(" UpdateVehicleClass '" + HSRPStateID + "','" + RTOLocationID + "','" + HiddenRecordid.Value.ToString() + "','" + txtVehicleNo.Text + "','" + ddlVehicleClass.SelectedValue + "','" + txtapprovedBy.Text + "','" + txtRemarks.Text + "','" + strUserID + "'", CnnString);
-                int a = Utils.ExecNonQuery("UpdateVehicleClass1 '" + HSRPStateID + "','" + RTOLocationID + "','" + HiddenRecordid.Value.ToString() + "','" + txtVehicleNo.Text + "','" + ddlVehicleClass.SelectedValue + "','" + txtapprovedBy.Text + "','" + txtRemarks.Text + "','" + strUserID + "','" + VehicleType + "','" + dt4.Rows[0]["FrontPlateID"].ToString() + "','" + dt4.Rows[0]["RearPlateID"].ToString() + "'", CnnString);
+               
+                int a = Utils.ExecNonQuery("UpdateVehicleClass1 '" + HSRPStateID + "','" + RTOLocationID + "','" + HiddenRecordid.Value.ToString() + "','" + txtChassisNo.Text + "','" + ddlVehicleClass.SelectedValue + "','" + txtapprovedBy.Text + "','" + txtRemarks.Text + "','" + strUserID + "','" + VehicleType + "','" + dt4.Rows[0]["FrontPlateID"].ToString() + "','" + dt4.Rows[0]["RearPlateID"].ToString() + "'", CnnString);
                 if (a> 0)
                 {
                     lblErrMsg.Visible = true;
@@ -184,7 +186,7 @@ namespace HSRP.Transaction
         {
             lnkModifyVehicle.Visible = false;
             btnGo.Visible = true;
-            txtVehicleNo.Enabled = true;
+            txtChassisNo.Enabled = true;
             td_Vehicle.Visible = false;
             ddlVehicleClass.SelectedIndex = 0;    
         }

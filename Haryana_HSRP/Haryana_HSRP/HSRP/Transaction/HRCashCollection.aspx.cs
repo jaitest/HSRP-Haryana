@@ -129,7 +129,7 @@ namespace HSRP.Transaction
             string TodayDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
             string MaxDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
 
-            if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "01/01/0001 00:00:00" || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM")
+            if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "01/01/0001 00:00:00" || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM"||OrderDate.SelectedDate.ToString() =="01/01/0001 12:00:00 AM")
             {
                 OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
                 OrderDate.MaxDate = DateTime.Parse(MaxDate);
@@ -227,6 +227,7 @@ namespace HSRP.Transaction
                  
 
                 bln3rdSticker.Checked = false;
+               
                 string ACno;
                 if(txtRegNo.Text == "")
                 {
@@ -298,7 +299,7 @@ namespace HSRP.Transaction
                     string result = txtRegNo.Text.Substring(0, 4);
                                
                 }
-                String SqlQuery = "SELECT top(1) RegistrationDate , HSRPRecord_AuthorizationNo,HSRPRecord_AuthorizationDate,OwnerName,Address1,MobileNo,EmailID,OrderType,VehicleClass,NICvehicletype,ManufacturerName,ManufacturerModel,ChassisNo,EngineNo,VehicleRegNo FROM HSRPRecordsStaggingArea where VehicleRegNo='" + txtRegNo.Text + "' and HSRP_StateID='" + HSRPStateID + "' order by  HSRPRecord_CreationDate desc";
+                String SqlQuery = "SELECT top(1) Convert(date,RegistrationDate) as RegistrationDate , HSRPRecord_AuthorizationNo,HSRPRecord_AuthorizationDate,OwnerName,Address1,MobileNo,EmailID,OrderType,VehicleClass,NICvehicletype,ManufacturerName,ManufacturerModel,ChassisNo,EngineNo,VehicleRegNo FROM HSRPRecordsStaggingArea where VehicleRegNo='" + txtRegNo.Text + "' and HSRP_StateID='" + HSRPStateID + "' order by  HSRPRecord_CreationDate desc";
                 DataTable dt = Utils.GetDataTable(SqlQuery, ConnectionString);
                 if (dt.Rows.Count > 0)
                 {
@@ -390,45 +391,54 @@ namespace HSRP.Transaction
                         VIP = "N";
                     }
 
-                   
+                    string sqlquery = "select count (chassisno)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(chassisno))= '" + lblChasisNo.Text.ToString().Trim() + "' and ordertype='NB'";
+                    int no = Utils.getScalarCount(sqlquery, ConnectionString);
+
+                    if (no > 0)
+                    {
+                        lblErrMess.Visible = true;
+                        lblErrMess.Text = "";
+                        lblErrMess.Text = "Duplicate Chassis No.";
+                        return;
+                    }
                   
 
-                string query = "select userid from HRAC_master where hsrp_stateid = 4 and activestatus = 'Y'";
+               // string query = "select userid from HRAC_master where hsrp_stateid = 4 and activestatus = 'Y'";
 
-                DataTable dtAcuserid = Utils.GetDataTable(query, ConnectionString);
+               // DataTable dtAcuserid = Utils.GetDataTable(query, ConnectionString);
 
-               if (dtAcuserid.Rows.Count > 0)
-               { 
-                for (int i = 0; i < dtAcuserid.Rows.Count; i++)
-                  {
+               //if (dtAcuserid.Rows.Count > 0)
+               //{ 
+               // for (int i = 0; i < dtAcuserid.Rows.Count; i++)
+               //   {
                      
-                      if (USERID == dtAcuserid.Rows[i]["userid"].ToString().Trim())
-                      {
+               //       if (USERID == dtAcuserid.Rows[i]["userid"].ToString().Trim())
+               //       {
  
-                          for (int j= 0; j < dtAcuserid.Rows.Count; j++)
-                          {
+               //           for (int j= 0; j < dtAcuserid.Rows.Count; j++)
+               //           {
 
-                              string sqlquery = "select count (vehicleRegNo)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(vehicleRegNo))= '" + txtRegNo.Text.ToString().Trim() + "' and createdby = '" + dtAcuserid.Rows[j]["userid"].ToString().Trim() + "'";
-                              int no = Utils.getScalarCount(sqlquery, ConnectionString);
+               //               string sqlquery = "select count (chassisno)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(chassisno))= '" + lblChasisNo.Text.ToString().Trim() + "'";
+               //               int no = Utils.getScalarCount(sqlquery, ConnectionString);
 
-                              if (no > 0)
-                              {
-                                  lblErrMess.Visible = true;
-                                  lblErrMess.Text = "";
-                                  lblErrMess.Text = "Duplicate Vehicle RegNo.";
-                                  return;
+               //               if (no > 0)
+               //               {
+               //                   lblErrMess.Visible = true;
+               //                   lblErrMess.Text = "";
+               //                   lblErrMess.Text = "Duplicate Chassis No.";
+               //                   return;
 
-                              }
+               //               }
 
-                          }
-
-
-                      }
+               //           }
 
 
-                 }
+               //       }
 
-               }
+
+               //  }
+
+               //}
 
                txtRegNo.ReadOnly = true; 
 
@@ -477,6 +487,15 @@ namespace HSRP.Transaction
             lblErrMess.Text = "";
             lblSucMess.Text = "";
             ddltakal.SelectedValue = "--Select Tatkal Type--";
+
+            string TodayDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
+            string MaxDate = System.DateTime.Now.Year.ToString() + "-" + System.DateTime.Now.Month.ToString() + "-" + System.DateTime.Now.Day.ToString();
+
+            OrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(00.00);
+            OrderDate.MaxDate = DateTime.Parse(MaxDate);
+
+            CalendarOrderDate.SelectedDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
+            CalendarOrderDate.VisibleDate = (DateTime.Parse(TodayDate)).AddDays(0.00);
         }
 
 
@@ -1255,6 +1274,7 @@ namespace HSRP.Transaction
         {
             try
             {
+                AddRecordBy = "WebDirect";
                 if (USERID == "5311")
                 {
                     System.Threading.Thread.Sleep(120000);
@@ -1372,7 +1392,19 @@ namespace HSRP.Transaction
                     }
                     
                 }
-              
+
+                string sqlqueryDuplicate = "select count (chassisno)as noo from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(chassisno))= '" + lblChasisNo.Text.ToString().Trim() + "' and ordertype='NB'";
+                int noo = Utils.getScalarCount(sqlqueryDuplicate, ConnectionString);
+
+                if (noo > 0)
+                {
+                    lblErrMess.Visible = true;
+                    lblErrMess.Text = "";
+                    lblErrMess.Text = "Duplicate Chassis No.";
+                    return;
+
+                }
+
                 
 
                 string query = "select userid from HRAC_master where hsrp_stateid = 4 and activestatus = 'Y'";
@@ -1389,15 +1421,16 @@ namespace HSRP.Transaction
 
                             for (int j = 0; j < dtAcuserid.Rows.Count; j++)
                             {
+                              //  string sqlquery = "select count (chassisno)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(chassisno))= '" + lblChasisNo.Text.ToString().Trim() + "' and createdby = '" + dtAcuserid.Rows[j]["userid"].ToString().Trim() + "'";
 
-                                string sqlquery = "select count (vehicleRegNo)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(vehicleRegNo))= '" + txtRegNo.Text.ToString().Trim() + "' and createdby = '" + dtAcuserid.Rows[j]["userid"].ToString().Trim() + "'";
+                                string sqlquery = "select count (chassisno)as no from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(chassisno))= '" + lblChasisNo.Text.ToString().Trim() + "' and ordertype='NB'";
                                 int no = Utils.getScalarCount(sqlquery, ConnectionString);
 
                                 if (no > 0)
                                 {
                                     lblErrMess.Visible = true;
                                     lblErrMess.Text = "";
-                                    lblErrMess.Text = "Duplicate Vehicle RegNo.";
+                                    lblErrMess.Text = "Duplicate Chassis No.";
                                     return;
 
                                 }
@@ -1523,7 +1556,7 @@ namespace HSRP.Transaction
                 }
 
 
-                if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "01/01/0001 00:00:00" || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM")
+                if (OrderDate.SelectedDate.ToString() == "" || OrderDate.SelectedDate.ToString() == null || OrderDate.SelectedDate.ToString() == "01/01/0001 00:00:00" || OrderDate.SelectedDate.ToString() == "1/1/0001 12:00:00 AM" || OrderDate.SelectedDate.ToString() == "01/01/0001 12:00:00 AM")
                 {
                     lblErrMess.Visible = true;
                     lblErrMess.Text = "Please Select Regisreation Date.";
@@ -1546,7 +1579,7 @@ namespace HSRP.Transaction
                     }
                 }
 
-                
+          
 
                 SqlCommand cmd = new SqlCommand("New_InsertDataHR",con);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1595,6 +1628,7 @@ namespace HSRP.Transaction
                 cmd.Parameters.AddWithValue("@addrecordby", AddRecordBy);
                 cmd.Parameters.AddWithValue("@CounterNo", CounterNo);
                  cmd.Parameters.AddWithValue("@RegistrationDate", OrderDate.SelectedDate);
+                 cmd.Parameters.AddWithValue("@UserRTOLocationID", Convert.ToInt32(RTOLocationID));
 
                 //cmd.Parameters.AddWithValue("@Reference", remarks.Text);
                 //cmd.Parameters.AddWithValue("@VoidRemark", ddltakal.SelectedValue.ToString());
@@ -1912,7 +1946,7 @@ namespace HSRP.Transaction
                 cell5.HorizontalAlignment = 0; //0=Left, 1=Centre, 2=Right
                 table.AddCell(cell5);
 
-                PdfPCell cell55 = new PdfPCell(new Phrase(": " + dataSetFillHSRPDeliveryChallan.Rows[0]["HSRPRecord_AuthorizationNo"].ToString(), new iTextSharp.text.Font(bfTimes, 8f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
+                PdfPCell cell55 = new PdfPCell(new Phrase(": " + dataSetFillHSRPDeliveryChallan.Rows[0]["HSRPRecord_AuthorizationNo"].ToString(), new iTextSharp.text.Font(bfTimes, 7f, iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK)));
                 cell55.Colspan = 0;
 
                 cell55.BorderWidthLeft = 0f;

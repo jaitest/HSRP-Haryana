@@ -438,6 +438,28 @@ namespace HSRP.Master
                         //cell120911.HorizontalAlignment = Element.ALIGN_LEFT;
                         cell786a.HorizontalAlignment = 2; //0=Left, 1=Centre, 2=Right
                         table.AddCell(cell786a);
+
+                    if(ddlBothDealerHHT.SelectedItem.Text == "Dealer")
+                    { 
+
+                        if (!string.IsNullOrEmpty(DDlDealerName.SelectedValue.ToString().Trim()))
+                        {
+                        if (Convert.ToInt32(DDlDealerName.SelectedValue.ToString()) > 0 )
+                        {
+                            PdfPCell cell786D = new PdfPCell(new Phrase("Dealer ID/Name:  " + DDlDealerName.SelectedValue.ToString() + "/" + DDlDealerName.SelectedItem.Text.ToString().ToUpper(), new iTextSharp.text.Font(bfTimes, 10f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK)));
+                            cell786D.Colspan = 14;
+                            cell786D.BorderWidthLeft = 0f;
+                            cell786D.BorderWidthRight = 0f;
+                            cell786D.BorderWidthTop = 0f;
+                            cell786D.BorderWidthBottom = 0f;
+
+                            cell786D.HorizontalAlignment = 2;
+                            table.AddCell(cell786D);
+                        }
+                        }
+                    }
+                    
+                      
                         
                     
 
@@ -1370,15 +1392,11 @@ namespace HSRP.Master
             if (strStateID == "1" || strStateID == "4")
             {
 
-
                 if (ddlBothDealerHHT.SelectedItem.Text.ToString() == "Dealer")
                 {
-
                     DDlDealerName.Visible = true;
                     BindDDlDealer(); 
                 }
-
-
                 else
                 {
                     DDlDealerName.Visible = false;

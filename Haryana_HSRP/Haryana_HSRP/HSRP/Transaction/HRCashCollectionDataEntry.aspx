@@ -1,6 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"
-    CodeBehind="HRCashCollectionDataEntry.aspx.cs" Inherits="HSRP.Transaction.HRCashCollectionDataEntry" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true"  CodeBehind="HRCashCollectionDataEntry.aspx.cs" Inherits="HSRP.Transaction.HRCashCollectionDataEntry" %>
 <%@ Register Assembly="ComponentArt.Web.UI" Namespace="ComponentArt.Web.UI" TagPrefix="ComponentArt" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -11,13 +9,6 @@
     <script src="../Scripts/jquery.min.js" type="text/javascript"></script>
     <script src="../javascript/bootstrap.min.js" type="text/javascript"></script>
     <script src="../javascript/bootbox.min.js" type="text/javascript"></script>
-
-
-
-
-
-
-
 
     <script type="text/javascript">
         function DepositDate_OnDateChange(sender, eventArgs) {
@@ -322,6 +313,26 @@
                 </td>
 
             </tr>
+                <tr>
+
+                <td class="form_text">Order Type <span style="color: #FF3300">*</span>
+                </td>
+                <td align="left">                
+                            <asp:DropDownList ID="ddlOrderType" runat="server" CssClass="form_text"
+                                AutoPostBack="True" OnSelectedIndexChanged="ddlOrderType_SelectedIndexChanged">
+                                <asp:ListItem Value="-Select Order Type-">-Select Order Type-</asp:ListItem>
+                                 <asp:ListItem Value="NB">New Both</asp:ListItem>
+                                  <asp:ListItem Value="DB">Damage Both</asp:ListItem>
+                                <asp:ListItem Value="DF">Damage Front</asp:ListItem>
+                                <asp:ListItem Value="DR">Damage Rear</asp:ListItem>                                                               
+                            </asp:DropDownList>
+                        
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server"
+                        ControlToValidate="ddlOrderType" ValidationGroup="save" ErrorMessage="Please Select Order Type" InitialValue="-Select Order Type-" ></asp:RequiredFieldValidator>
+                </td>
+
+            </tr>
+
 
           
 

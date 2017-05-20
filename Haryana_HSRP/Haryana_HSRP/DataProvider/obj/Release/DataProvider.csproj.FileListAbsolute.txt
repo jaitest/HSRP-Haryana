@@ -197,3 +197,8 @@ C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\bin\Relea
 C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\obj\Release\DataProvider.csprojResolveAssemblyReference.cache
 C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\obj\Release\DataProvider.dll
 C:\Users\ITH\Desktop\Melast Code from GitHUB\Haryana_HSRP\DataProvider\obj\Release\DataProvider.pdb
+D:\Haryana HSRP Latest Code\Haryana Software\Haryana_HSRP\DataProvider\bin\Release\DataProvider.dll
+D:\Haryana HSRP Latest Code\Haryana Software\Haryana_HSRP\DataProvider\bin\Release\DataProvider.pdb
+D:\Haryana HSRP Latest Code\Haryana Software\Haryana_HSRP\DataProvider\obj\Release\DataProvider.csprojResolveAssemblyReference.cache
+D:\Haryana HSRP Latest Code\Haryana Software\Haryana_HSRP\DataProvider\obj\Release\DataProvider.dll
+D:\Haryana HSRP Latest Code\Haryana Software\Haryana_HSRP\DataProvider\obj\Release\DataProvider.pdb

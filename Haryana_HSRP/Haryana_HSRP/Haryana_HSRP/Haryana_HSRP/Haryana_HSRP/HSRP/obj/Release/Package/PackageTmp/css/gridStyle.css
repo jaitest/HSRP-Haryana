@@ -1,0 +1,195 @@
+.Grid 
+{ 
+  border: 0px solid #57566F; 
+  border-bottom: 0px solid #57566F; 
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.GridHeader
+{
+  background-image: url(images/grid_headerBg.gif); 
+  background-color: #d2e0f1; 
+  border-bottom: 1px solid #d2e0f1; 
+  height: 28px;
+  padding-left: 3px;
+  cursor: default; 
+}
+
+.GridHeaderText
+{
+	font: normal 12px tahoma, arial, verdana;
+    color: #000000;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.GridFooter
+{
+  cursor: default; 
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+.GridFooterText
+{
+  color: #000000;  
+  font-family: verdana; 
+  font-size: 11px;
+}
+
+.HeadingRow 
+{ 
+  background-color: #E9E9EB; 
+  background-image: url(images/header_rowBg.gif);   
+}
+
+.HeadingCell 
+{ 
+  background-image: url(images/header_bg.gif);   
+  background-color: #EDF2FA; 
+  padding: 3px; 
+  padding-top: 2px; 
+  padding-bottom: 2px; 
+}
+
+.HeadingCellHover
+{ 
+  background-image: url(images/header_hoverBg.gif);   
+  background-color: #F6F6F7; 
+}
+
+.HeadingCellActive
+{ 
+  background-image: url(images/header_activeBg.gif);   
+  background-color: #F6F6F7; 
+  
+}
+
+.HeadingRow td.FirstHeadingCell
+{ 
+  background-image: url(images/header_bg.gif); 
+}
+
+.HeadingCellText
+{
+	font: normal 11px tahoma, arial, verdana;
+    color: #000000;
+	font-weight:bold;
+	text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 5px;
+
+
+}
+
+.Row 
+{ 
+  	background-color: #FFFFFF; 
+	font: normal 12px tahoma, arial, verdana;
+    color: #000000;
+	font-weight:normal;
+	text-decoration: none;
+	text-align: left;
+ 	padding-top: 1px;
+    padding-bottom: 2px;
+	line-height:16px;
+	text-transform: uppercase;
+
+}
+
+.Row td.DataCell 
+{ 
+  padding: 0px; 
+  border-bottom: 1px solid #EAE9E1; 
+  border-left: 1px solid #EAE9E1; 
+  font: normal 12px tahoma, arial, verdana;
+  color: #000000;
+  font-weight:normal;
+  text-decoration: none;
+  text-align: left;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  line-height:16px;
+} 
+
+.SortedDataCell 
+{ 
+  background-color: #F5F5F5; 
+} 
+
+
+.Row td.LastDataCell 
+{ 
+  background-color: #EFEFF4; 
+} 
+
+.SelectedRow 
+{ 
+}
+
+.SelectedRow td.DataCell 
+{ 
+  background-color: #ffee87; 
+  padding: 5px; 
+  padding-left: 3px; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  font-family: verdana; 
+  font-size: 11px;
+  border-bottom: 1px solid #eae9e1;
+  line-height:18px;
+
+
+}
+
+.SelectedRow td.FirstDataCell 
+{ 
+  background-color: #FFEEC2; 
+  border-left: 1px solid #4B4B6F; 
+  border-right: 0px; 
+  padding-left: 2px; 
+  padding-right: 3px; 
+}
+
+.SelectedRow td.LastDataCell 
+{ 
+  background-color: #FFEEC2; 
+  border-right: 1px solid #4B4B6F; 
+}
+
+.GroupHeading
+{
+  color: #706F91; 
+  background-color: #FFFFFF; 
+  font-family: verdana; 
+  font-weight: bold;
+  font-size: 11px; 
+  border-bottom: 1px solid #eae9e1; 
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.GroupByCell
+{
+  cursor: pointer;
+}
+
+.GroupByText
+{
+  color: #FFFFFF; 
+  font-size: 11px;   
+  font-weight: bold; 
+  padding-right: 5px;
+}
+
+
+.SliderPopup
+{
+  background-color: #FFF4D7; 
+  border: 1px solid #4B4B6F; 
+  border-top-color: #9495A2; 
+  border-left-color: #9495A2; 
+  width: 488px;
+  height: 60px;
+}

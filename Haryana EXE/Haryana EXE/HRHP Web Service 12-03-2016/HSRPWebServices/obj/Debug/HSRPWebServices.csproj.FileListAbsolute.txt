@@ -132,3 +132,14 @@ C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana EXE\HRHP Web Service 12-03
 C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll.config
 C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll
 C:\Projects\HR _ ALL _ Latest  Code _12_04_17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll.config
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.pdb
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Debug\HSRPWebServices.pdb
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.dll
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Debug\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Debug\HSRPWebServices.dll
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HRHP Web Service 12-03-2016\HSRPWebServices\obj\Debug\HSRPWebServices.pdb

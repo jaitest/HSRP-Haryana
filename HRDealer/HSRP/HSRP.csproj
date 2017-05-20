@@ -1,0 +1,1339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CFDAB4B-D358-47F0-8BBC-92F971408B34}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HSRP</RootNamespace>
+    <AssemblyName>HSRP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>true</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="AjaxControlToolkit, Version=4.1.50927.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\HSRPLATEST(14-04-15)\HSRP(02.04.2015)\HSRP(29dec)\HSRP\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CarlosAg.ExcelXmlWriter">
+      <HintPath>..\..\..\MultiTrack\MultiTrack\bin\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentArt.Web.UI, Version=2012.1.1016.4, Culture=neutral, PublicKeyToken=9bc9f846553156bb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MultiTrack\MultiTrack\bin\ComponentArt.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel">
+      <HintPath>..\..\..\2.1.beta.binary\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\2.1.beta.binary\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Reduced">
+      <HintPath>C:\Users\ITH\Desktop\Downloadfiles\Download_Files\Bin\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\MultiTrack\MultiTrack\bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bgimages\1.jpg" />
+    <Content Include="bgimages\2.jpg" />
+    <Content Include="bgimages\3.jpg" />
+    <Content Include="bgimages\4.jpg" />
+    <Content Include="bgimages\5.jpg" />
+    <Content Include="bgimages\6.jpg" />
+    <Content Include="bgimages\7.jpg" />
+    <Content Include="bgimages\8.jpg" />
+    <Content Include="bgimages\Contents\Style.css" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\CarlosAg.ExcelXmlWriter.dll" />
+    <Content Include="bin\ComponentArt.Web.UI.dll" />
+    <Content Include="bin\DataProvider.dll" />
+    <Content Include="bin\DataProvider.pdb" />
+    <Content Include="bin\Excel.dll" />
+    <Content Include="bin\HSRP.dll" />
+    <Content Include="bin\HSRP.pdb" />
+    <Content Include="bin\HSRP.XmlSerializers.dll" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\Ionic.Zip.Reduced.dll" />
+    <Content Include="bin\itextsharp.dll" />
+    <Content Include="BusinessReports\APTGCallCenterReportDealer.aspx" />
+    <Content Include="BusinessReports\AvgVehicleCountReportDealer.aspx" />
+    <Content Include="BusinessReports\CustomizedProdSheetDealer.aspx" />
+    <Content Include="BusinessReports\DailyCashCollectionRTOLocationWise_WithSmsDealer.aspx" />
+    <Content Include="BusinessReports\DispatchtoAffixactionCenterDealer.aspx" />
+    <Content Include="BusinessReports\DispatchvsReceivedDealer.aspx" />
+    <Content Include="BusinessReports\PIPVSReceivedDealer.aspx" />
+    <Content Include="BusinessReports\ReceivedatAffixactionCentreDealer.aspx" />
+    <Content Include="BusinessReports\RejectionSummaryDealer.aspx" />
+    <Content Include="BusinessReports\report_affixation_SummaryDealer.aspx" />
+    <Content Include="BusinessReports\RtoEmbossingCenterWiseEmbossingStatusDealer.aspx" />
+    <Content Include="BusinessReports\RtoWiseAffixationStatusDealer.aspx" />
+    <Content Include="BusinessReports\RtoWiseAffixationStatusWithEmpDealer.aspx" />
+    <Content Include="BusinessReports\RtoWiseCollectionSummaryDealer.aspx" />
+    <Content Include="BusinessReports\RtoWiseCollectionSummarySummaryDepositDealer.aspx" />
+    <Content Include="BusinessReports\RtoWiseEmbossingProductionVSDispatch_SummaryDealer.aspx" />
+    <Content Include="BusinessReports\RtoWiseEmbossingStatusDealer.aspx" />
+    <Content Include="BusinessReports\Third_PlateDealer.aspx" />
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\button.css" />
+    <Content Include="css\Grid.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\table.css" />
+    <Content Include="EmbossingData\APChalan.aspx" />
+    <Content Include="EmbossingData\Embossing.aspx" />
+    <Content Include="EmbossingData\LaserReceived.aspx" />
+    <Content Include="EmbossingData\ReprintChalan.aspx" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\loading_gif.gif" />
+    <Content Include="javascript\AutoNumeric.js" />
+    <Content Include="javascript\bootbox.min.js" />
+    <Content Include="javascript\bootstrap.js" />
+    <Content Include="javascript\bootstrap.min.js" />
+    <Content Include="javascript\jquery-1.7.1.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Master\AssignMenuToUser.aspx" />
+    <Content Include="Master\ChangePassword.aspx" />
+    <Content Include="Master\Dealer.aspx" />
+    <Content Include="Master\DealerMapingMaster.aspx" />
+    <Content Include="Master\User.aspx" />
+    <Content Include="Master\UserRTOMapping.aspx" />
+    <Content Include="Master\ViewDealer.aspx" />
+    <Content Include="Master\ViewUser.aspx" />
+    <Content Include="Report\DailyHRAuthorityReport.aspx" />
+    <Content Include="Report\DailyHREmbossingReport.aspx" />
+    <Content Include="Report\DailyRegisteringAuthority.aspx" />
+    <Content Include="Report\HRMonthlyReport.aspx" />
+    <Content Include="Report\HRDealerProcesStatus.aspx" />
+    <Content Include="Report\ReportTypeWiseSummary_report.aspx" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="css\css1\grd_alt.png" />
+    <Content Include="css\css1\grd_head.png" />
+    <Content Include="css\css1\grd_pgr.png" />
+    <Content Include="css\css1\style.css" />
+    <Content Include="css\baseStyle.css" />
+    <Content Include="css\calendarStyle.css" />
+    <Content Include="css\combobox.css" />
+    <Content Include="css\demos.css" />
+    <Content Include="css\gridStyle.css" />
+    <Content Include="css\legend.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="Help.aspx" />
+    <Content Include="images\GridImages\drop.gif" />
+    <Content Include="images\GridImages\drop_hover.gif" />
+    <Content Include="images\GridImages\selector.gif" />
+    <Content Include="images\selector.gif" />
+    <Content Include="javascript\common.js" />
+    <Content Include="javascript\JS.js" />
+    <Content Include="Main.Master" />
+    <Content Include="bin\ComponentArt.UIFramework.lic" />
+    <Content Include="bin\HSRP.dll.config" />
+    <Content Include="bin\PRSANSR.TTF" />
+    <Content Include="Data\DealerDataFormat.xls" />
+    <None Include="Service References\APHSRPService\HSRPAuthorizationService.disco" />
+    <None Include="Service References\APHSRPService\configuration91.svcinfo" />
+    <None Include="Service References\APHSRPService\configuration.svcinfo" />
+    <None Include="Service References\APHSRPService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\TSHSRPService\HSRPAuthorizationService.disco" />
+    <None Include="Service References\TSHSRPService\configuration91.svcinfo" />
+    <None Include="Service References\TSHSRPService\configuration.svcinfo" />
+    <None Include="Service References\TSHSRPService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="SMSResponse.aspx" />
+    <Content Include="RegisterMachine.aspx" />
+    <Content Include="Transaction\AddAPDealer.aspx" />
+    <Content Include="Transaction\AddHRDealer.aspx" />
+    <Content Include="Transaction\BankTransactionDealer.aspx" />
+    <Content Include="Transaction\DealerDeliveryAcknowledgement.aspx" />
+    <Content Include="Transaction\DiveleryReceipt.aspx" />
+    <Content Include="Transaction\DLViewDealerOrder.aspx" />
+    <Content Include="Transaction\CashReceiptDataEntry.aspx" />
+    <Content Include="Transaction\HRCashRecept.aspx" />
+    <Content Include="Transaction\InvoiceTransaction\InvoiceOrder.aspx" />
+    <Content Include="Transaction\InvoiceTransaction\POorder.aspx" />
+    <Content Include="Transaction\InvoiceTransaction\ViewInvoice.aspx" />
+    <Content Include="Transaction\InvoiceTransaction\ViewPO.aspx" />
+    <Content Include="Transaction\LaserAssignCodeView.aspx" />
+    <Content Include="Transaction\LaserQuickClosed.aspx" />
+    <Content Include="Transaction\orderbookingdamage.aspx" />
+    <Content Include="Transaction\UploadDealerData.aspx" />
+    <Content Include="Transaction\UploadDealerDataDamage.aspx" />
+    <Content Include="Transaction\ViewLedgerBankTransactions.aspx" />
+    <Content Include="Transaction\ViewSearchHR_Engingno.aspx" />
+    <Content Include="Transaction\ViewSearchHR.aspx" />
+    <Content Include="WCFService\ServiceForSuggestion.svc" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\APHSRPService\HSRPAuthorizationService.wsdl" />
+    <None Include="Service References\TSHSRPService\HSRPAuthorizationService.wsdl" />
+    <None Include="Web References\APWebrefrence\hsrpauthorizationservice.wsdl" />
+    <None Include="Web References\APWebrefrence\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\BRWebReference\HSRPWebService.wsdl" />
+    <None Include="Web References\BRWebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\HpWebRefrence\HSRPWebService.wsdl" />
+    <None Include="Web References\HpWebRefrence\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\HRWebReference\HSRPWebService.wsdl" />
+    <None Include="Web References\HRWebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\org.mptransport.oltp\HSRP.disco" />
+    <None Include="Web References\APWebrefrence\hsrpauthorizationservice.disco" />
+    <None Include="Web References\TGWebrefrence\hsrpauthorizationservice.disco" />
+    <Content Include="windowfiles\bird.jpg" />
+    <Content Include="windowfiles\close.gif" />
+    <Content Include="windowfiles\dhtmlwindow.css" />
+    <Content Include="windowfiles\dhtmlwindow.js" />
+    <Content Include="windowfiles\dog.jpg" />
+    <Content Include="windowfiles\external.htm" />
+    <Content Include="windowfiles\external2.htm" />
+    <Content Include="windowfiles\max.gif" />
+    <Content Include="windowfiles\min.gif" />
+    <Content Include="windowfiles\resize.gif" />
+    <Content Include="windowfiles\restore.gif" />
+    <Content Include="css\menuStyle.css" />
+    <Content Include="css\menuStyle_old.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="FirstLoginChangePassword.aspx" />
+    <Content Include="ForgotPass.aspx" />
+    <Content Include="GenericError.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\11.png" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\arrow-right.gif" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\asc.gif" />
+    <Content Include="images\attachment.gif" />
+    <Content Include="images\bg-dropdown.gif" />
+    <Content Include="images\bg-handle-horizontal.gif" />
+    <Content Include="images\bg-header.gif" />
+    <Content Include="images\bg-panel-header.gif" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bottombgfooter.jpg" />
+    <Content Include="images\btn_calendar.gif" />
+    <Content Include="images\btn_go.gif" />
+    <Content Include="images\button.png" />
+    <Content Include="images\buttonlogin_out.png" />
+    <Content Include="images\buttonlogin_over.png" />
+    <Content Include="images\Button\button_left.png" />
+    <Content Include="images\Button\button_right.png" />
+    <Content Include="images\button_blue.png" />
+    <Content Include="images\button_g_out.gif" />
+    <Content Include="images\button_g_over.gif" />
+    <Content Include="images\button_out.png" />
+    <Content Include="images\button_over.png" />
+    <Content Include="images\c1.gif" />
+    <Content Include="images\c1.png" />
+    <Content Include="images\c2.png" />
+    <Content Include="images\c3.png" />
+    <Content Include="images\c4.png" />
+    <Content Include="images\cal_nextMonth.gif" />
+    <Content Include="images\cal_prevMonth.gif" />
+    <Content Include="images\collapse-expand.gif" />
+    <Content Include="images\demo_button1.jpg" />
+    <Content Include="images\demo_button2.jpg" />
+    <Content Include="images\desc.gif" />
+    <Content Include="images\device_temper_grey.png" />
+    <Content Include="images\device_temper_red.png" />
+    <Content Include="images\dock-tabs.gif" />
+    <Content Include="images\error.jpg" />
+    <Content Include="images\exl_button.png" />
+    <Content Include="images\exl_button_over.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\feed.gif" />
+    <Content Include="images\flag_blue.gif" />
+    <Content Include="images\flag_green.gif" />
+    <Content Include="images\flag_none.gif" />
+    <Content Include="images\flag_red.gif" />
+    <Content Include="images\folder.gif" />
+    <Content Include="images\folder_open.gif" />
+    <Content Include="images\footerbg.jpg" />
+    <Content Include="images\footerlogo.jpg" />
+    <Content Include="images\footerlogo.png" />
+    <Content Include="images\GridImages\footer-fluid.png" />
+    <Content Include="images\GridImages\footer.png" />
+    <Content Include="images\GridImages\GridFooter-1.png" />
+    <Content Include="images\GridImages\GridFooter-2.png" />
+    <Content Include="images\GridImages\GridFooter.png" />
+    <Content Include="images\GridImages\GridFooter1.png" />
+    <Content Include="images\GridImages\GridFooter2.png" />
+    <Content Include="images\GridImages\h1-titleGreen.png" />
+    <Content Include="images\GridImages\HOVER.gif" />
+    <Content Include="images\GridImages\menu_cap.gif" />
+    <Content Include="images\GridImages\nav-fluid.gif" />
+    <Content Include="images\GridImages\tanuj1.png" />
+    <Content Include="images\grid_headerBg.gif" />
+    <Content Include="images\group_asc.gif" />
+    <Content Include="images\group_desc.gif" />
+    <Content Include="images\handle-icon-horizontal.gif" />
+    <Content Include="images\handle-icon.gif" />
+    <Content Include="images\header1.gif" />
+    <Content Include="images\header1stCell_bg.gif" />
+    <Content Include="images\headerline.gif" />
+    <Content Include="images\header_activeBg.gif" />
+    <Content Include="images\header_bg.gif" />
+    <Content Include="images\header_hoverBg.gif" />
+    <Content Include="images\header_rowBg.gif" />
+    <Content Include="images\help_button1.jpg" />
+    <Content Include="images\help_button2.jpg" />
+    <Content Include="images\help_button3.png" />
+    <Content Include="images\help_button4.png" />
+    <Content Include="images\iccin_ac_green.png" />
+    <Content Include="images\iccin_ac_grey.png" />
+    <Content Include="images\iccin_ac_red.png" />
+    <Content Include="images\iccin_gps_green.png" />
+    <Content Include="images\iccin_gps_red.png" />
+    <Content Include="images\icconcontact.gif" />
+    <Content Include="images\icconhome.gif" />
+    <Content Include="images\iccon_ac_blue.png" />
+    <Content Include="images\iccon_door_bluee.png" />
+    <Content Include="images\iccon_door_green.png" />
+    <Content Include="images\iccon_door_grey.png" />
+    <Content Include="images\iccon_door_red.png" />
+    <Content Include="images\iccon_help.png" />
+    <Content Include="images\iccon_ignation_grey.png" />
+    <Content Include="images\iccon_ignation_red.png" />
+    <Content Include="images\iccon_logout.png" />
+    <Content Include="images\iccon_spead_blue_ideal.png" />
+    <Content Include="images\iccon_spead_green_run.png" />
+    <Content Include="images\iccon_spead_red_stop.png" />
+    <Content Include="images\iccon_spead_stop_grey.png" />
+    <Content Include="images\icons\48x48\camera.png" />
+    <Content Include="images\icons\48x48\globe.png" />
+    <Content Include="images\icons\48x48\headset.png" />
+    <Content Include="images\icons\48x48\speaker.png" />
+    <Content Include="images\icons\48x48\view.png" />
+    <Content Include="images\icons\cog.gif" />
+    <Content Include="images\icons\page.gif" />
+    <Content Include="images\icons\page_green.gif" />
+    <Content Include="images\icons\page_red.gif" />
+    <Content Include="images\icons\sheet.gif" />
+    <Content Include="images\icons\tree\I.gif" />
+    <Content Include="images\icons\tree\L.gif" />
+    <Content Include="images\icons\tree\Lminus.gif" />
+    <Content Include="images\icons\tree\Lplus.gif" />
+    <Content Include="images\icons\tree\minus.gif" />
+    <Content Include="images\icons\tree\plus.gif" />
+    <Content Include="images\icons\tree\Rminus.gif" />
+    <Content Include="images\icons\tree\Rplus.gif" />
+    <Content Include="images\icons\tree\T.gif" />
+    <Content Include="images\icons\tree\Tminus.gif" />
+    <Content Include="images\icons\tree\Tplus.gif" />
+    <Content Include="images\icons\tree\_closed.gif" />
+    <Content Include="images\icons\tree\_doc.gif" />
+    <Content Include="images\icons\tree\_open.gif" />
+    <Content Include="images\icons\windows.gif" />
+    <Content Include="images\icon_attachment.gif" />
+    <Content Include="images\icon_flag.gif" />
+    <Content Include="images\icon_icon.gif" />
+    <Content Include="images\icon_priority.gif" />
+    <Content Include="images\immobilize_green.png" />
+    <Content Include="images\immobilize_red.png" />
+    <Content Include="images\Internal_bar\bullet_down.png" />
+    <Content Include="images\Internal_bar\bullet_up.png" />
+    <Content Include="images\Internal_bar\contact_iccon.png" />
+    <Content Include="images\Internal_bar\Curve_bg.png" />
+    <Content Include="images\Internal_bar\divider.png" />
+    <Content Include="images\Internal_bar\home_icon.png" />
+    <Content Include="images\Internal_bar\icon_master.png" />
+    <Content Include="images\Internal_bar\icon_reports.png" />
+    <Content Include="images\Internal_bar\left_curve.png" />
+    <Content Include="images\Internal_bar\map_icon.png" />
+    <Content Include="images\Internal_bar\profile_iccon.png" />
+    <Content Include="images\Internal_bar\right_curve.png" />
+    <Content Include="images\Internal_Box\Bot_curve_bg.png" />
+    <Content Include="images\Internal_Box\bot_left_curve.png" />
+    <Content Include="images\Internal_Box\bot_right_curve.png" />
+    <Content Include="images\Internal_Box\top_curve_bg.png" />
+    <Content Include="images\Internal_Box\top_left_curve.png" />
+    <Content Include="images\Internal_Box\top_right_curve.png" />
+    <Content Include="images\item_bg.gif" />
+    <Content Include="images\item_bg_hover.gif" />
+    <Content Include="images\knob.gif" />
+    <Content Include="images\lagend_blue.png" />
+    <Content Include="images\lagend_green.png" />
+    <Content Include="images\lagend_grey.png" />
+    <Content Include="images\lagend_red.png" />
+    <Content Include="images\legends\AtHub.png" />
+    <Content Include="images\legends\Destination.png" />
+    <Content Include="images\legends\Load-Engage.png" />
+    <Content Include="images\legends\OverSpeed.png" />
+    <Content Include="images\legends\RoadBlock.png" />
+    <Content Include="images\legends\Running.png" />
+    <Content Include="images\legends\Stopped.png" />
+    <Content Include="images\legends\Unload-Free.png" />
+    <Content Include="images\line.jpg" />
+    <Content Include="images\lines\dash.gif" />
+    <Content Include="images\lines\dashminus.gif" />
+    <Content Include="images\lines\dashplus.gif" />
+    <Content Include="images\lines\i.gif" />
+    <Content Include="images\lines\l.gif" />
+    <Content Include="images\lines\lminus.gif" />
+    <Content Include="images\lines\lplus.gif" />
+    <Content Include="images\lines\minus.gif" />
+    <Content Include="images\lines\noexpand.gif" />
+    <Content Include="images\lines\plus.gif" />
+    <Content Include="images\lines\r.gif" />
+    <Content Include="images\lines\rminus.gif" />
+    <Content Include="images\lines\rplus.gif" />
+    <Content Include="images\lines\t.gif" />
+    <Content Include="images\lines\tminus.gif" />
+    <Content Include="images\lines\tplus.gif" />
+    <Content Include="images\login.png" />
+    <Content Include="images\loginbg.png" />
+    <Content Include="images\loginfooterbg.jpg" />
+    <Content Include="images\Login\Login_bg.png" />
+    <Content Include="images\Login\login_bottom.png" />
+    <Content Include="images\Login\top_welcome_box.png" />
+    <Content Include="images\logo.ico" />
+    <Content Include="images\logout_button1.jpg" />
+    <Content Include="images\logout_button2.jpg" />
+    <Content Include="images\logout_button3.png" />
+    <Content Include="images\logout_button4.png" />
+    <Content Include="images\mainpower_grey.png" />
+    <Content Include="images\mainpower_yellow.png" />
+    <Content Include="images\marqueebg.jpg" />
+    <Content Include="images\mebubutton.png" />
+    <Content Include="images\menu_bg.gif" />
+    <Content Include="images\midboxtopbg.jpg" />
+    <Content Include="images\midtablebg.gif" />
+    <Content Include="images\midtablebg.jpg" />
+    <Content Include="images\msg_forwarded.gif" />
+    <Content Include="images\msg_read.gif" />
+    <Content Include="images\msg_replied.gif" />
+    <Content Include="images\msg_unread.gif" />
+    <Content Include="images\na.png" />
+    <Content Include="images\pager\first.gif" />
+    <Content Include="images\pager\last.gif" />
+    <Content Include="images\pager\next.gif" />
+    <Content Include="images\pager\prev.gif" />
+    <Content Include="images\pager\slider_bg.gif" />
+    <Content Include="images\pager\slider_grip.gif" />
+    <Content Include="images\panic_grey.png" />
+    <Content Include="images\panic_red.png" />
+    <Content Include="images\pdf_button.png" />
+    <Content Include="images\pdf_button_over.png" />
+    <Content Include="images\priority_high.gif" />
+    <Content Include="images\priority_low.gif" />
+    <Content Include="images\reorder.gif" />
+    <Content Include="images\rosmertalogo.png" />
+    <Content Include="images\rosmertalogo2.png" />
+    <Content Include="images\SchoolBus.png" />
+    <Content Include="images\school_bus2.png" />
+    <Content Include="images\slider-area.gif" />
+    <Content Include="images\small_logo.jpg" />
+    <Content Include="images\small_logo.png" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\spinner-placeholder.gif" />
+    <Content Include="images\spinner.gif" />
+    <Content Include="images\tabs.gif" />
+    <Content Include="images\toolbox-divider.gif" />
+    <Content Include="images\toolbox-divider2.gif" />
+    <Content Include="images\topItem_col.gif" />
+    <Content Include="images\topItem_exp.gif" />
+    <Content Include="images\toplinebg.jpg" />
+    <Content Include="images\top_header.gif" />
+    <Content Include="images\top_header2.gif" />
+    <Content Include="images\top_header_bg.jpg" />
+    <Content Include="images\tower2.png" />
+    <Content Include="images\trans.gif" />
+    <Content Include="images\ui-anim_basic_16x16.gif" />
+    <Content Include="images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="images\VehicleType\Ambulance.png" />
+    <Content Include="images\VehicleType\Bus.png" />
+    <Content Include="images\VehicleType\Car.png" />
+    <Content Include="images\VehicleType\Crain.png" />
+    <Content Include="images\VehicleType\Dumper.png" />
+    <Content Include="images\VehicleType\FireEngine.png" />
+    <Content Include="images\VehicleType\Geep.png" />
+    <Content Include="images\VehicleType\Motorcycle.png" />
+    <Content Include="images\VehicleType\Police.png" />
+    <Content Include="images\VehicleType\SchoolBus.png" />
+    <Content Include="images\VehicleType\spacer.gif" />
+    <Content Include="images\VehicleType\Tractor.png" />
+    <Content Include="images\VehicleType\Truck.png" />
+    <Content Include="img\bg.jpg" />
+    <Content Include="img\bghead.jpg" />
+    <Content Include="img\bghead1.jpg" />
+    <Content Include="img\legend.jpg" />
+    <Content Include="img\menubg.jpg" />
+    <Content Include="LiveReports\LiveTracking.aspx" />
+    <Content Include="overlib.js" />
+    <Content Include="overlib_anchor.js" />
+    <Content Include="overlib_centerpopup.js" />
+    <Content Include="overlib_crossframe.js" />
+    <Content Include="overlib_cssstyle.js" />
+    <Content Include="overlib_debug.js" />
+    <Content Include="overlib_exclusive.js" />
+    <Content Include="overlib_followscroll.js" />
+    <Content Include="overlib_hideform.js" />
+    <Content Include="overlib_setonoff.js" />
+    <Content Include="overlib_shadow.js" />
+    <Content Include="Scripts\date.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\User.js" />
+    <Content Include="trans.gif" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Data\dealer excel format.xlsx" />
+    <None Include="Data\HSRPExcelhrformat.xlsx" />
+    <None Include="Data\Laser Data Format.xlsx" />
+    <None Include="HSRP.pdf" />
+    <None Include="Web References\org.mptransport.oltp\HSRP.wsdl" />
+    <None Include="Web References\org.mptransport.oltp\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TGWebrefrence\hsrpauthorizationservice.wsdl" />
+    <None Include="Web References\TGWebrefrence\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UKWebReference\HSRPWebService.wsdl" />
+    <None Include="Web References\UKWebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebReference\HSRPWebService.wsdl" />
+    <Content Include="Web References\WebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WebReference_TG\HSRPWebService.wsdl" />
+    <None Include="Web References\WebReference_TG\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Data\MPUtils.cs" />
+    <Compile Include="App_Data\Utils.cs" />
+    <Compile Include="App_Data\Validate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\blEntryDetail.cs" />
+    <Compile Include="BusinessReports\APTGCallCenterReportDealer.aspx.cs">
+      <DependentUpon>APTGCallCenterReportDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\APTGCallCenterReportDealer.aspx.designer.cs">
+      <DependentUpon>APTGCallCenterReportDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\AvgVehicleCountReportDealer.aspx.cs">
+      <DependentUpon>AvgVehicleCountReportDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\AvgVehicleCountReportDealer.aspx.designer.cs">
+      <DependentUpon>AvgVehicleCountReportDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\CustomizedProdSheetDealer.aspx.cs">
+      <DependentUpon>CustomizedProdSheetDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\CustomizedProdSheetDealer.aspx.designer.cs">
+      <DependentUpon>CustomizedProdSheetDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\DailyCashCollectionRTOLocationWise_WithSmsDealer.aspx.cs">
+      <DependentUpon>DailyCashCollectionRTOLocationWise_WithSmsDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\DailyCashCollectionRTOLocationWise_WithSmsDealer.aspx.designer.cs">
+      <DependentUpon>DailyCashCollectionRTOLocationWise_WithSmsDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\DispatchtoAffixactionCenterDealer.aspx.cs">
+      <DependentUpon>DispatchtoAffixactionCenterDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\DispatchtoAffixactionCenterDealer.aspx.designer.cs">
+      <DependentUpon>DispatchtoAffixactionCenterDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\DispatchvsReceivedDealer.aspx.cs">
+      <DependentUpon>DispatchvsReceivedDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\DispatchvsReceivedDealer.aspx.designer.cs">
+      <DependentUpon>DispatchvsReceivedDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\PIPVSReceivedDealer.aspx.cs">
+      <DependentUpon>PIPVSReceivedDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\PIPVSReceivedDealer.aspx.designer.cs">
+      <DependentUpon>PIPVSReceivedDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\ReceivedatAffixactionCentreDealer.aspx.cs">
+      <DependentUpon>ReceivedatAffixactionCentreDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\ReceivedatAffixactionCentreDealer.aspx.designer.cs">
+      <DependentUpon>ReceivedatAffixactionCentreDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RejectionSummaryDealer.aspx.cs">
+      <DependentUpon>RejectionSummaryDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RejectionSummaryDealer.aspx.designer.cs">
+      <DependentUpon>RejectionSummaryDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\report_affixation_SummaryDealer.aspx.cs">
+      <DependentUpon>report_affixation_SummaryDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\report_affixation_SummaryDealer.aspx.designer.cs">
+      <DependentUpon>report_affixation_SummaryDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RtoEmbossingCenterWiseEmbossingStatusDealer.aspx.cs">
+      <DependentUpon>RtoEmbossingCenterWiseEmbossingStatusDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RtoEmbossingCenterWiseEmbossingStatusDealer.aspx.designer.cs">
+      <DependentUpon>RtoEmbossingCenterWiseEmbossingStatusDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseAffixationStatusDealer.aspx.cs">
+      <DependentUpon>RtoWiseAffixationStatusDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseAffixationStatusDealer.aspx.designer.cs">
+      <DependentUpon>RtoWiseAffixationStatusDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseAffixationStatusWithEmpDealer.aspx.cs">
+      <DependentUpon>RtoWiseAffixationStatusWithEmpDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseAffixationStatusWithEmpDealer.aspx.designer.cs">
+      <DependentUpon>RtoWiseAffixationStatusWithEmpDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseCollectionSummaryDealer.aspx.cs">
+      <DependentUpon>RtoWiseCollectionSummaryDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseCollectionSummaryDealer.aspx.designer.cs">
+      <DependentUpon>RtoWiseCollectionSummaryDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseCollectionSummarySummaryDepositDealer.aspx.cs">
+      <DependentUpon>RtoWiseCollectionSummarySummaryDepositDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseCollectionSummarySummaryDepositDealer.aspx.designer.cs">
+      <DependentUpon>RtoWiseCollectionSummarySummaryDepositDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseEmbossingProductionVSDispatch_SummaryDealer.aspx.cs">
+      <DependentUpon>RtoWiseEmbossingProductionVSDispatch_SummaryDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseEmbossingProductionVSDispatch_SummaryDealer.aspx.designer.cs">
+      <DependentUpon>RtoWiseEmbossingProductionVSDispatch_SummaryDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseEmbossingStatusDealer.aspx.cs">
+      <DependentUpon>RtoWiseEmbossingStatusDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\RtoWiseEmbossingStatusDealer.aspx.designer.cs">
+      <DependentUpon>RtoWiseEmbossingStatusDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessReports\Third_PlateDealer.aspx.cs">
+      <DependentUpon>Third_PlateDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessReports\Third_PlateDealer.aspx.designer.cs">
+      <DependentUpon>Third_PlateDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmbossingData\APChalan.aspx.cs">
+      <DependentUpon>APChalan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmbossingData\APChalan.aspx.designer.cs">
+      <DependentUpon>APChalan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmbossingData\Embossing.aspx.cs">
+      <DependentUpon>Embossing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmbossingData\Embossing.aspx.designer.cs">
+      <DependentUpon>Embossing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmbossingData\LaserReceived.aspx.cs">
+      <DependentUpon>LaserReceived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmbossingData\LaserReceived.aspx.designer.cs">
+      <DependentUpon>LaserReceived.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmbossingData\ReprintChalan.aspx.cs">
+      <DependentUpon>ReprintChalan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmbossingData\ReprintChalan.aspx.designer.cs">
+      <DependentUpon>ReprintChalan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirstLoginChangePassword.aspx.cs">
+      <DependentUpon>FirstLoginChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirstLoginChangePassword.aspx.designer.cs">
+      <DependentUpon>FirstLoginChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPass.aspx.cs">
+      <DependentUpon>ForgotPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPass.aspx.designer.cs">
+      <DependentUpon>ForgotPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenericError.aspx.cs">
+      <DependentUpon>GenericError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenericError.aspx.designer.cs">
+      <DependentUpon>GenericError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Help.aspx.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Help.aspx.designer.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LiveReports\LiveTracking.aspx.cs">
+      <DependentUpon>LiveTracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LiveReports\LiveTracking.aspx.designer.cs">
+      <DependentUpon>LiveTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master\AssignMenuToUser.aspx.cs">
+      <DependentUpon>AssignMenuToUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\AssignMenuToUser.aspx.designer.cs">
+      <DependentUpon>AssignMenuToUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Dealer.aspx.cs">
+      <DependentUpon>Dealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Dealer.aspx.designer.cs">
+      <DependentUpon>Dealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\DealerMapingMaster.aspx.cs">
+      <DependentUpon>DealerMapingMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\DealerMapingMaster.aspx.designer.cs">
+      <DependentUpon>DealerMapingMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\UserRTOMapping.aspx.cs">
+      <DependentUpon>UserRTOMapping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\UserRTOMapping.aspx.designer.cs">
+      <DependentUpon>UserRTOMapping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\ViewDealer.aspx.cs">
+      <DependentUpon>ViewDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\ViewDealer.aspx.designer.cs">
+      <DependentUpon>ViewDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\ViewUser.aspx.cs">
+      <DependentUpon>ViewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\ViewUser.aspx.designer.cs">
+      <DependentUpon>ViewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DailyHRAuthorityReport.aspx.cs">
+      <DependentUpon>DailyHRAuthorityReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\DailyHRAuthorityReport.aspx.designer.cs">
+      <DependentUpon>DailyHRAuthorityReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DailyHREmbossingReport.aspx.cs">
+      <DependentUpon>DailyHREmbossingReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\DailyHREmbossingReport.aspx.designer.cs">
+      <DependentUpon>DailyHREmbossingReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DailyRegisteringAuthority.aspx.cs">
+      <DependentUpon>DailyRegisteringAuthority.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\DailyRegisteringAuthority.aspx.designer.cs">
+      <DependentUpon>DailyRegisteringAuthority.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\HRMonthlyReport.aspx.cs">
+      <DependentUpon>HRMonthlyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\HRMonthlyReport.aspx.designer.cs">
+      <DependentUpon>HRMonthlyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\HRDealerProcesStatus.aspx.cs">
+      <DependentUpon>HRDealerProcesStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\HRDealerProcesStatus.aspx.designer.cs">
+      <DependentUpon>HRDealerProcesStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ReportTypeWiseSummary_report.aspx.cs">
+      <DependentUpon>ReportTypeWiseSummary_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\ReportTypeWiseSummary_report.aspx.designer.cs">
+      <DependentUpon>ReportTypeWiseSummary_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\APHSRPService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TSHSRPService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SMSResponse.aspx.cs">
+      <DependentUpon>SMSResponse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SMSResponse.aspx.designer.cs">
+      <DependentUpon>SMSResponse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterMachine.aspx.cs">
+      <DependentUpon>RegisterMachine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterMachine.aspx.designer.cs">
+      <DependentUpon>RegisterMachine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transaction\AddAPDealer.aspx.cs">
+      <DependentUpon>AddAPDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\AddAPDealer.aspx.designer.cs">
+      <DependentUpon>AddAPDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\AddHRDealer.aspx.cs">
+      <DependentUpon>AddHRDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\AddHRDealer.aspx.designer.cs">
+      <DependentUpon>AddHRDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\BankTransactionDealer.aspx.cs">
+      <DependentUpon>BankTransactionDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\BankTransactionDealer.aspx.designer.cs">
+      <DependentUpon>BankTransactionDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\CashReceiptDataEntryBihar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\CashReceiptDataEntryBihar.aspx.designer.cs">
+      <DependentUpon>CashReceiptDataEntryBihar.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\DealerDeliveryAcknowledgement.aspx.cs">
+      <DependentUpon>DealerDeliveryAcknowledgement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\DealerDeliveryAcknowledgement.aspx.designer.cs">
+      <DependentUpon>DealerDeliveryAcknowledgement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\DiveleryReceipt.aspx.cs">
+      <DependentUpon>DiveleryReceipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\DiveleryReceipt.aspx.designer.cs">
+      <DependentUpon>DiveleryReceipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\DLViewDealerOrder.aspx.cs">
+      <DependentUpon>DLViewDealerOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\DLViewDealerOrder.aspx.designer.cs">
+      <DependentUpon>DLViewDealerOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\CashReceiptDataEntry.aspx.cs">
+      <DependentUpon>CashReceiptDataEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\CashReceiptDataEntry.aspx.designer.cs">
+      <DependentUpon>CashReceiptDataEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\HRCashRecept.aspx.cs">
+      <DependentUpon>HRCashRecept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\HRCashRecept.aspx.designer.cs">
+      <DependentUpon>HRCashRecept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\InvoiceOrder.aspx.cs">
+      <DependentUpon>InvoiceOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\InvoiceOrder.aspx.designer.cs">
+      <DependentUpon>InvoiceOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\NumToWord.cs" />
+    <Compile Include="Transaction\InvoiceTransaction\Order.cs" />
+    <Compile Include="Transaction\InvoiceTransaction\POorder.aspx.cs">
+      <DependentUpon>POorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\POorder.aspx.designer.cs">
+      <DependentUpon>POorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\POorderbl_2.cs" />
+    <Compile Include="Transaction\InvoiceTransaction\ViewInvoice.aspx.cs">
+      <DependentUpon>ViewInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\ViewInvoice.aspx.designer.cs">
+      <DependentUpon>ViewInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\ViewPO.aspx.cs">
+      <DependentUpon>ViewPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\InvoiceTransaction\ViewPO.aspx.designer.cs">
+      <DependentUpon>ViewPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\LaserAssignCodeView.aspx.cs">
+      <DependentUpon>LaserAssignCodeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\LaserAssignCodeView.aspx.designer.cs">
+      <DependentUpon>LaserAssignCodeView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\LaserQuickClosed.aspx.cs">
+      <DependentUpon>LaserQuickClosed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\LaserQuickClosed.aspx.designer.cs">
+      <DependentUpon>LaserQuickClosed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\orderbookingdamage.aspx.cs">
+      <DependentUpon>orderbookingdamage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\orderbookingdamage.aspx.designer.cs">
+      <DependentUpon>orderbookingdamage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\UploadDealerData.aspx.cs">
+      <DependentUpon>UploadDealerData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\UploadDealerData.aspx.designer.cs">
+      <DependentUpon>UploadDealerData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\UploadDealerDataDamage.aspx.cs">
+      <DependentUpon>UploadDealerDataDamage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\UploadDealerDataDamage.aspx.designer.cs">
+      <DependentUpon>UploadDealerDataDamage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\ViewLedgerBankTransactions.aspx.cs">
+      <DependentUpon>ViewLedgerBankTransactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\ViewLedgerBankTransactions.aspx.designer.cs">
+      <DependentUpon>ViewLedgerBankTransactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\ViewSearchHR_Engingno.aspx.cs">
+      <DependentUpon>ViewSearchHR_Engingno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\ViewSearchHR_Engingno.aspx.designer.cs">
+      <DependentUpon>ViewSearchHR_Engingno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\ViewSearchHR.aspx.cs">
+      <DependentUpon>ViewSearchHR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction\ViewSearchHR.aspx.designer.cs">
+      <DependentUpon>ViewSearchHR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WCFService\ServiceForSuggestion.svc.cs">
+      <DependentUpon>ServiceForSuggestion.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\APWebrefrence\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\BRWebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\HpWebRefrence\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\HRWebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\org.mptransport.oltp\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\TGWebrefrence\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UKWebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReference_TG\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="Help\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataProvider\DataProvider.csproj">
+      <Project>{05A625D7-BEEF-4AB8-9567-0352B2081C5D}</Project>
+      <Name>DataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://180.151.100.66:7057/LinkPoint/WS/Link%2520Auto%2520Tech%2520Pvt.%2520Ltd.%2520AP/Codeunit/HSRPWebService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference\</RelPath>
+      <UpdateFromURL>http://180.151.100.66:7057/LinkPoint/WS/Link%2520Auto%2520Tech%2520Pvt.%2520Ltd.%2520AP/Codeunit/HSRPWebService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_WebReference_HSRPWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://180.151.100.66:7057/LinkPoint/WS/Link%2520Auto%2520Tech%2520Pvt.%2520Ltd.%2520TG/Codeunit/HSRPWebService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference_TG\</RelPath>
+      <UpdateFromURL>http://180.151.100.66:7057/LinkPoint/WS/Link%2520Auto%2520Tech%2520Pvt.%2520Ltd.%2520TG/Codeunit/HSRPWebService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_WebReference_TG_HSRPWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://180.151.100.66:7057/LinkPoint/WS/Link%2520Utsav%2520HSRP%2520Pvt.%2520Ltd.-UK/Codeunit/HSRPWebService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\UKWebReference\</RelPath>
+      <UpdateFromURL>http://180.151.100.66:7057/LinkPoint/WS/Link%2520Utsav%2520HSRP%2520Pvt.%2520Ltd.-UK/Codeunit/HSRPWebService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_UKWebReference_HSRPWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://180.151.100.66:7057/LinkPoint/WS/Link%2520Utsav%2520Reg%2520Plate%2520P%2520Ltd.%2520HR/Codeunit/HSRPWebService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\HRWebReference\</RelPath>
+      <UpdateFromURL>http://180.151.100.66:7057/LinkPoint/WS/Link%2520Utsav%2520Reg%2520Plate%2520P%2520Ltd.%2520HR/Codeunit/HSRPWebService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_HRWebReference_HSRPWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://180.151.100.66:7057/LinkPoint/WS/Link%2520Utsav%2520Ventures%2520P.%2520Ltd.-HP/Codeunit/HSRPWebService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\HpWebRefrence\</RelPath>
+      <UpdateFromURL>http://180.151.100.66:7057/LinkPoint/WS/Link%2520Utsav%2520Ventures%2520P.%2520Ltd.-HP/Codeunit/HSRPWebService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_HpWebRefrence_HSRPWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://180.151.100.66:7057/LinkPoint/WS/Utsav%2520safety%2520systems%2520P%2520Ltd-BH/Codeunit/HSRPWebService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\BRWebReference\</RelPath>
+      <UpdateFromURL>http://180.151.100.66:7057/LinkPoint/WS/Utsav%2520safety%2520systems%2520P%2520Ltd-BH/Codeunit/HSRPWebService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_BRWebReference_HSRPWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://aptransport.in/aprtawebsrv/hsrpauthorizationservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\APWebrefrence\</RelPath>
+      <UpdateFromURL>https://aptransport.in/aprtawebsrv/hsrpauthorizationservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_APWebrefrence_HSRPAuthorizationService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://oltp.mptransport.org/TServiceHSRP/HSRP.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\org.mptransport.oltp\</RelPath>
+      <UpdateFromURL>https://oltp.mptransport.org/TServiceHSRP/HSRP.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_org_mptransport_oltp_HSRP</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\TGWebrefrence\</RelPath>
+      <UpdateFromURL>https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HSRP_TGWebrefrence_HSRPAuthorizationService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\APHSRPService\" />
+    <WCFMetadataStorage Include="Service References\TSHSRPService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60129</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60190/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

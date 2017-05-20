@@ -761,3 +761,57 @@ D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HR Cash Collectio
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.TrustInfo.xml
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.exe.manifest
 D:\Haryna\Haryana all Latest Code 24-4-17\Haryana EXE_24_04_17\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.application
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe.config
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.exe
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.pdb
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\tels.ini
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe.manifest
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.application
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.pdb
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptOB.resources
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.TrustInfo.xml
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.exe.manifest
+C:\Users\ITH\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.application
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe.config
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.exe
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.pdb
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\tels.ini
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe.manifest
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.application
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.pdb
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptOB.resources
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.TrustInfo.xml
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.exe.manifest
+C:\Users\AnshulGupta\Desktop\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.application
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe.config
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.exe
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.pdb
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\tels.ini
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe.manifest
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.application
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.exe
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\bin\Debug\HSRP 4.7.pdb
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csprojResolveAssemblyReference.cache
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptNB.resources
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReceiptOB.resources
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.TrustInfo.xml
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.exe.manifest
+D:\Haryana HSRP Latest Code\Melast Code from GitHUB\Vimalendu Latest Code-01-05-17\Haryana EXE\HR Cash Collection Exe(12-03-2016)\HSRPDataEntry\obj\x86\Debug\HSRP 4.7.application

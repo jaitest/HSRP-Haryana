@@ -18,10 +18,10 @@
                                <table cellpadding="0" cellspacing="0" style="width: 30%">                                   
                                     <tr>
                                         <td align="left"  class="form_text" nowrap="nowrap">
-                                            <asp:Label Text="Vehicle No:" Visible="true" runat="server" ID="Label1" />
+                                            <asp:Label Text="Chassis No:" Visible="true" runat="server" ID="Label1" />
                                         </td>
                                         <td align="left">
-                                            <asp:TextBox ID="txtVehicleNo" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="txtChassisNo" runat="server"></asp:TextBox>
                                         </td>                                       
                                         <td class="auto-style2" nowrap="nowrap">
                                             <asp:Button ID="btnGo" Width="58px" runat="server"
@@ -29,7 +29,7 @@
                                                 class="button" OnClick="btnGO_Click" AutoPostBack="true" />
                                         </td>
                                         <td class="auto-style2" nowrap="nowrap">
-                                            <asp:LinkButton ID="lnkModifyVehicle" runat="server" AutoPostBack="true" OnClick="lnkModifyVehicle_Click" Text="Modify Vehicle No."></asp:LinkButton>
+                                            <asp:LinkButton ID="lnkModifyVehicle" runat="server" AutoPostBack="true" OnClick="lnkModifyVehicle_Click" Text="Modify Chasssis No."></asp:LinkButton>
                                         </td>
                                     </tr>
                                    

@@ -112,7 +112,6 @@ namespace HSRPWebServices
             {
                return   Status = "Record Not Saved" + "^" + VehicleRegNo + "^" + HSRPRecord_AuthorizationNo;
             }
-
             string strVehicleNo = VehicleRegNo.Trim();
             string strRTOLocationCodeCheck = strVehicleNo.Substring(0, 4);
 
@@ -127,6 +126,26 @@ namespace HSRPWebServices
 
             }
             string CnnString = obj.strProvider;
+            //
+            string sqlqueryDuplicate = "select chassisno  from hsrprecords where  hsrp_stateid = 4 and  LTRIM(RTRIM(chassisno))= '" + ChassisNo.ToString().Trim() + "' ";
+            DataTable dtchassisno = utils.GetDataTable(sqlqueryDuplicate, CnnString);
+            if (OrderType.ToString().Trim().ToUpper() == "NB")
+            {               
+                if (dtchassisno.Rows.Count > 0)
+                {
+                    return Status = "Record Not Saved" + "^" + VehicleRegNo + "^" + HSRPRecord_AuthorizationNo;
+                }
+            }
+            else 
+            {               
+              if (dtchassisno.Rows.Count < 0)
+               {
+                 return Status = "Record Not Saved" + "^" + VehicleRegNo + "^" + HSRPRecord_AuthorizationNo;
+              }
+ 
+            }
+
+            //
             if (Convert.ToString(date) != "")
             {
                 string queryrto = "select dealerstartdate  from rtolocation  where rtolocationid='" + RTOLocationID + "'";
@@ -137,7 +156,6 @@ namespace HSRPWebServices
                     if (Convert.ToDateTime(date) > Convert.ToDateTime(dtvalue.Rows[0]["dealerstartdate"].ToString()))
                     {
                         return Status = "Record Not Saved" + "^" + VehicleRegNo + "^" + HSRPRecord_AuthorizationNo;
-
                     }
                 }
             }
@@ -177,10 +195,7 @@ namespace HSRPWebServices
                    
                     int check;
                     using (SqlConnection con = new SqlConnection(CnnString))
-                    {                    
-
-
-
+                    {  
                         using (SqlCommand cmd = new SqlCommand("Transaction_DataCashCollection_HR", con))
                         {
                             cmd.CommandType = CommandType.StoredProcedure;
@@ -218,7 +233,8 @@ namespace HSRPWebServices
                             cmd.Parameters.AddWithValue("@ManufacturerName", ManufacturerName.ToString());
                             cmd.Parameters.AddWithValue("@CounterNo", CounterNo.ToString());
                             cmd.Parameters.AddWithValue("@Affixid", Affixid);
-                            cmd.Parameters.AddWithValue("@RegistrationDate", date);                           
+                            cmd.Parameters.AddWithValue("@RegistrationDate", date);
+                            cmd.Parameters.AddWithValue("@userrtolocationid", Convert.ToInt32(RTOLocationID.ToString())); 
                             cmd.Parameters.Add("@ReturnId", SqlDbType.Int);
                             cmd.Parameters["@ReturnId"].Direction = ParameterDirection.Output;
                             con.Open();

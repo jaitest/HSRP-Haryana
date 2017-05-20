@@ -156,6 +156,26 @@
                                             </Triggers>
                                         </asp:UpdatePanel>
                                     </td>
+
+
+                                    <td valign="middle" visible="false" class="form_text" nowrap="nowrap">
+                                        &nbsp;&nbsp;
+                                        <asp:Label Text="Date:" runat="server" ID="labelDate" />
+                                    </td>
+
+                                    <td valign="middle" onmouseup="OrderDate_OnMouseUp()" align="left">
+                                        <ComponentArt:Calendar ID="OrderDate" runat="server" PickerFormat="Custom" PickerCustomFormat="dd/MM/yyyy"
+                                            ControlType="Picker" PickerCssClass="picker">
+                                            <ClientEvents>
+                                                <SelectionChanged EventHandler="OrderDate_OnDateChange" />
+                                            </ClientEvents>
+                                        </ComponentArt:Calendar>
+                                    </td>
+                                    <td valign="middle" align="left">
+                                        <img id="calendar_from_button" tabindex="3" alt="" onclick="OrderDate_OnClick()"
+                                            onmouseup="OrderDate_OnMouseUp()" class="calendar_button" src="../images/btn_calendar.gif" />
+                                    </td>
+
                                     <td valign="middle" class="form_text" colspan="2" nowrap="nowrap">
                                         <asp:Label Text="Data Type :" runat="server" ID="labelSelectType" />
                                     </td>
@@ -181,7 +201,7 @@
                                             <asp:ListItem Text="Four Wheeler">Four Wheeler</asp:ListItem>
                                         </asp:DropDownList>
                                     </td>
-                                    <td valign="middle" visible="false" class="form_text" nowrap="nowrap">
+                                    <%--<td valign="middle" visible="false" class="form_text" nowrap="nowrap">
                                         &nbsp;&nbsp;
                                         <asp:Label Text="Date:" runat="server" ID="labelDate" />
                                     </td>
@@ -192,11 +212,11 @@
                                                 <SelectionChanged EventHandler="OrderDate_OnDateChange" />
                                             </ClientEvents>
                                         </ComponentArt:Calendar>
-                                    </td>
-                                    <td valign="middle" align="left">
+                                    </td>--%>
+                                    <%--<td valign="middle" align="left">
                                         <img id="calendar_from_button" tabindex="3" alt="" onclick="OrderDate_OnClick()"
                                             onmouseup="OrderDate_OnMouseUp()" class="calendar_button" src="../images/btn_calendar.gif" />
-                                    </td>
+                                    </td>--%>
                                     <td valign="middle" class="form_text" nowrap="nowrap">
                                         &nbsp;&nbsp;<asp:Label Text="To:" runat="server" ID="labelTO" Visible="False" />
                                         &nbsp;&nbsp;

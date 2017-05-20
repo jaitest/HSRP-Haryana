@@ -276,7 +276,7 @@
         <td></td>
         <td class="form_text"> Tatkal </td>
         <td>
-             <asp:DropDownList ID="ddltakal" runat="server" AutoPostBack="True">
+             <asp:DropDownList ID="ddltakal" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddltakal_SelectedIndexChanged">
             <asp:ListItem>--Select Tatkal Type--</asp:ListItem>
             <asp:ListItem>Normal</asp:ListItem>
             <asp:ListItem>Tatkal-AC</asp:ListItem>
