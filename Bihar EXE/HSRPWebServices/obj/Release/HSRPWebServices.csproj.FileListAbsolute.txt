@@ -1,0 +1,30 @@
+D:\BIHARWEBSERViCE(LIVE)\BIHARWEBSERVICE25APR-15\BiharWebServices3feb\BiharWebServices3feb\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\BIHARWEBSERViCE(LIVE)\BIHARWEBSERVICE25APR-15\BiharWebServices3feb\BiharWebServices3feb\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.dll
+D:\BIHARWEBSERViCE(LIVE)\BIHARWEBSERVICE25APR-15\BiharWebServices3feb\BiharWebServices3feb\BiharWebServices\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\BIHARWEBSERViCE(LIVE)\BIHARWEBSERVICE25APR-15\BiharWebServices3feb\BiharWebServices3feb\BiharWebServices\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\BIHARWEBSERViCE(LIVE)\BIHARWEBSERVICE25APR-15\BiharWebServices3feb\BiharWebServices3feb\BiharWebServices\HSRPWebServices\obj\Release\HSRPWebServices.dll
+D:\BIHARWEBSERViCE(LIVE)\BIHARWEBSERVICE25APR-15\BiharWebServices3feb\BiharWebServices3feb\BiharWebServices\HSRPWebServices\obj\Release\HSRPWebServices.pdb
+D:\PROJECTUPDATEAmit\Backup\bihar\webservice\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\PROJECTUPDATEAmit\Backup\bihar\webservice\HSRPWebServices\bin\HSRPWebServices.dll
+D:\PROJECTUPDATEAmit\Backup\bihar\webservice\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\PROJECTUPDATEAmit\Backup\bihar\webservice\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\PROJECTUPDATEAmit\Backup\bihar\webservice\HSRPWebServices\obj\Release\HSRPWebServices.dll
+D:\PROJECTUPDATEAmit\Backup\bihar\webservice\HSRPWebServices\obj\Release\HSRPWebServices.pdb
+D:\Bihar\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\Bihar\HSRPWebServices\bin\HSRPWebServices.dll
+D:\Bihar\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\Bihar\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\Bihar\HSRPWebServices\obj\Release\HSRPWebServices.dll
+D:\Bihar\HSRPWebServices\obj\Release\HSRPWebServices.pdb
+D:\code\Bihar EXE\HSRPWebServices\bin\HSRPWebServices.dll.config
+D:\code\Bihar EXE\HSRPWebServices\bin\HSRPWebServices.dll
+D:\code\Bihar EXE\HSRPWebServices\bin\HSRPWebServices.pdb
+D:\code\Bihar EXE\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
+D:\code\Bihar EXE\HSRPWebServices\obj\Release\HSRPWebServices.dll
+D:\code\Bihar EXE\HSRPWebServices\obj\Release\HSRPWebServices.pdb
+E:\code\Bihar EXE\HSRPWebServices\bin\HSRPWebServices.dll.config
+E:\code\Bihar EXE\HSRPWebServices\bin\HSRPWebServices.dll
+E:\code\Bihar EXE\HSRPWebServices\bin\HSRPWebServices.pdb
+E:\code\Bihar EXE\HSRPWebServices\obj\Release\HSRPWebServices.csprojResolveAssemblyReference.cache
+E:\code\Bihar EXE\HSRPWebServices\obj\Release\HSRPWebServices.dll
+E:\code\Bihar EXE\HSRPWebServices\obj\Release\HSRPWebServices.pdb

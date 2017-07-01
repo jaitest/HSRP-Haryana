@@ -1,0 +1,6 @@
+﻿[DATABASE]
+Data Source=LOCAL
+Initial Catalog=hsrp_App_HP
+Integrated Security=True
+
+

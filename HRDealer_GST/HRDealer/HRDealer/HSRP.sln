@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSRP", "HSRP\HSRP.csproj", "{0CFDAB4B-D358-47F0-8BBC-92F971408B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProvider", "DataProvider\DataProvider.csproj", "{05A625D7-BEEF-4AB8-9567-0352B2081C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CFDAB4B-D358-47F0-8BBC-92F971408B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFDAB4B-D358-47F0-8BBC-92F971408B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFDAB4B-D358-47F0-8BBC-92F971408B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFDAB4B-D358-47F0-8BBC-92F971408B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A625D7-BEEF-4AB8-9567-0352B2081C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A625D7-BEEF-4AB8-9567-0352B2081C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A625D7-BEEF-4AB8-9567-0352B2081C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A625D7-BEEF-4AB8-9567-0352B2081C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HSRP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HSRP_org_mptransport_oltp_HSRP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://oltp.mptransport.org/TServiceHSRP/HSRP.asmx</Value>
+    </Setting>
+    <Setting Name="HSRP_APWebrefrence_HSRPAuthorizationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://aptransport.in/aprtawebsrv/hsrpauthorizationservice.asmx</Value>
+    </Setting>
+    <Setting Name="HSRP_TGWebrefrence_HSRPAuthorizationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://tgtransport.net/tgrtawebsrv/hsrpauthorizationservice.asmx</Value>
+    </Setting>
+    <Setting Name="HSRP_WebReference_HSRPWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://180.151.100.66:7057/LinkPoint/WS/Link%20Auto%20Tech%20Pvt.%20Ltd.%20AP/Codeunit/HSRPWebService</Value>
+    </Setting>
+    <Setting Name="HSRP_WebReference_TG_HSRPWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://180.151.100.66:7057/LinkPoint/WS/Link%20Auto%20Tech%20Pvt.%20Ltd.%20TG/Codeunit/HSRPWebService</Value>
+    </Setting>
+    <Setting Name="HSRP_BRWebReference_HSRPWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://180.151.100.66:7077/USS/WS/Utsav%20safety%20systems%20P%20Ltd-BH/Codeunit/HSRPWebService</Value>
+    </Setting>
+    <Setting Name="HSRP_HpWebRefrence_HSRPWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://180.151.100.66:7057/LinkPoint/WS/Link%20Utsav%20Ventures%20P.%20Ltd.-HP/Codeunit/HSRPWebService</Value>
+    </Setting>
+    <Setting Name="HSRP_HRWebReference_HSRPWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://180.151.100.66:7057/LinkPoint/WS/Link%20Utsav%20Reg%20Plate%20P%20Ltd.%20HR/Codeunit/HSRPWebService</Value>
+    </Setting>
+    <Setting Name="HSRP_UKWebReference_HSRPWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://180.151.100.66:7057/LinkPoint/WS/Link%20Utsav%20HSRP%20Pvt.%20Ltd.-UK/Codeunit/HSRPWebService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

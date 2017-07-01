@@ -1,0 +1,8 @@
+[DATABASE]
+DataSource=.
+InitialCatalog=HSRP_APP_HP
+IntegratedSecurity=True
+[VAHANDATABASE]
+DataSource=.
+InitialCatalog=HSRP_HP
+IntegratedSecurity=True

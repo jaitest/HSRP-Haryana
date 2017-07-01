@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetDataByEngineNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="engineNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataByEngineNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataByEngineNumberResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataByVehicleRegNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataByVehicleRegNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataByVehicleRegNoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="APDataCashCollection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HSRPRecord_CreationDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HSRP_StateID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RTOLocationID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HSRPRecord_AuthorizationNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HSRPRecord_AuthorizationDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OwnerName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ownerFatherName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MobileNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StickerMandatory" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isVIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NetAmount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Roundoff_NetAmount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CashReceiptNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ChassisNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EngineNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DealerCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreatedBy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaveMacAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Addrecordby" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ISFrontPlateSize" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ISRearPlateSize" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FrontPlateSize" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RearPlateSize" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reference" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ManufacturerModel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="vehicleref" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ManufacturerName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CounterNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="APDataCashCollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="APDataCashCollectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDuplicateEntry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HSRPStateID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AuthNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDuplicateEntryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckDuplicateEntryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLogInDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MacAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLogInDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLogInDetailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRateAndTaxDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StateID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleModel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRateAndTaxDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRateAndTaxDetailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRateAndTaxForVehicle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StateID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRateAndTaxForVehicleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRateAndTaxForVehicleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecordClosed">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecordClosedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RecordClosedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecordNotClosed">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecordNotClosedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RecordNotClosedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusF_NotNewOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusF_NotNewOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InventoryStatusF_NotNewOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusR_NotNewOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusR_NotNewOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InventoryStatusR_NotNewOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusF_NewOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusF_NewOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InventoryStatusF_NewOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusR_NewOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InventoryStatusR_NewOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InventoryStatusR_NewOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FrontValidation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FrontValidationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FrontValidationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RearValidation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RearValidationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RearValidationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusNotClosed">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VehiclRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusNotClosedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderStatusNotClosedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusEmbossingDone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusEmbossingDoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OrderStatusEmbossingDoneResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusEmbossingDoneUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusEmbossingDoneUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OrderStatusEmbossingDoneUpdateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusNewOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusNewOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OrderStatusNewOrderResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusNewOrderUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderStatusNewOrderUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OrderStatusNewOrderUpdateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Embossing_Validate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VehiclRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Embossing_ValidateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Embossing_ValidateResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Embossing_OrderStatusNotClosed">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VehiclRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Embossing_OrderStatusNotClosedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Embossing_OrderStatusNotClosedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="E_OrderStatusEmbossingDone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VehicleRegNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="E_OrderStatusEmbossingDoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="E_OrderStatusEmbossingDoneResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Embossing_RtoInventory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Flaser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Rlaser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Embossing_RtoInventoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Embossing_RtoInventoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDataByEngineNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataByEngineNumber" />
+  </wsdl:message>
+  <wsdl:message name="GetDataByEngineNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataByEngineNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataByVehicleRegNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataByVehicleRegNo" />
+  </wsdl:message>
+  <wsdl:message name="GetDataByVehicleRegNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataByVehicleRegNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="APDataCashCollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:APDataCashCollection" />
+  </wsdl:message>
+  <wsdl:message name="APDataCashCollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:APDataCashCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckDuplicateEntrySoapIn">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateEntry" />
+  </wsdl:message>
+  <wsdl:message name="CheckDuplicateEntrySoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLogInDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLogInDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetLogInDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLogInDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRateAndTaxDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRateAndTaxDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetRateAndTaxDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRateAndTaxDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRateAndTaxForVehicleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRateAndTaxForVehicle" />
+  </wsdl:message>
+  <wsdl:message name="GetRateAndTaxForVehicleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRateAndTaxForVehicleResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecordClosedSoapIn">
+    <wsdl:part name="parameters" element="tns:RecordClosed" />
+  </wsdl:message>
+  <wsdl:message name="RecordClosedSoapOut">
+    <wsdl:part name="parameters" element="tns:RecordClosedResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecordNotClosedSoapIn">
+    <wsdl:part name="parameters" element="tns:RecordNotClosed" />
+  </wsdl:message>
+  <wsdl:message name="RecordNotClosedSoapOut">
+    <wsdl:part name="parameters" element="tns:RecordNotClosedResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusF_NotNewOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:InventoryStatusF_NotNewOrder" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusF_NotNewOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:InventoryStatusF_NotNewOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusR_NotNewOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:InventoryStatusR_NotNewOrder" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusR_NotNewOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:InventoryStatusR_NotNewOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusF_NewOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:InventoryStatusF_NewOrder" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusF_NewOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:InventoryStatusF_NewOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusR_NewOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:InventoryStatusR_NewOrder" />
+  </wsdl:message>
+  <wsdl:message name="InventoryStatusR_NewOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:InventoryStatusR_NewOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="FrontValidationSoapIn">
+    <wsdl:part name="parameters" element="tns:FrontValidation" />
+  </wsdl:message>
+  <wsdl:message name="FrontValidationSoapOut">
+    <wsdl:part name="parameters" element="tns:FrontValidationResponse" />
+  </wsdl:message>
+  <wsdl:message name="RearValidationSoapIn">
+    <wsdl:part name="parameters" element="tns:RearValidation" />
+  </wsdl:message>
+  <wsdl:message name="RearValidationSoapOut">
+    <wsdl:part name="parameters" element="tns:RearValidationResponse" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusNotClosedSoapIn">
+    <wsdl:part name="parameters" element="tns:OrderStatusNotClosed" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusNotClosedSoapOut">
+    <wsdl:part name="parameters" element="tns:OrderStatusNotClosedResponse" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusEmbossingDoneSoapIn">
+    <wsdl:part name="parameters" element="tns:OrderStatusEmbossingDone" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusEmbossingDoneSoapOut">
+    <wsdl:part name="parameters" element="tns:OrderStatusEmbossingDoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusEmbossingDoneUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:OrderStatusEmbossingDoneUpdate" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusEmbossingDoneUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:OrderStatusEmbossingDoneUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusNewOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:OrderStatusNewOrder" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusNewOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:OrderStatusNewOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusNewOrderUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:OrderStatusNewOrderUpdate" />
+  </wsdl:message>
+  <wsdl:message name="OrderStatusNewOrderUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:OrderStatusNewOrderUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Embossing_ValidateSoapIn">
+    <wsdl:part name="parameters" element="tns:Embossing_Validate" />
+  </wsdl:message>
+  <wsdl:message name="Embossing_ValidateSoapOut">
+    <wsdl:part name="parameters" element="tns:Embossing_ValidateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Embossing_OrderStatusNotClosedSoapIn">
+    <wsdl:part name="parameters" element="tns:Embossing_OrderStatusNotClosed" />
+  </wsdl:message>
+  <wsdl:message name="Embossing_OrderStatusNotClosedSoapOut">
+    <wsdl:part name="parameters" element="tns:Embossing_OrderStatusNotClosedResponse" />
+  </wsdl:message>
+  <wsdl:message name="E_OrderStatusEmbossingDoneSoapIn">
+    <wsdl:part name="parameters" element="tns:E_OrderStatusEmbossingDone" />
+  </wsdl:message>
+  <wsdl:message name="E_OrderStatusEmbossingDoneSoapOut">
+    <wsdl:part name="parameters" element="tns:E_OrderStatusEmbossingDoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="Embossing_RtoInventorySoapIn">
+    <wsdl:part name="parameters" element="tns:Embossing_RtoInventory" />
+  </wsdl:message>
+  <wsdl:message name="Embossing_RtoInventorySoapOut">
+    <wsdl:part name="parameters" element="tns:Embossing_RtoInventoryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HSRPServiceSoap">
+    <wsdl:operation name="GetDataByEngineNumber">
+      <wsdl:input message="tns:GetDataByEngineNumberSoapIn" />
+      <wsdl:output message="tns:GetDataByEngineNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataByVehicleRegNo">
+      <wsdl:input message="tns:GetDataByVehicleRegNoSoapIn" />
+      <wsdl:output message="tns:GetDataByVehicleRegNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="APDataCashCollection">
+      <wsdl:input message="tns:APDataCashCollectionSoapIn" />
+      <wsdl:output message="tns:APDataCashCollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateEntry">
+      <wsdl:input message="tns:CheckDuplicateEntrySoapIn" />
+      <wsdl:output message="tns:CheckDuplicateEntrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLogInDetail">
+      <wsdl:input message="tns:GetLogInDetailSoapIn" />
+      <wsdl:output message="tns:GetLogInDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRateAndTaxDetail">
+      <wsdl:input message="tns:GetRateAndTaxDetailSoapIn" />
+      <wsdl:output message="tns:GetRateAndTaxDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRateAndTaxForVehicle">
+      <wsdl:input message="tns:GetRateAndTaxForVehicleSoapIn" />
+      <wsdl:output message="tns:GetRateAndTaxForVehicleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordClosed">
+      <wsdl:input message="tns:RecordClosedSoapIn" />
+      <wsdl:output message="tns:RecordClosedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordNotClosed">
+      <wsdl:input message="tns:RecordNotClosedSoapIn" />
+      <wsdl:output message="tns:RecordNotClosedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusF_NotNewOrder">
+      <wsdl:input message="tns:InventoryStatusF_NotNewOrderSoapIn" />
+      <wsdl:output message="tns:InventoryStatusF_NotNewOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusR_NotNewOrder">
+      <wsdl:input message="tns:InventoryStatusR_NotNewOrderSoapIn" />
+      <wsdl:output message="tns:InventoryStatusR_NotNewOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusF_NewOrder">
+      <wsdl:input message="tns:InventoryStatusF_NewOrderSoapIn" />
+      <wsdl:output message="tns:InventoryStatusF_NewOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusR_NewOrder">
+      <wsdl:input message="tns:InventoryStatusR_NewOrderSoapIn" />
+      <wsdl:output message="tns:InventoryStatusR_NewOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FrontValidation">
+      <wsdl:input message="tns:FrontValidationSoapIn" />
+      <wsdl:output message="tns:FrontValidationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RearValidation">
+      <wsdl:input message="tns:RearValidationSoapIn" />
+      <wsdl:output message="tns:RearValidationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNotClosed">
+      <wsdl:input message="tns:OrderStatusNotClosedSoapIn" />
+      <wsdl:output message="tns:OrderStatusNotClosedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusEmbossingDone">
+      <wsdl:input message="tns:OrderStatusEmbossingDoneSoapIn" />
+      <wsdl:output message="tns:OrderStatusEmbossingDoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusEmbossingDoneUpdate">
+      <wsdl:input message="tns:OrderStatusEmbossingDoneUpdateSoapIn" />
+      <wsdl:output message="tns:OrderStatusEmbossingDoneUpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNewOrder">
+      <wsdl:input message="tns:OrderStatusNewOrderSoapIn" />
+      <wsdl:output message="tns:OrderStatusNewOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNewOrderUpdate">
+      <wsdl:input message="tns:OrderStatusNewOrderUpdateSoapIn" />
+      <wsdl:output message="tns:OrderStatusNewOrderUpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_Validate">
+      <wsdl:input message="tns:Embossing_ValidateSoapIn" />
+      <wsdl:output message="tns:Embossing_ValidateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_OrderStatusNotClosed">
+      <wsdl:input message="tns:Embossing_OrderStatusNotClosedSoapIn" />
+      <wsdl:output message="tns:Embossing_OrderStatusNotClosedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="E_OrderStatusEmbossingDone">
+      <wsdl:input message="tns:E_OrderStatusEmbossingDoneSoapIn" />
+      <wsdl:output message="tns:E_OrderStatusEmbossingDoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_RtoInventory">
+      <wsdl:input message="tns:Embossing_RtoInventorySoapIn" />
+      <wsdl:output message="tns:Embossing_RtoInventorySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HSRPServiceSoap" type="tns:HSRPServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataByEngineNumber">
+      <soap:operation soapAction="http://tempuri.org/GetDataByEngineNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataByVehicleRegNo">
+      <soap:operation soapAction="http://tempuri.org/GetDataByVehicleRegNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="APDataCashCollection">
+      <soap:operation soapAction="http://tempuri.org/APDataCashCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateEntry">
+      <soap:operation soapAction="http://tempuri.org/CheckDuplicateEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogInDetail">
+      <soap:operation soapAction="http://tempuri.org/GetLogInDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRateAndTaxDetail">
+      <soap:operation soapAction="http://tempuri.org/GetRateAndTaxDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRateAndTaxForVehicle">
+      <soap:operation soapAction="http://tempuri.org/GetRateAndTaxForVehicle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordClosed">
+      <soap:operation soapAction="http://tempuri.org/RecordClosed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordNotClosed">
+      <soap:operation soapAction="http://tempuri.org/RecordNotClosed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusF_NotNewOrder">
+      <soap:operation soapAction="http://tempuri.org/InventoryStatusF_NotNewOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusR_NotNewOrder">
+      <soap:operation soapAction="http://tempuri.org/InventoryStatusR_NotNewOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusF_NewOrder">
+      <soap:operation soapAction="http://tempuri.org/InventoryStatusF_NewOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusR_NewOrder">
+      <soap:operation soapAction="http://tempuri.org/InventoryStatusR_NewOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FrontValidation">
+      <soap:operation soapAction="http://tempuri.org/FrontValidation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RearValidation">
+      <soap:operation soapAction="http://tempuri.org/RearValidation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNotClosed">
+      <soap:operation soapAction="http://tempuri.org/OrderStatusNotClosed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusEmbossingDone">
+      <soap:operation soapAction="http://tempuri.org/OrderStatusEmbossingDone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusEmbossingDoneUpdate">
+      <soap:operation soapAction="http://tempuri.org/OrderStatusEmbossingDoneUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNewOrder">
+      <soap:operation soapAction="http://tempuri.org/OrderStatusNewOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNewOrderUpdate">
+      <soap:operation soapAction="http://tempuri.org/OrderStatusNewOrderUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_Validate">
+      <soap:operation soapAction="http://tempuri.org/Embossing_Validate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_OrderStatusNotClosed">
+      <soap:operation soapAction="http://tempuri.org/Embossing_OrderStatusNotClosed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="E_OrderStatusEmbossingDone">
+      <soap:operation soapAction="http://tempuri.org/E_OrderStatusEmbossingDone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_RtoInventory">
+      <soap:operation soapAction="http://tempuri.org/Embossing_RtoInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HSRPServiceSoap12" type="tns:HSRPServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataByEngineNumber">
+      <soap12:operation soapAction="http://tempuri.org/GetDataByEngineNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataByVehicleRegNo">
+      <soap12:operation soapAction="http://tempuri.org/GetDataByVehicleRegNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="APDataCashCollection">
+      <soap12:operation soapAction="http://tempuri.org/APDataCashCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateEntry">
+      <soap12:operation soapAction="http://tempuri.org/CheckDuplicateEntry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogInDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetLogInDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRateAndTaxDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetRateAndTaxDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRateAndTaxForVehicle">
+      <soap12:operation soapAction="http://tempuri.org/GetRateAndTaxForVehicle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordClosed">
+      <soap12:operation soapAction="http://tempuri.org/RecordClosed" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordNotClosed">
+      <soap12:operation soapAction="http://tempuri.org/RecordNotClosed" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusF_NotNewOrder">
+      <soap12:operation soapAction="http://tempuri.org/InventoryStatusF_NotNewOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusR_NotNewOrder">
+      <soap12:operation soapAction="http://tempuri.org/InventoryStatusR_NotNewOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusF_NewOrder">
+      <soap12:operation soapAction="http://tempuri.org/InventoryStatusF_NewOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryStatusR_NewOrder">
+      <soap12:operation soapAction="http://tempuri.org/InventoryStatusR_NewOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FrontValidation">
+      <soap12:operation soapAction="http://tempuri.org/FrontValidation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RearValidation">
+      <soap12:operation soapAction="http://tempuri.org/RearValidation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNotClosed">
+      <soap12:operation soapAction="http://tempuri.org/OrderStatusNotClosed" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusEmbossingDone">
+      <soap12:operation soapAction="http://tempuri.org/OrderStatusEmbossingDone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusEmbossingDoneUpdate">
+      <soap12:operation soapAction="http://tempuri.org/OrderStatusEmbossingDoneUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNewOrder">
+      <soap12:operation soapAction="http://tempuri.org/OrderStatusNewOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderStatusNewOrderUpdate">
+      <soap12:operation soapAction="http://tempuri.org/OrderStatusNewOrderUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_Validate">
+      <soap12:operation soapAction="http://tempuri.org/Embossing_Validate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_OrderStatusNotClosed">
+      <soap12:operation soapAction="http://tempuri.org/Embossing_OrderStatusNotClosed" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="E_OrderStatusEmbossingDone">
+      <soap12:operation soapAction="http://tempuri.org/E_OrderStatusEmbossingDone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Embossing_RtoInventory">
+      <soap12:operation soapAction="http://tempuri.org/Embossing_RtoInventory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HSRPService">
+    <wsdl:port name="HSRPServiceSoap" binding="tns:HSRPServiceSoap">
+      <soap:address location="http://180.151.100.245/APWebService/HSRPService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HSRPServiceSoap12" binding="tns:HSRPServiceSoap12">
+      <soap12:address location="http://180.151.100.245/APWebService/HSRPService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

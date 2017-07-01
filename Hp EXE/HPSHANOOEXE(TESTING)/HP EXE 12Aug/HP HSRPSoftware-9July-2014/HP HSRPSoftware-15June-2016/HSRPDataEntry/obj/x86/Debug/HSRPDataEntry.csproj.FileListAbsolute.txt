@@ -1,0 +1,458 @@
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\projects\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+c:\projects\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+c:\projects\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+c:\projects\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\tanuj\Desktop\HSRPDataEntry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.PrintCashReciept.resources
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\Ambrish Singh\Desktop\hsrpdataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Home.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.PrintCashReciept.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\backup\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\backup\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\backup\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\backup\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\backup\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.PrintCashReciept.resources
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ritesh\Desktop\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferData.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+C:\Users\Ambrish Singh\Desktop\Windwo based\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Ambrish Singh\Desktop\Latest Code\Windwo based Cash collection\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Admin\Desktop\HSRP\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Admin\Desktop\yudhvir\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+C:\Users\Admin\Desktop\copy of projects\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+D:\HPEXE\windowbaseHSRPBihar-\windowbase dataentry - Copy\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+D:\IT\windowbaseHSRPHP-\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.config
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.pdb
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe.manifest
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.application
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.exe
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRPDataEntry 1.0.pdb
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.exe.manifest
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry 1.0.application
+D:\IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRP 1.4.exe.config
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRP 1.4.exe.manifest
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRP 1.4.application
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRP 1.4.exe
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\bin\Debug\HSRP 1.4.pdb
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRP 1.4.exe.manifest
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRP 1.4.application
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRP 1.4.exe
+D:\HP-IT\windowbaseHSRPHP-Latest\windowbase dataentry\HSRPDataEntry\obj\x86\Debug\HSRP 1.4.pdb
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.exe.config
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.exe.manifest
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.application
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.exe
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.pdb
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.DailyReport.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.exe.manifest
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.application
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.exe
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.pdb
+D:\HP-IT\windowbase dataentry17Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Inventory.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.exe.config
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.exe
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.pdb
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.exe.manifest
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.application
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.exe
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\bin\Debug\HSRP 1.5.pdb
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Inventory.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.DailyReport.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.exe.manifest
+D:\HP-IT\windowbase dataentry25Jul\HSRPDataEntry\obj\x86\Debug\HSRP 1.5.application
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\bin\Debug\HSRP 2.0.exe.config
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\bin\Debug\HSRP 2.0.exe.manifest
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\bin\Debug\HSRP 2.0.application
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\bin\Debug\HSRP 2.0.exe
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\bin\Debug\HSRP 2.0.pdb
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Inventory.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.DailyReport.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRP 2.0.exe.manifest
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRP 2.0.application
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRP 2.0.exe
+D:\HP-IT\windowbase dataentry27Jul\HSRPDataEntry\obj\x86\Debug\HSRP 2.0.pdb
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Inventory.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.DailyReport.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\bin\Debug\HSRP 2.1.exe.config
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\bin\Debug\HSRP 2.1.exe.manifest
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\bin\Debug\HSRP 2.1.application
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\bin\Debug\HSRP 2.1.exe
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\bin\Debug\HSRP 2.1.pdb
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.exe.manifest
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.application
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.exe
+D:\HP-IT\windowbase dataentry14Aug\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.pdb
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.1.exe.config
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.ResolveComReference.cache
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.exe
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.pdb
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.1.exe.manifest
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.1.application
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.1.exe
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.1.pdb
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Inventory.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.DailyReport.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.exe.manifest
+D:\HSRPSoftware\HP HSRP Code\HSRPSoftware\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.1.application
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Inventory.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.DailyReport.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\tels.ini
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.3.exe.config
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.3.exe.manifest
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.3.application
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.3.exe
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 2.3.pdb
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.3.exe.manifest
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.3.application
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.3.exe
+C:\Users\user\Desktop\backup_hp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 2.3.pdb
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.CashReciept.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Inventory.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.DailyReport.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderClosed.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderEmbossing.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Login.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.MDIForm.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OfflineDataEntry.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.OrderBooking.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Properties.Resources.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.RejectionPlate.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.Search.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRPDataEntry.TransferRecord.resources
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\tels.ini
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 3.6.exe.config
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 3.6.exe.manifest
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 3.6.application
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 3.6.exe
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\bin\Debug\HSRP 3.6.pdb
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 3.6.exe.manifest
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 3.6.application
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 3.6.exe
+D:\hsrp 30 sep\hsrp\HSRPSoftware25092013dharmshala\HSRPSoftware\HSRPDataEntry\obj\x86\Debug\HSRP 3.6.pdb

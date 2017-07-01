@@ -1,0 +1,27 @@
+[Report_AllStateLocationWise1] local
+
+
+
+
+select convert(varchar(15),h.hsrprecord_creationdate,103) as Date ,count(h.HSRPRecord_CreationDate) as Collectionorder from hsrprecords h inner join rtolocation r
+on h.rtolocationid=r.rtolocationid where  h.hsrp_stateid=9  and h.rtolocationid=736 and h.hsrprecord_creationdate between '2015-01-12 00:00:00' and '2015-01-13 23:59:59' group by convert(varchar(15),h.hsrprecord_creationdate,103)
+
+
+
+select convert(varchar(15),h.OrderEmbossingDate,103) as embdate,count(h.OrderEmbossingDate) Embossing from hsrprecords h inner join rtolocation r
+on h.rtolocationid=r.rtolocationid where  h.hsrp_stateid=9  and h.rtolocationid=787 and h.OrderEmbossingDate between '2015-01-01 00:00:00' and '2015-01-13 23:59:59' group by convert(varchar(15),h.OrderEmbossingDate,103)
+
+
+
+select convert(varchar(15),h.OrderClosedDate,103) as AffDate,count(h.OrderClosedDate) Affixation from hsrprecords h inner join rtolocation r
+on h.rtolocationid=r.rtolocationid where  h.hsrp_stateid=9  and h.rtolocationid=787 and h.OrderClosedDate between '2015-01-01 00:00:00' and '2015-01-13 23:59:59' group by convert(varchar(15),h.OrderClosedDate,103)
+
+
+
+
+
+
+========
+excel query
+=RIGHT(A1,10)
+

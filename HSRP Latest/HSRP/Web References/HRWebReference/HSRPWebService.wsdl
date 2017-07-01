@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="UpdateWebOrderCreation">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="hSRP_Request_ID" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateWebOrderCreation_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateWebInventory">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemCode" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateWebInventory_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ShipmentReceived">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="transferOrderNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ShipmentReceived_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostConsumption">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="postingDate" type="date" />
+            <element minOccurs="1" maxOccurs="1" name="documentNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="quantity" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostConsumption_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="UpdateItemBYSerialInventory">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemCode" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateItemBYSerialInventory_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="UpdateWebOrderCreation">
+    <part name="parameters" element="tns:UpdateWebOrderCreation" />
+  </message>
+  <message name="UpdateWebOrderCreation_Result">
+    <part name="parameters" element="tns:UpdateWebOrderCreation_Result" />
+  </message>
+  <message name="UpdateWebInventory">
+    <part name="parameters" element="tns:UpdateWebInventory" />
+  </message>
+  <message name="UpdateWebInventory_Result">
+    <part name="parameters" element="tns:UpdateWebInventory_Result" />
+  </message>
+  <message name="ShipmentReceived">
+    <part name="parameters" element="tns:ShipmentReceived" />
+  </message>
+  <message name="ShipmentReceived_Result">
+    <part name="parameters" element="tns:ShipmentReceived_Result" />
+  </message>
+  <message name="PostConsumption">
+    <part name="parameters" element="tns:PostConsumption" />
+  </message>
+  <message name="PostConsumption_Result">
+    <part name="parameters" element="tns:PostConsumption_Result" />
+  </message>
+  <message name="UpdateItemBYSerialInventory">
+    <part name="parameters" element="tns:UpdateItemBYSerialInventory" />
+  </message>
+  <message name="UpdateItemBYSerialInventory_Result">
+    <part name="parameters" element="tns:UpdateItemBYSerialInventory_Result" />
+  </message>
+  <portType name="HSRPWebService_Port">
+    <operation name="UpdateWebOrderCreation">
+      <input name="UpdateWebOrderCreation" message="tns:UpdateWebOrderCreation" />
+      <output name="UpdateWebOrderCreation_Result" message="tns:UpdateWebOrderCreation_Result" />
+    </operation>
+    <operation name="UpdateWebInventory">
+      <input name="UpdateWebInventory" message="tns:UpdateWebInventory" />
+      <output name="UpdateWebInventory_Result" message="tns:UpdateWebInventory_Result" />
+    </operation>
+    <operation name="ShipmentReceived">
+      <input name="ShipmentReceived" message="tns:ShipmentReceived" />
+      <output name="ShipmentReceived_Result" message="tns:ShipmentReceived_Result" />
+    </operation>
+    <operation name="PostConsumption">
+      <input name="PostConsumption" message="tns:PostConsumption" />
+      <output name="PostConsumption_Result" message="tns:PostConsumption_Result" />
+    </operation>
+    <operation name="UpdateItemBYSerialInventory">
+      <input name="UpdateItemBYSerialInventory" message="tns:UpdateItemBYSerialInventory" />
+      <output name="UpdateItemBYSerialInventory_Result" message="tns:UpdateItemBYSerialInventory_Result" />
+    </operation>
+  </portType>
+  <binding name="HSRPWebService_Binding" type="tns:HSRPWebService_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="UpdateWebOrderCreation">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService:UpdateWebOrderCreation" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateWebOrderCreation">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateWebOrderCreation_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateWebInventory">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService:UpdateWebInventory" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateWebInventory">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateWebInventory_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ShipmentReceived">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService:ShipmentReceived" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ShipmentReceived">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ShipmentReceived_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostConsumption">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService:PostConsumption" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostConsumption">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostConsumption_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateItemBYSerialInventory">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/HSRPWebService:UpdateItemBYSerialInventory" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateItemBYSerialInventory">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateItemBYSerialInventory_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="HSRPWebService">
+    <port name="HSRPWebService_Port" binding="tns:HSRPWebService_Binding">
+      <address location="http://180.151.100.66:7057/LinkPoint/WS/Link%20Utsav%20Reg%20Plate%20P%20Ltd.%20HR/Codeunit/HSRPWebService" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>
